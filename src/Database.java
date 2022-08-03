@@ -60,7 +60,7 @@ public class Database {
 			while(rs.next()) {
 				String tableUserName = rs.getString(7);
 				String tablePass = rs.getString(3);
-				
+
 				if(userName.equals(tableUserName) && pass.equals(tablePass)) {
 					flag =1;
 					break;
@@ -71,7 +71,7 @@ public class Database {
 			}
 			
 			else {
-				JOptionPane.showMessageDialog(null, "Passworrd is correct");
+				JOptionPane.showMessageDialog(null, "Passworrd is correct" +tablepass);
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
