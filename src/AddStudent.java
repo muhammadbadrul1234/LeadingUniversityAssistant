@@ -202,21 +202,7 @@ class AddStudent implements ActionListener{
         String l = (String)c1.getSelectedItem();
         String m = (String)c2.getSelectedItem();
         
-        if(ae.getSource() == b){
-            try{
-                conn cc = new conn();
-                String q = "insert into student values('"+a+"','"+bb+"','"+c+"','"+d+"','"+e+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
-                cc.s.executeUpdate(q);
-                JOptionPane.showMessageDialog(null,"Student Details Inserted Successfully");
-                f.setVisible(false);
-            }catch(Exception ee){
-                System.out.println("The error is:"+ee);
-            }
-        }else if(ae.getSource() == b1){
-            f.setVisible(false);
-            new Project().setVisible(true);
-            
-        }
+        
     }
     public static void main(String[ ] arg){
         new AddStudent().f.setVisible(true);
