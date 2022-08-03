@@ -26,9 +26,9 @@ class AddStudent implements ActionListener {
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000,800);
-        setLocationRelativeTo(null);
-		setDefaultCloseOperation(3);
+        f.setSize(1000,800);
+        f.setLocationRelativeTo(null);
+		f.setDefaultCloseOperation(3);
 		setLayout(null);
         
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
