@@ -111,11 +111,8 @@ public class LoginPage extends JFrame {
 		registerLink.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String userName = nameTxt.getText();
-	            String pass = passTxt.getText();
-	            Database db = new Database();
-	            String queryLogin = "SELECT * FROM `registered`";
-	            db.Login(queryLogin,userName,pass);
+				dispose();
+				new Register();
 				
 			}
 		});
