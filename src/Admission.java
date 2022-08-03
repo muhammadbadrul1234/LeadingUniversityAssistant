@@ -149,7 +149,7 @@ public class Admission extends JFrame {
 
         t11=new JTextField();   
         t11.setBounds(200,400,150,30);
-        t11.setText(@);
+        t11.setText("");
         id15.add(t11);
 
 
