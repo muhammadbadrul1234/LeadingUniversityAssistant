@@ -133,7 +133,7 @@ public class LoginPage extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new Register();
+				new ForgetPass();
 			}
 		});
 		setVisible(true);
