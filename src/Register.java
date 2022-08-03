@@ -8,35 +8,41 @@ import java.awt.event.ActionListener;
 
 public class Register extends JFrame{
     public Register() {
-		setSize(500,460);
-		setLocationRelativeTo(null);
+		super("Leading University");
+        
+        ImageIcon icon;
+        icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
+        this.setIconImage(icon.getImage());
+
+        setSize(1000,800);
+        setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
-		setLayout(null);
-    Font labelFont = (new Font("Arial",Font.BOLD,16));
-		
-		//header panel
-		JPanel headerPanel = new JPanel();
-		headerPanel.setBackground(Color.pink);
-		headerPanel.setBounds(5,5,490,60);
-		add(headerPanel);
-		
-		//header label
-		JLabel headerText = new JLabel("Registration Form");
-		headerText.setFont(new Font("Arial",Font.BOLD,32));
-		headerPanel.add(headerText);
+        setLayout(null);
+
+        Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
+	    JPanel headerpanel=new JPanel();
+	    headerpanel.setBackground(new Color(93,130,250));
+	    headerpanel.setBounds(0,0,1000,60);
+	    
+	    JLabel headerTxt=new JLabel("Registration");
+		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+		headerTxt.setForeground(Color.WHITE);
+		headerpanel.add(headerTxt);
+        add(headerpanel);
 		
 		//input panel
 		JPanel inputPanel = new JPanel();
-		inputPanel.setBackground(new Color(199,227,240));
-		inputPanel.setBounds(5,70,490,425);
+		inputPanel.setBackground(new Color(93,130,250));
+		inputPanel.setBounds(0,60,1000,740);
 		inputPanel.setLayout(null);
 		add(inputPanel);
 		
 		//name field of input label
 		
-		JLabel nameLabel = new JLabel("Name : ");
+		JLabel nameLabel = new JLabel("Name");
 		nameLabel.setBounds(130,5,100,25);
-		nameLabel.setFont(labelFont);
+        nameLabel.setFont(labelFont);
+        nameLabel.setForeground(Color.WHITE);
 		inputPanel.add(nameLabel);
 		// name textfield
 		JTextField nameText = new JTextField();
@@ -130,7 +136,7 @@ public class Register extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new LoginForm();
+				//new LoginForm();
 			}
 		});
 		registerButton.addActionListener(new ActionListener() {
@@ -149,8 +155,8 @@ public class Register extends JFrame{
 						+ "(`name`, `password`, `email`, `number`, `address`)"
 						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"') ";
 				
-				DbConnect db = new DbConnect();
-				db.insertRegister(insertQuesry);
+				//DbConnect db = new DbConnect();
+				//db.insertRegister(insertQuesry);
 				
 			}
 			
