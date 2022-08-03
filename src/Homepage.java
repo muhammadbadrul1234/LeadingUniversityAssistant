@@ -153,6 +153,15 @@ public class Homepage extends JFrame {
 				new Admission();
 			}
 		});
+        
+         Admissionbtn.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Admission();
+			}
+		});
 
 
     }
