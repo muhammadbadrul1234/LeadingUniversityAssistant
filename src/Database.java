@@ -71,7 +71,7 @@ public class Database {
 			}
 			
 			else {
-				JOptionPane.showMessageDialog(null, tablepass );
+				JOptionPane.showMessageDialog(null,  );
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
