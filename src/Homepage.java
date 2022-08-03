@@ -106,7 +106,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Librarybtn);
         
         JButton Resultbtn=new JButton("Result");
-	    Resultbtn.setBounds(720,0,100,30);
+	    Resultbtn.setBounds(720,0,80,30);
 	    Resultbtn.setBackground(new Color(112,128,144));
 	    Resultbtn.setFont(labelFont);
 	    Resultbtn.setForeground(Color.WHITE);
