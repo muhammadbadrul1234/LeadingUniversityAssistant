@@ -95,8 +95,8 @@ public class LoginPage extends JFrame {
 	    registerLink.setFocusable(false);
 		inputpanel.add(registerLink);
 
-		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
-		uniIDpp.setBounds(210, 380, 250, 30);
+		JLabel uniIDpp = new JLabel("or");
+		uniIDpp.setBounds(210, 380, 20, 30);
 		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
