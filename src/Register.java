@@ -47,12 +47,12 @@ public class Register extends JFrame{
 		inputPanel.add(nameLabel);
 
 		JTextField nameText = new JTextField();
-		nameText.setBounds(500,165,200,25);
+		nameText.setBounds(500,200,200,25);
 		nameText.setFont(labelFont);
 		inputPanel.add(nameText);
 		
 		JLabel emailLabel = new JLabel("Email");
-		emailLabel.setBounds(300,50,100,25);
+		emailLabel.setBounds(300,200,100,25);
 		emailLabel.setFont(labelFont);
 		emailLabel.setForeground(Color.WHITE);
 		inputPanel.add(emailLabel);
