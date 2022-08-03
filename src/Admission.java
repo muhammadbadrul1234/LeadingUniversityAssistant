@@ -32,7 +32,7 @@ public class Admission extends JFrame {
 
         JPanel headerpane2 = new JPanel();
         //headerpanel.setBackground(new Color(93,130,250));
-        headerpane2.setBounds(0, 150, 1000, 100);
+        headerpane2.setBounds(0, 150, 1000, 50);
 
         JLabel headerTxt = new JLabel("Admission");
         headerTxt.setFont((new Font("Arial", Font.BOLD, 30)));
