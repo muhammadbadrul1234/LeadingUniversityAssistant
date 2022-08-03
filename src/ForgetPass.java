@@ -146,25 +146,25 @@ public class ForgetPass extends JFrame{
 	            String queryLogin = "SELECT * FROM `registered`";
 	            try {
 			
-                rs = st.executeQuery(queryLogin);
-                String x;
-                while(rs.next()) {
-                    String tableUserName = rs.getString(7);
-                    String tablePass = rs.getString(3);
+                    rs = st.executeQuery(queryLogin);
+                    String x;
+                    while(rs.next()) {
+                        String tableUserName = rs.getString(7);
+                        String tablePass = rs.getString(3);
 
-                    if(userName.equals(tableUserName) && pass.equals(tablePass)) {
-                        flag =1;
-                        break;
+                        if(userName.equals(tableUserName) && pass.equals(tablePass)) {
+                            flag =1;
+                            break;
+                        }
                     }
-                }
-                if (flag == 0) {
-                    JOptionPane.showMessageDialog(null, "Data Not Found");
-                }
-                
-                else {
-                    JOptionPane.showMessageDialog(null, "Password is: aa ");
-                    //JOptionPane.showMessageDialog (null, x, "Title", JOptionPane.INFORMATION_MESSAGE);
-                }
+                    if (flag == 0) {
+                        JOptionPane.showMessageDialog(null, "Data Not Found");
+                    }
+                    
+                    else {
+                        JOptionPane.showMessageDialog(null, "Password is: aa ");
+                        //JOptionPane.showMessageDialog (null, x, "Title", JOptionPane.INFORMATION_MESSAGE);
+                    }
                 }
         });
         
