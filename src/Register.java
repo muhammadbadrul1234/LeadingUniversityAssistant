@@ -120,15 +120,15 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDText);
 
 		JLabel dob = new JLabel("UDate of Birth");
-		dob.setBounds(300,400,100,25);
+		dob.setBounds(300,440,100,25);
 		dob.setFont(labelFont);
 		dob.setForeground(Color.WHITE);
 		inputPanel.add(dob);
 				
 		JTextField dobText= new JTextField();
-		dobText.setBounds(500,400,200,25);
+		dobText.setBounds(500,440,200,25);
 		dobText.setFont(labelFont);
-		inputPanel.add(uniIDText);
+		inputPanel.add(dobText);
 
 		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
 		uniIDpp.setBounds(710, 380, 500, 50);
