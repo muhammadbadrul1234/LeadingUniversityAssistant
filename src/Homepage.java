@@ -136,15 +136,21 @@ public class Homepage extends JFrame {
 
         add(inputpanel1);
         setVisible(true);
+
+
+
+
+
+
         /*
-         * 
+         * Action Listener of menu bar
          */
         Admissionbtn.addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new Homepage();
+				new Admission();
 			}
 		});
 
