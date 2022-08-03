@@ -28,9 +28,10 @@ public class Database {
 					break;
 				}
 			}
-			if(flag==0) {
+			if (flag == 0) {
 				JOptionPane.showMessageDialog(null, "Invalid paswword or username!!");
 			}
+			
 			else {
 				LoginPage().dispose();
 				new Homepage();
