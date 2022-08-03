@@ -44,7 +44,7 @@ public class Admission extends JFrame {
 	    Homebtn.setForeground(Color.WHITE);
 	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Homebtn.setFocusable(false);
-        add(Homebtn);
+        inputpanel1.add(Homebtn);
 
         JFrame f;
         JLabel id,id1,id2,id3,id4,id5,id6,id7,id8,id9,id10,id11,id12,id15,id16,id17,lab,lab1,lab2;
