@@ -119,11 +119,11 @@ public class Register extends JFrame{
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
-		JLabel dob = new JLabel("University ID");
-		.setBounds(300,400,100,25);
-		.setFont(labelFont);
-		.setForeground(Color.WHITE);
-		inputPanel.add(uniID);
+		JLabel dob = new JLabel("UDate of Birth");
+		dob.setBounds(300,400,100,25);
+		dob.setFont(labelFont);
+		dob.setForeground(Color.WHITE);
+		inputPanel.add(dob);
 				
 		JTextField uniIDText= new JTextField();
 		uniIDText.setBounds(500,400,200,25);
