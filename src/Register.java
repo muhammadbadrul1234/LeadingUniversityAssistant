@@ -119,9 +119,9 @@ public class Register extends JFrame{
 		inputPanel.add(addressText);
 
 		JLabel uniID = new JLabel("Address");
-		addressField.setBounds(350,250,100,25);
-		addressField.setFont(labelFont);
-		addressField.setForeground(Color.WHITE);
+		uniID.setBounds(350,250,100,25);
+		uniID.setFont(labelFont);
+		uniID.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
 				
 		//mobile number text field
