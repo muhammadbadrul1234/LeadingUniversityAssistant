@@ -65,7 +65,7 @@ public class Database {
 
 				if(userName.equals(tableUserName) && pass.equals(tablePass)) {
 					for(int i = 0; i < 10; i++) {
-						x(i) = tablePass(i);
+						 tablePass(i)=x(i);
 	
 					}
 					flag =1;
