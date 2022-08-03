@@ -118,7 +118,7 @@ public class ForgetPass extends JFrame{
 
 
 		JButton registerButton = new JButton("Fetch Password");
-		registerButton.setBounds(550,490,100,30);
+		registerButton.setBounds(525,490,150,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
