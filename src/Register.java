@@ -132,7 +132,7 @@ public class Register extends JFrame{
 
 		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
 		uniIDpp.setBounds(710, 290, 500, 50);
-		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,10)));
+		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
 		inputPanel.add(uniIDpp);
@@ -142,6 +142,7 @@ public class Register extends JFrame{
 		uniIDpp2.setFont(labelFont2);
 		uniIDpp2.setForeground(Color.WHITE);
 		inputPanel.add(uniIDpp2);
+
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
