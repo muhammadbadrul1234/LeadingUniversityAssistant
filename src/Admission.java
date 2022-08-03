@@ -311,7 +311,7 @@ public class Admission extends JFrame {
 			}
         });
         
-        b1.addActionListener(new ActionListener() {
+        b.addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
