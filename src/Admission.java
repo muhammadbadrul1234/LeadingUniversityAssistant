@@ -309,6 +309,15 @@ public class Admission extends JFrame {
 				dispose();
 				new Homepage();
 			}
+        });
+        
+        b1.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Homepage();
+			}
 		});
 
         
