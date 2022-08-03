@@ -90,7 +90,7 @@ public class Admission extends JFrame {
         id15.add(id4);
 
         t4=new JTextField();
-        t4.setBounds(600,280,150,30);
+        t4.setBounds(700,280,150,30);
         id15.add(t4);
 
         id5= new JLabel("Address");
@@ -108,7 +108,7 @@ public class Admission extends JFrame {
         id15.add(id6);
 
         t6=new JTextField();
-        t6.setBounds(600,430,150,30);
+        t6.setBounds(700,430,150,30);
         id15.add(t6);
 
         id7= new JLabel("Email Id");
@@ -126,7 +126,7 @@ public class Admission extends JFrame {
         id15.add(id9);
 
         t8=new JTextField();
-        t8.setBounds(600,330,150,30);
+        t8.setBounds(700,330,150,30);
         id15.add(t8);
 
         id10= new JLabel("Class XII(%)");
@@ -145,7 +145,7 @@ public class Admission extends JFrame {
         id15.add(id11);
 
         t10=new JTextField();
-        t10.setBounds(600,380,150,30);
+        t10.setBounds(700,380,150,30);
         id15.add(t10);
 
         id12= new JLabel("Roll No");
