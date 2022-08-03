@@ -58,12 +58,12 @@ public class Admission extends JFrame {
 
  
         id1 = new JLabel("Name");
-        id1.setBounds(50,200,100,30);
+        id1.setBounds(50,285,100,30);
         id1.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id1);
 
         t1=new JTextField();
-        t1.setBounds(200,200,150,30);
+        t1.setBounds(200,285,150,30);
         id15.add(t1);
 
         id2 = new JLabel("Father's Name");
