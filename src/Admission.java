@@ -320,6 +320,15 @@ public class Admission extends JFrame {
 				new Homepage();
 			}
         });
+
+        b2.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Admission();
+			}
+        });
         
         b.addActionListener(new ActionListener() {
 			
