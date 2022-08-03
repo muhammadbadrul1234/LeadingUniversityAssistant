@@ -86,7 +86,7 @@ public class Register extends JFrame{
 		inputPanel.add(consPassText);
 		
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(300,320,100,25);
+		MobileNum.setBounds(250,320,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
@@ -98,7 +98,7 @@ public class Register extends JFrame{
 		inputPanel.add(mobileText);
 
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(300,360,100,25);
+		addressField.setBounds(250,360,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
@@ -109,7 +109,7 @@ public class Register extends JFrame{
 		inputPanel.add(addressText);
 
 		JLabel uniID = new JLabel("University ID");
-		uniID.setBounds(300,400,100,25);
+		uniID.setBounds(250,400,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
@@ -120,7 +120,7 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDText);
 
 		JLabel dob = new JLabel("Date of Birth");
-		dob.setBounds(300,440,100,25);
+		dob.setBounds(250,440,100,25);
 		dob.setFont(labelFont);
 		dob.setForeground(Color.WHITE);
 		inputPanel.add(dob);
