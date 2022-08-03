@@ -250,36 +250,36 @@ public class Admission extends JFrame {
         id15.add(t10);
 
         id12= new JLabel("Roll No");
-        id12.setBounds(150,480,150,30);
+        id12.setBounds(150,500,150,30);
         id12.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id12);
 
         t11=new JTextField();   
-        t11.setBounds(300,480,150,30);
+        t11.setBounds(300,500,150,30);
         t11.setText("");
         id15.add(t11);
 
 
         lab=new JLabel("Course");
-        lab.setBounds(500,480,150,30);
+        lab.setBounds(500,500,150,30);
 	lab.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(lab);
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
-        c1.setBounds(700,480,150,30);
+        c1.setBounds(700,500,150,30);
         id15.add(c1);
         
         lab2=new JLabel("Branch");
-        lab2.setBounds(150,530,150,30);
+        lab2.setBounds(150,550,150,30);
 	lab2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab2);
         
         String branch[] = {"Computer Science","Electronics","Electrical","Mechanical","Civil"};
         c2 = new JComboBox(branch);
         c2.setBackground(Color.WHITE);
-        c2.setBounds(300,530,150,30);
+        c2.setBounds(300,550,150,30);
         id15.add(c2);
         
         b = new JButton("Submit");
