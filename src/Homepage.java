@@ -40,7 +40,16 @@ public class Homepage extends JFrame {
 		inputpanel1.setBackground(new Color(112,128,144));
         inputpanel1.setBounds(0, 150, 1000, 50);
 		inputpanel1.setLayout(null);
-		add(inputpanel1);
+        add(inputpanel1);
+        
+        JButton Homebtn=new JButton("Login");
+	    loginBtn.setBounds(300,320,100,30);
+	    loginBtn.setBackground(new Color(93,161,217));
+	    loginBtn.setFont(labelFont);
+	    loginBtn.setForeground(Color.WHITE);
+	    loginBtn.setBorder(new LineBorder(new Color(93,130,250)));
+	    loginBtn.setFocusable(false);
+		inputpanel.add(loginBtn);
         
 
 
