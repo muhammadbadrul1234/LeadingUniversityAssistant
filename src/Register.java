@@ -82,6 +82,7 @@ public class Register extends JFrame{
 		JLabel conPassLabel = new JLabel("Confirm Password : ");
 		conPassLabel.setBounds(30,150,170,25);
 		conPassLabel.setFont(labelFont);
+		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
 				
 		//confirm password text field
@@ -94,12 +95,14 @@ public class Register extends JFrame{
 		JLabel MobileNum = new JLabel("Mobile : ");
 		MobileNum.setBounds(120,200,100,25);
 		MobileNum.setFont(labelFont);
+		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
 		
 		//mobile number text field
 		JTextField mobileText= new JTextField();
 		mobileText.setBounds(200,200,200,25);
 		mobileText.setFont(labelFont);
+		
 		inputPanel.add(mobileText);
 		
 		//address field of input label
