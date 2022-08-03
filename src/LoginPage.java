@@ -100,7 +100,7 @@ public class LoginPage extends JFrame {
 		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
-		inputpanel.add(uniIDp);
+		inputpanel.add(uniIDpp);
 
 
 		JButton forgotPassLink = new JButton("Forgot Password?");
