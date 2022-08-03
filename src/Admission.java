@@ -59,7 +59,7 @@ public class Admission extends JFrame {
  
         id1 = new JLabel("Name");
         id1.setBounds(150,230,100,30);
-        id1.setFont(new Font("Calibri",Font.Bold,20));
+        id1.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id1);
 
         t1=new JTextField();
@@ -68,7 +68,7 @@ public class Admission extends JFrame {
 
         id2 = new JLabel("Father's Name");
         id2.setBounds(500,230,200,30);
-        id2.setFont(new Font("serif",Font.BOLD,20));
+        id2.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id2);
 
         t2=new JTextField();
@@ -77,7 +77,7 @@ public class Admission extends JFrame {
 
         id3= new JLabel("Age");
         id3.setBounds(150,280,100,30);
-        id3.setFont(new Font("serif",Font.BOLD,20));
+        id3.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id3);
 
         t3=new JTextField();
@@ -86,7 +86,7 @@ public class Admission extends JFrame {
 
         id4= new JLabel("DOB (dd/mm/yyyy)");  
         id4.setBounds(500,280,200,30);
-        id4.setFont(new Font("serif",Font.BOLD,20));
+        id4.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id4);
 
         t4=new JTextField();
