@@ -4,7 +4,7 @@ public class App {
        //new Register();
        // new Homepage();
        // new Admission();
-      new
+       new AddEmployee();
         
     }
 }
