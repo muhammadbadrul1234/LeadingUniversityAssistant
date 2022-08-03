@@ -193,9 +193,12 @@ public class Admission extends JFrame {
         id15.add(c2);
         
         b = new JButton("Submit");
-        b.setBackground(Color.BLACK);
-        b.setForeground(Color.WHITE);
-        b.setBounds(350,550,150,40);
+        b.setBounds(550,490,100,30);
+		b.setBackground(new Color(219,143,160));
+		b.setFont(labelFont);
+		b.setForeground(Color.white);
+		b.setBorder(new LineBorder(new Color(93,130,250)));
+		b.setFocusable(false);
         
         id15.add(b);
 
