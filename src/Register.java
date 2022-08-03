@@ -87,7 +87,7 @@ public class Register extends JFrame{
 				
 		//confirm password text field
 	    JTextField consPassText = new JTextField();
-		consPassText.setBounds(200,150,200,25);
+		consPassText.setBounds(500,150,200,25);
 		consPassText.setFont(labelFont);
 		inputPanel.add(consPassText);
 		
@@ -100,7 +100,7 @@ public class Register extends JFrame{
 		
 		//mobile number text field
 		JTextField mobileText= new JTextField();
-		mobileText.setBounds(200,200,200,25);
+		mobileText.setBounds(500,200,200,25);
 		mobileText.setFont(labelFont);
 
 		inputPanel.add(mobileText);
@@ -114,7 +114,7 @@ public class Register extends JFrame{
 				
 		//mobile number text field
 		JTextField addressText= new JTextField();
-		addressText.setBounds(200,250,200,25);
+		addressText.setBounds(500,250,200,25);
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
 		
