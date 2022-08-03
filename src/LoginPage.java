@@ -1,5 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
+import javax.xml.crypto.Data;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -91,9 +93,9 @@ public class LoginPage extends JFrame {
 	            String pass = passTxt.getText();
 	            Database db = new Database();
 				//String queryLogin = "SELECT * FROM `registered`";
-				Database db1 = new DbConnect();
+				Database db1 = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
-	            db.Login(queryLogin,userName,pass)
+				db1.Login(queryLogin, userName, pass);
 			}
 		});
 		registerLink.addActionListener(new ActionListener() {
