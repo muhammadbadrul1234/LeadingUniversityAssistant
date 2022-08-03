@@ -148,7 +148,7 @@ public class ForgetPass extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String userName = nameText.getText();
-	            String pass = passTxt.getText();
+	            String pass = mobileText.getText();
 	            Database db = new Database();
 				//String queryLogin = "SELECT * FROM `registered`";
 				Database db1 = new Database();
