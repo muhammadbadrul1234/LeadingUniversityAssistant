@@ -109,13 +109,13 @@ public class Register extends JFrame{
 		inputPanel.add(addressText);
 
 		JLabel uniID = new JLabel("University ID");
-		uniID.setBounds(300,300,100,25);
+		uniID.setBounds(300,400,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
 				
 		JTextField uniIDText= new JTextField();
-		uniIDText.setBounds(500,300,200,25);
+		uniIDText.setBounds(500,400,200,25);
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
