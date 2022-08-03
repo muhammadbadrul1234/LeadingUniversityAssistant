@@ -54,13 +54,13 @@ public class Admission extends JFrame {
 		inputpanel1.setLayout(null);
         
         
-        JButton Homebtn=new JButton("Home");
-	    Homebtn.setBounds(0,0,100,30);
-	    Homebtn.setBackground(new Color(69,90,100));
-	    Homebtn.setFont(labelFont);
-	    Homebtn.setForeground(Color.WHITE);
-	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Homebtn.setFocusable(false);
+        JButton Homebtn1=new JButton("Home");
+	    Homebtn1.setBounds(0,0,100,30);
+	    Homebtn1.setBackground(new Color(69,90,100));
+	    Homebtn1.setFont(labelFont);
+	    Homebtn1.setForeground(Color.WHITE);
+	    Homebtn1.setBorder(new LineBorder(new Color(69,90,100)));
+	    Homebtn1.setFocusable(false);
         inputpanel1.add(Homebtn);
         
         JButton Admissionbtn=new JButton("Admission");
