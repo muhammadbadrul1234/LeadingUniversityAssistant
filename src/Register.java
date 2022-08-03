@@ -86,25 +86,25 @@ public class Register extends JFrame{
 		inputPanel.add(consPassText);
 		
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(300,200,100,25);
+		MobileNum.setBounds(300,320,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
 		
 		JTextField mobileText= new JTextField();
-		mobileText.setBounds(500,200,200,25);
+		mobileText.setBounds(500,320,200,25);
 		mobileText.setFont(labelFont);
 
 		inputPanel.add(mobileText);
 
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(300,250,100,25);
+		addressField.setBounds(300,360,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
 				
 		JTextField addressText= new JTextField();
-		addressText.setBounds(500,250,200,25);
+		addressText.setBounds(500,360,200,25);
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
 
