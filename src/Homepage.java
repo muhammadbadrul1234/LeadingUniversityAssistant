@@ -27,7 +27,6 @@ public class Homepage extends JFrame {
 	    //headerpanel.setBackground(new Color(93,130,250));
 		headerpanel.setBounds(0, 0, 1000, 150);
 		
-
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
 		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
