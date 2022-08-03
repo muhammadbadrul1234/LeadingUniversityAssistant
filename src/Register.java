@@ -41,7 +41,7 @@ public class Register extends JFrame{
 		add(inputPanel);
 		
 		JLabel nameLabel = new JLabel("Name");
-		nameLabel.setBounds(300,165,100,25);
+		nameLabel.setBounds(250,165,100,25);
         nameLabel.setFont(labelFont);
         nameLabel.setForeground(Color.WHITE);
 		inputPanel.add(nameLabel);
@@ -52,7 +52,7 @@ public class Register extends JFrame{
 		inputPanel.add(nameText);
 		
 		JLabel emailLabel = new JLabel("Email");
-		emailLabel.setBounds(300,200,100,25);
+		emailLabel.setBounds(250,200,100,25);
 		emailLabel.setFont(labelFont);
 		emailLabel.setForeground(Color.WHITE);
 		inputPanel.add(emailLabel);
@@ -63,7 +63,7 @@ public class Register extends JFrame{
 		inputPanel.add(emailTextField);
 		
 		JLabel passwordLabel = new JLabel("Password ");
-		passwordLabel.setBounds(300,240,100,25);
+		passwordLabel.setBounds(250,240,100,25);
 		passwordLabel.setFont(labelFont);
 		passwordLabel.setForeground(Color.WHITE);
 		inputPanel.add(passwordLabel);
@@ -75,7 +75,7 @@ public class Register extends JFrame{
 		inputPanel.add(passwordTextField);
 		
 		JLabel conPassLabel = new JLabel("Confirm Password");
-		conPassLabel.setBounds(300,280,170,25);
+		conPassLabel.setBounds(250,280,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
