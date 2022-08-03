@@ -40,7 +40,7 @@ public class Register extends JFrame{
 		//name field of input label
 		
 		JLabel nameLabel = new JLabel("Name");
-		nameLabel.setBounds(130,5,100,25);
+		nameLabel.setBounds(300,5,100,25);
         nameLabel.setFont(labelFont);
         nameLabel.setForeground(Color.WHITE);
 		inputPanel.add(nameLabel);
@@ -52,7 +52,7 @@ public class Register extends JFrame{
 		
 		//email field of input label
 		
-		JLabel emailLabel = new JLabel("Email : ");
+		JLabel emailLabel = new JLabel("Email");
 		emailLabel.setBounds(130,50,100,25);
 		emailLabel.setFont(labelFont);
 		emailLabel.setForeground(Color.WHITE);
