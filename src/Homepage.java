@@ -69,13 +69,13 @@ public class Homepage extends JFrame {
 	    contacButton.setFocusable(false);
         inputpanel1.add(contacButton);
         
-        JButton FormBtn=new JButton("Home");
-	    Homebtn.setBounds(0,0,100,30);
-	    Homebtn.setBackground(new Color(112,128,144));
-	    Homebtn.setFont(labelFont);
-	    Homebtn.setForeground(Color.WHITE);
-	    Homebtn.setBorder(new LineBorder(new Color(112,128,144)));
-	    Homebtn.setFocusable(false);
+        JButton FormBtn=new JButton("Forms");
+	    FormBtn.setBounds(0,0,100,30);
+	    FormBtn.setBackground(new Color(112,128,144));
+	    FormBtn.setFont(labelFont);
+	    FormBtn.setForeground(Color.WHITE);
+	    FormBtn.setBorder(new LineBorder(new Color(112,128,144)));
+	    FormBtn.setFocusable(false);
         inputpanel1.add(Homebtn);
         
         JButton Homebtn=new JButton("Home");
