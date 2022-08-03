@@ -6,8 +6,8 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Register extends JFrame{
-    public Register() {
+public class ForgetPass extends JFrame{
+    public Forget() {
 		super("Leading University");
         
         ImageIcon icon;
