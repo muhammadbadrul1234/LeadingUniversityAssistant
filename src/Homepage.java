@@ -88,7 +88,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(noticebButton);
         
         JButton Deptsbtn=new JButton("Deparrtments");
-	    Deptsbtn.setBounds(0,0,100,30);
+	    Deptsbtn.setBounds(500,0,100,30);
 	    Deptsbtn.setBackground(new Color(112,128,144));
 	    Deptsbtn.setFont(labelFont);
 	    Deptsbtn.setForeground(Color.WHITE);
@@ -96,7 +96,7 @@ public class Homepage extends JFrame {
 	    Deptsbtn.setFocusable(false);
         inputpanel1.add(Deptsbtn);
         
-        JButton Homebtn=new JButton("Home");
+        JButton Homebtn=new JButton("Faculty");
 	    Homebtn.setBounds(0,0,100,30);
 	    Homebtn.setBackground(new Color(112,128,144));
 	    Homebtn.setFont(labelFont);
