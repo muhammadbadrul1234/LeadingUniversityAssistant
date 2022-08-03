@@ -123,7 +123,7 @@ public class ForgetPass extends JFrame{
 		inputPanel.add(dobText);
 
 
-		JButton registerButton = new JButton("Register");
+		JButton registerButton = new JButton("Fetch Password");
 		registerButton.setBounds(550,490,100,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
