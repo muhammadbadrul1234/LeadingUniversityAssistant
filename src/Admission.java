@@ -95,7 +95,7 @@ public class Admission extends JFrame {
 
         id5= new JLabel("Address");
         id5.setBounds(150,430,100,30);
-        id5.setFont(new Font("serif",Font.BOLD,20));
+        id5.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id5);
 
         t5=new JTextField();
@@ -104,7 +104,7 @@ public class Admission extends JFrame {
 
         id6= new JLabel("Phone");
         id6.setBounds(500,430,100,30);
-        id6.setFont(new Font("serif",Font.BOLD,20));
+        id6.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id6);
 
         t6=new JTextField();
@@ -113,7 +113,7 @@ public class Admission extends JFrame {
 
         id7= new JLabel("Email Id");
         id7.setBounds(150,330,100,30);
-        id7.setFont(new Font("serif",Font.BOLD,20));
+        id7.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id7);
 
         t7=new JTextField();
@@ -122,7 +122,7 @@ public class Admission extends JFrame {
 
         id9= new JLabel("Class X(%)");
         id9.setBounds(500,330,130,30);
-        id9.setFont(new Font("serif",Font.BOLD,20));    
+        id9.setFont(new Font("Calibri",Font.BOLD,20));    
         id15.add(id9);
 
         t8=new JTextField();
