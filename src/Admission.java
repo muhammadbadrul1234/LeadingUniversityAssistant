@@ -33,10 +33,10 @@ public class Admission extends JFrame {
         add(headerpanel);
 
         JLabel Homebtn=new JLabel("New Student Admission");
-        Homebtn.setBounds(380,160,1000,30);
+        Homebtn1.setBounds(380,160,1000,30);
 	    //Homebtn.setBackground(new Color(69,90,100));
-	    Homebtn.setFont(labelFont3);
-	    Homebtn.setForeground(Color.WHITE);
+	    Homebtn1.setFont(labelFont3);
+	    Homebtn1.setForeground(Color.WHITE);
 	    //Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	   // Homebtn.setFocusable(false);
         
@@ -45,7 +45,7 @@ public class Admission extends JFrame {
 		inputpanel2.setBackground(new Color(69,90,100));
         inputpanel2.setBounds(0, 150, 1000, 50);
         inputpanel2.setLayout(null);
-        add(Homebtn);
+        add(Homebtn1);
         add(inputpanel2);
 
          JPanel inputpanel1=new JPanel();
@@ -54,13 +54,13 @@ public class Admission extends JFrame {
 		inputpanel1.setLayout(null);
         
         
-        JButton Homebtn1=new JButton("Home");
-	    Homebtn1.setBounds(0,0,100,30);
-	    Homebtn1.setBackground(new Color(69,90,100));
-	    Homebtn1.setFont(labelFont);
-	    Homebtn1.setForeground(Color.WHITE);
-	    Homebtn1.setBorder(new LineBorder(new Color(69,90,100)));
-	    Homebtn1.setFocusable(false);
+        JButton Homebtn=new JButton("Home");
+	    Homebtn.setBounds(0,0,100,30);
+	    Homebtn.setBackground(new Color(69,90,100));
+	    Homebtn.setFont(labelFont);
+	    Homebtn.setForeground(Color.WHITE);
+	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Homebtn.setFocusable(false);
         inputpanel1.add(Homebtn);
         
         JButton Admissionbtn=new JButton("Admission");
