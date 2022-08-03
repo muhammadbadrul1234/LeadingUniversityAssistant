@@ -40,5 +40,11 @@ public class Admission extends JFrame {
         JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
         inputpanel1.add(imgLabel2);
         add(inputpanel1);
+
+
+
+
+
+        setVisible(true);
     }
 }
