@@ -65,7 +65,6 @@ public class Database {
 					flag =1;
 					break;
 				}
-			}
 		try {
 
 			rs = st.executeQuery(queryLogin);
