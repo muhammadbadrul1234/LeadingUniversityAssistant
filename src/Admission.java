@@ -33,7 +33,7 @@ public class Admission extends JFrame {
         add(headerpanel);
 
         JLabel Homebtn=new JLabel("New Student Admission");
-        Homebtn.setBounds(400,160,1000,30);
+        Homebtn.setBounds(380,160,1000,30);
 	    //Homebtn.setBackground(new Color(69,90,100));
 	    Homebtn.setFont(labelFont3);
 	    Homebtn.setForeground(Color.WHITE);
