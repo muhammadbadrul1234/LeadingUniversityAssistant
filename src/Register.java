@@ -80,7 +80,7 @@ public class Register extends JFrame{
 		
 		//confirm password field input label
 		JLabel conPassLabel = new JLabel("Confirm Password");
-		conPassLabel.setBounds(400,150,170,25);
+		conPassLabel.setBounds(350,150,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
