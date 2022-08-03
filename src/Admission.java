@@ -221,7 +221,7 @@ public class Admission extends JFrame {
         t7.setBounds(300,350,150,30);
         id15.add(t7);
 
-        id9= new JLabel("Class X(%)");
+        id9= new JLabel("SSC GPA");
         id9.setBounds(500,350,130,30);
         id9.setFont(new Font("Calibri",Font.BOLD,20));    
         id15.add(id9);
@@ -230,7 +230,7 @@ public class Admission extends JFrame {
         t8.setBounds(700,350,150,30);
         id15.add(t8);
 
-        id10= new JLabel("Class XII(%)");
+        id10= new JLabel("HSC GPA");
         id10.setBounds(150,400,130,30);
         id10.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id10);
