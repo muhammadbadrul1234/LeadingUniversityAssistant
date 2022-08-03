@@ -9,7 +9,7 @@ import java.awt.*;
 
 public class Admission extends JFrame {
     public Admission() {
-        super("Leading University");
+        super("Admission");
         
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
