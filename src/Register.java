@@ -63,25 +63,25 @@ public class Register extends JFrame{
 		inputPanel.add(emailTextField);
 		
 		JLabel passwordLabel = new JLabel("Password ");
-		passwordLabel.setBounds(300,100,100,25);
+		passwordLabel.setBounds(300,240,100,25);
 		passwordLabel.setFont(labelFont);
 		passwordLabel.setForeground(Color.WHITE);
 		inputPanel.add(passwordLabel);
 		
 		JTextField passwordTextField = new JTextField();
-		passwordTextField.setBounds(500,100,200,25);
+		passwordTextField.setBounds(500,240,200,25);
 		passwordTextField.setFont(labelFont);
 		
 		inputPanel.add(passwordTextField);
 		
 		JLabel conPassLabel = new JLabel("Confirm Password");
-		conPassLabel.setBounds(300,150,170,25);
+		conPassLabel.setBounds(300,280,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
 				
 	    JTextField consPassText = new JTextField();
-		consPassText.setBounds(500,150,200,25);
+		consPassText.setBounds(500,280,200,25);
 		consPassText.setFont(labelFont);
 		inputPanel.add(consPassText);
 		
