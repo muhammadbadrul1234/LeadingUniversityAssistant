@@ -42,10 +42,11 @@ class AddStudent implements ActionListener {
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 		
 		headerpanel.add(imgLabel);
-		f.add(headerpanel);
-        f = new JFrame("Add Student");
-        f.setBackground(Color.white);
-        f.setLayout(null);
+        f.add(headerpanel);
+        
+       // f = new JFrame("Add Student");
+       // f.setBackground(Color.white);
+       // f.setLayout(null);
 
         id15=new JLabel();
         id15.setBounds(0,0,900,700);
