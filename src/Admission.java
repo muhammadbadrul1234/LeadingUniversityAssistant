@@ -292,7 +292,7 @@ public class Admission extends JFrame {
         
         id15.add(b);
 
-        b1=new JButton("Cancel");   
+        b1=new JButton("Return");   
         b1.setBounds(670,610,100,30);
 		b1.setBackground(new Color(69,90,100));
 		b1.setFont(labelFont);
