@@ -120,7 +120,8 @@ public class Register extends JFrame{
 		registerButton.setBorder(new LineBorder(Color.red));
 		registerButton.setFocusable(false);
 		inputPanel.add(registerButton);
-		hjxdfhbviu;
+		
+
 		
 		JButton loginButton = new JButton("Login");
 		loginButton.setBounds(100,300,100,30);
