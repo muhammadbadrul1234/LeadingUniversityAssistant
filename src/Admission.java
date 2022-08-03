@@ -121,12 +121,12 @@ public class Admission extends JFrame {
         id15.add(t7);
 
         id9= new JLabel("Class X(%)");
-        id9.setBounds(400,300,130,30);
+        id9.setBounds(400,330,130,30);
         id9.setFont(new Font("serif",Font.BOLD,20));    
         id15.add(id9);
 
         t8=new JTextField();
-        t8.setBounds(600,300,150,30);
+        t8.setBounds(600,330,150,30);
         id15.add(t8);
 
         id10= new JLabel("Class XII(%)");
