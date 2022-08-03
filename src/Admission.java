@@ -67,7 +67,7 @@ public class Admission extends JFrame {
         id15.add(t1);
 
         id2 = new JLabel("Father's Name");
-        id2.setBounds(430,230,200,30);
+        id2.setBounds(500,230,200,30);
         id2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id2);
 
@@ -85,7 +85,7 @@ public class Admission extends JFrame {
         id15.add(t3);
 
         id4= new JLabel("DOB (dd/mm/yyyy)");  
-        id4.setBounds(430,280,200,30);
+        id4.setBounds(500,280,200,30);
         id4.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id4);
 
