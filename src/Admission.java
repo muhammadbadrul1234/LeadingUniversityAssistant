@@ -67,7 +67,7 @@ public class Admission extends JFrame {
         id15.add(t1);
 
         id2 = new JLabel("Father's Name");
-        id2.setBounds(420,230,200,30);
+        id2.setBounds(430,230,200,30);
         id2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id2);
 
@@ -140,7 +140,7 @@ public class Admission extends JFrame {
 
 
         id11= new JLabel("NID No");
-        id11.setBounds(400,380,100,30);
+        id11.setBounds(430,380,100,30);
         id11.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id11);
 
