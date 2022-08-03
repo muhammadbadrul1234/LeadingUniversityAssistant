@@ -91,7 +91,7 @@ public class Database {
 
 		catch (Exception e) {
 
-			JOptionPane.showMessageDialog(null, "Admission Not Completed.internal error");
+			JOptionPane.showMessageDialog(null, "Admission Not Completed. Internal error");
 		}
 
 	}
