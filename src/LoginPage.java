@@ -40,7 +40,7 @@ public class LoginPage extends JFrame {
 		
 
         inputpanel1.setBounds(0, 90, 350, 700);
-		//inputpanel1.setLayout(null);
+
 		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
 		inputpanel1.add(imgLabel2);
 		add(inputpanel1);
