@@ -103,7 +103,7 @@ public class Admission extends JFrame {
         id15.add(t5);
 
         id6= new JLabel("Phone");
-        id6.setBounds(430,430,100,30);
+        id6.setBounds(500,430,100,30);
         id6.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id6);
 
@@ -121,7 +121,7 @@ public class Admission extends JFrame {
         id15.add(t7);
 
         id9= new JLabel("Class X(%)");
-        id9.setBounds(430,330,130,30);
+        id9.setBounds(500,330,130,30);
         id9.setFont(new Font("serif",Font.BOLD,20));    
         id15.add(id9);
 
@@ -140,7 +140,7 @@ public class Admission extends JFrame {
 
 
         id11= new JLabel("NID No");
-        id11.setBounds(430,380,100,30);
+        id11.setBounds(500,380,100,30);
         id11.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id11);
 
@@ -160,7 +160,7 @@ public class Admission extends JFrame {
 
 
         lab=new JLabel("Course");
-        lab.setBounds(430,480,150,30);
+        lab.setBounds(500,480,150,30);
 	lab.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab);
             
