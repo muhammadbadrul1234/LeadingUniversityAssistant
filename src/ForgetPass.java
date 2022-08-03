@@ -135,14 +135,7 @@ public class ForgetPass extends JFrame{
 		loginButton.setFocusable(false);
 		inputPanel.add(loginButton);
 
-		loginButton.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new LoginPage();
-			}
-        });
+
 		
         registerButton.addActionListener(new ActionListener() {
 			@Override
