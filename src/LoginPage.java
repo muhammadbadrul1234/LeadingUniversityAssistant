@@ -95,7 +95,14 @@ public class LoginPage extends JFrame {
 				//String queryLogin = "SELECT * FROM `registered`";
 				Database db1 = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
-				if(db1.Login(queryLogin, userName, pass));
+				if(db1.Login(queryLogin, userName, pass)) {
+					JOptionPane.showMessageDialog(null, "Login Successful");
+					dispose();
+					new HomePage();
+				}
+				else {
+					JOptionPane.showMessageDialog(null, "Login Failed");
+				}
 			}
 		});
 		registerLink.addActionListener(new ActionListener() {
