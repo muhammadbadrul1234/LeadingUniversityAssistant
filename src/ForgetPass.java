@@ -83,7 +83,7 @@ public class ForgetPass extends JFrame{
 		
 		
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(250,320,100,25);
+		MobileNum.setBounds(250,240,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
