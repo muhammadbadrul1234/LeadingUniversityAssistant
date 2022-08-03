@@ -149,28 +149,7 @@ public class ForgetPass extends JFrame {
                 String pass = mobileText.getText();
                 Database db1 = new Database();
                 String queryLogin = "SELECT * FROM `registered`";
-                try {
-                    rs = st.executeQuery(queryLogin);
-                    String x;
-                    while (rs.next()) {
-                        String tableUserName = rs.getString(7);
-                        String tablePass = rs.getString(3);
-
-                        if (userName.equals(tableUserName) && pass.equals(tablePass)) {
-                            flag = 1;
-                            break;
-                        }
-                    }
-                    if (flag == 0) {
-                        JOptionPane.showMessageDialog(null, "Data Not Found");
-                    }
-
-                    else {
-                        dispose();
-                    }
-                } catch (Exception e) {
-                    JOptionPane.showMessageDialog(null, e);
-                }
+                ResultSet rs = db1.selectQuery(queryLogin);
             }
         });
         
