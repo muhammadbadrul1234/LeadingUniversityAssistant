@@ -35,8 +35,21 @@ public class Homepage extends JFrame {
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 		
 		headerpanel.add(imgLabel);
-		add(headerpanel);
+        add(headerpanel);
+        JPanel inputpanel1=new JPanel();
+		inputpanel1.setBackground(new Color(93,130,250));
+        inputpanel1.setBounds(335, 150, 280, 50);
+		//inputpanel1.setLayout(null);
+		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/Forgot.png")));
+		inputpanel1.add(imgLabel2);
+		add(inputpanel1);
+        
+
+
+
+
         setVisible(true);
+
 
     }
 }
