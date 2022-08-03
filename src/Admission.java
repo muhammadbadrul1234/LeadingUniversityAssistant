@@ -167,7 +167,7 @@ public class Admission extends JFrame {
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
-        c1.setBounds(600,480,150,30);
+        c1.setBounds(700,480,150,30);
         id15.add(c1);
         
         lab2=new JLabel("Branch");
