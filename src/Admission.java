@@ -204,30 +204,30 @@ public class Admission extends JFrame {
         id15.add(t5);
 
         id6= new JLabel("Phone");
-        id6.setBounds(500,430,100,30);
+        id6.setBounds(500,450,100,30);
         id6.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id6);
 
         t6=new JTextField();
-        t6.setBounds(700,430,150,30);
+        t6.setBounds(700,450,150,30);
         id15.add(t6);
 
         id7= new JLabel("Email Id");
-        id7.setBounds(150,330,100,30);
+        id7.setBounds(150,350,100,30);
         id7.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id7);
 
         t7=new JTextField();
-        t7.setBounds(300,330,150,30);
+        t7.setBounds(300,350,150,30);
         id15.add(t7);
 
         id9= new JLabel("Class X(%)");
-        id9.setBounds(500,330,130,30);
+        id9.setBounds(500,350,130,30);
         id9.setFont(new Font("Calibri",Font.BOLD,20));    
         id15.add(id9);
 
         t8=new JTextField();
-        t8.setBounds(700,330,150,30);
+        t8.setBounds(700,350,150,30);
         id15.add(t8);
 
         id10= new JLabel("Class XII(%)");
