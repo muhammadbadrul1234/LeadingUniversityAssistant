@@ -302,6 +302,16 @@ public class Admission extends JFrame {
         
         id15.add(b1);
 
+         b1=new JButton("Clear");   
+        b2.setBounds(670,610,100,30);
+		b2.setBackground(new Color(69,90,100));
+		b2.setFont(labelFont);
+		b2.setForeground(Color.white);
+		b2.setBorder(new LineBorder(new Color(69,90,100)));
+		b2.setFocusable(false);
+        
+        id15.add(b2);
+
         b1.addActionListener(new ActionListener() {
 			
 			@Override
