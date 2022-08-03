@@ -94,11 +94,6 @@ public class ForgetPass extends JFrame{
 
 		inputPanel.add(mobileText);
 
-		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(250,360,100,25);
-		addressField.setFont(labelFont);
-		addressField.setForeground(Color.WHITE);
-		inputPanel.add(addressField);
 				
 		JTextField addressText= new JTextField();
 		addressText.setBounds(500,360,200,25);
@@ -127,18 +122,6 @@ public class ForgetPass extends JFrame{
 		dobText.setFont(labelFont);
 		inputPanel.add(dobText);
 
-		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
-		uniIDpp.setBounds(710, 380, 500, 50);
-		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
-		uniIDpp.setFont(labelFont2);
-		uniIDpp.setForeground(Color.WHITE);
-		inputPanel.add(uniIDpp);
-
-		JLabel uniIDpp2 = new JLabel(" don't have University ID");
-		uniIDpp2.setBounds(710, 395, 500, 50);
-		uniIDpp2.setFont(labelFont2);
-		uniIDpp2.setForeground(Color.WHITE);
-		inputPanel.add(uniIDpp2);
 
 		JButton registerButton = new JButton("Register");
 		registerButton.setBounds(550,490,100,30);
