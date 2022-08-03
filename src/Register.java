@@ -40,7 +40,7 @@ public class Register extends JFrame{
 		//name field of input label
 		
 		JLabel nameLabel = new JLabel("Name");
-		nameLabel.setBounds(400,5,100,25);
+		nameLabel.setBounds(350,5,100,25);
         nameLabel.setFont(labelFont);
         nameLabel.setForeground(Color.WHITE);
 		inputPanel.add(nameLabel);
@@ -93,7 +93,7 @@ public class Register extends JFrame{
 		
 		//mobile number field of input label
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(400,200,100,25);
+		MobileNum.setBounds(350,200,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
@@ -107,7 +107,7 @@ public class Register extends JFrame{
 		
 		//address field of input label
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(110,250,100,25);
+		addressField.setBounds(350,250,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
