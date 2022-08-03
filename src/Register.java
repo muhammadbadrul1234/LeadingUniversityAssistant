@@ -131,10 +131,10 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDText);
 
 		JLabel uniIDpp = new JLabel("Contact Admission Office if you don't have University ID");
-		uniID.setBounds(700,300,100,25);
-		uniID.setFont(labelFont);
-		uniID.setForeground(Color.WHITE);
-		inputPanel.add(uniID);
+		uniIDpp.setBounds(700,300,100,50);
+		uniIDpp.setFont(labelFont);
+		uniIDpp.setForeground(Color.WHITE);
+		inputPanel.add(uniIDpp);
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
