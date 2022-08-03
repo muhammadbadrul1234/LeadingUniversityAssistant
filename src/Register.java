@@ -102,13 +102,14 @@ public class Register extends JFrame{
 		JTextField mobileText= new JTextField();
 		mobileText.setBounds(200,200,200,25);
 		mobileText.setFont(labelFont);
-		
+
 		inputPanel.add(mobileText);
 		
 		//address field of input label
 		JLabel addressField = new JLabel("Address : ");
 		addressField.setBounds(110,250,100,25);
 		addressField.setFont(labelFont);
+		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
 				
 		//mobile number text field
