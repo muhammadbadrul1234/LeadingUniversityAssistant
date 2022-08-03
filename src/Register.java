@@ -122,10 +122,10 @@ public class Register extends JFrame{
 		uniID.setBounds(350,250,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
-		inputPanel.add(addressField);
+		inputPanel.add(uniID);
 				
 		//mobile number text field
-		JTextField addressText= new JTextField();
+		JTextField uniIDText= new JTextField();
 		addressText.setBounds(500,250,200,25);
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
