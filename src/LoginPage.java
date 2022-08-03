@@ -96,7 +96,7 @@ public class LoginPage extends JFrame {
 		inputpanel.add(registerLink);
 
 		JLabel uniIDpp = new JLabel("or");
-		uniIDpp.setBounds(210, 420, 250, 530;
+		uniIDpp.setBounds(210, 420, 250, 30);
 		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
