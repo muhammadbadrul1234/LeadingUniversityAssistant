@@ -62,19 +62,19 @@ public class Homepage extends JFrame {
         
         JButton contacButton=new JButton("Contact");
 	    contacButton.setBounds(200,0,100,30);
-	    contacButton.setBackground(new Color(112,128,144));
+	    contacButton.setBackground(new Color(69,90,100));
 	    contacButton.setFont(labelFont);
 	    contacButton.setForeground(Color.WHITE);
-	    contacButton.setBorder(new LineBorder(new Color(112,128,144)));
+	    contacButton.setBorder(new LineBorder(new Color(69,90,100)));
 	    contacButton.setFocusable(false);
         inputpanel1.add(contacButton);
         
         JButton FormBtn=new JButton("Forms");
 	    FormBtn.setBounds(300,0,100,30);
-	    FormBtn.setBackground(new Color(112,128,144));
+	    FormBtn.setBackground(new Color(69,90,100));
 	    FormBtn.setFont(labelFont);
 	    FormBtn.setForeground(Color.WHITE);
-	    FormBtn.setBorder(new LineBorder(new Color(112,128,144)));
+	    FormBtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    FormBtn.setFocusable(false);
         inputpanel1.add(FormBtn);
         
