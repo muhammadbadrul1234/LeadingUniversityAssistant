@@ -150,10 +150,8 @@ public class ForgetPass extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				String userName= nameText.getText();
 				String email= emailTextField.getText();
-				String pass= passwordTextField.getText();
 				String conPass= dobText.getText();
 				String mobile = mobileText.getText();
-				String adress = addressText.getText();
 				String uniID = uniIDText.getText();
 				//System.out.println(userName);
 				String insertQuery = "INSERT INTO `registered`"
