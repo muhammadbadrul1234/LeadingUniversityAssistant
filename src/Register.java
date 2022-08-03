@@ -30,27 +30,22 @@ public class Register extends JFrame{
 		headerpanel.add(headerTxt);
         add(headerpanel);
 		
-		//input panel
 		JPanel inputPanel = new JPanel();
 		inputPanel.setBackground(new Color(93,130,250));
 		inputPanel.setBounds(0,60,1000,740);
 		inputPanel.setLayout(null);
 		add(inputPanel);
 		
-		//name field of input label
-		
 		JLabel nameLabel = new JLabel("Name");
 		nameLabel.setBounds(300,5,100,25);
         nameLabel.setFont(labelFont);
         nameLabel.setForeground(Color.WHITE);
 		inputPanel.add(nameLabel);
-		// name textfield
+
 		JTextField nameText = new JTextField();
 		nameText.setBounds(500,5,200,25);//(x,y,width,heihjt)
 		nameText.setFont(labelFont);
 		inputPanel.add(nameText);
-		
-		//email field of input label
 		
 		JLabel emailLabel = new JLabel("Email");
 		emailLabel.setBounds(300,50,100,25);
@@ -58,61 +53,52 @@ public class Register extends JFrame{
 		emailLabel.setForeground(Color.WHITE);
 		inputPanel.add(emailLabel);
 		
-		//email text field
 		JTextField emailTextField = new JTextField();
 		emailTextField.setBounds(500,50,200,25);
 		emailTextField.setFont(labelFont);
 		inputPanel.add(emailTextField);
 		
-		//password field input label
 		JLabel passwordLabel = new JLabel("Password ");
 		passwordLabel.setBounds(300,100,100,25);
 		passwordLabel.setFont(labelFont);
 		passwordLabel.setForeground(Color.WHITE);
 		inputPanel.add(passwordLabel);
 		
-		//password text field
 		JTextField passwordTextField = new JTextField();
 		passwordTextField.setBounds(500,100,200,25);
 		passwordTextField.setFont(labelFont);
 		
 		inputPanel.add(passwordTextField);
 		
-		//confirm password field input label
 		JLabel conPassLabel = new JLabel("Confirm Password");
 		conPassLabel.setBounds(300,150,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
 				
-		//confirm password text field
 	    JTextField consPassText = new JTextField();
 		consPassText.setBounds(500,150,200,25);
 		consPassText.setFont(labelFont);
 		inputPanel.add(consPassText);
 		
-		//mobile number field of input label
 		JLabel MobileNum = new JLabel("Mobile");
 		MobileNum.setBounds(300,200,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
 		
-		//mobile number text field
 		JTextField mobileText= new JTextField();
 		mobileText.setBounds(500,200,200,25);
 		mobileText.setFont(labelFont);
 
 		inputPanel.add(mobileText);
-		
-		//address field of input label
+
 		JLabel addressField = new JLabel("Address");
 		addressField.setBounds(300,250,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
 				
-		//mobile number text field
 		JTextField addressText= new JTextField();
 		addressText.setBounds(500,250,200,25);
 		addressText.setFont(labelFont);
@@ -124,7 +110,6 @@ public class Register extends JFrame{
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
 				
-		//mobile number text field
 		JTextField uniIDText= new JTextField();
 		uniIDText.setBounds(500,300,200,25);
 		uniIDText.setFont(labelFont);
@@ -143,8 +128,6 @@ public class Register extends JFrame{
 		uniIDpp2.setForeground(Color.WHITE);
 		inputPanel.add(uniIDpp2);
 
-		
-		//Register BUtton
 		JButton registerButton = new JButton("Register");
 		registerButton.setBounds(550,390,100,60);
 		registerButton.setBackground(new Color(219,143,160));
@@ -154,8 +137,6 @@ public class Register extends JFrame{
 		registerButton.setFocusable(false);
 		inputPanel.add(registerButton);
 		
-
-		
 		JButton loginButton = new JButton("Return to Login Page");
 		loginButton.setBounds(450, 450, 300, 25);
 		loginButton.setBackground(new Color(93,130,250));
@@ -164,8 +145,7 @@ public class Register extends JFrame{
 		loginButton.setBorder(new LineBorder(new Color(93,130,250)));
 		loginButton.setFocusable(false);
 		inputPanel.add(loginButton);
-		
-		//Action Listener ( Login Button)
+
 		loginButton.addActionListener(new ActionListener() {
 			
 			@Override
