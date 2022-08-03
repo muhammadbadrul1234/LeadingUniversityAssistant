@@ -72,7 +72,7 @@ public class Database {
 			}
 			
 			else {
-				JOptionPane.showMessageDialog(null,  );
+				JOptionPane.showMessageDialog(null, "Data Found");
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
