@@ -65,7 +65,7 @@ public class Register extends JFrame{
 		inputPanel.add(emailTextField);
 		
 		//password field input label
-		JLabel passwordLabel = new JLabel("Password : ");
+		JLabel passwordLabel = new JLabel("Password ");
 		passwordLabel.setBounds(95,100,100,25);
 		passwordLabel.setFont(labelFont);
 		passwordLabel.setForeground(Color.WHITE);
@@ -79,7 +79,7 @@ public class Register extends JFrame{
 		inputPanel.add(passwordTextField);
 		
 		//confirm password field input label
-		JLabel conPassLabel = new JLabel("Confirm Password : ");
+		JLabel conPassLabel = new JLabel("Confirm Password");
 		conPassLabel.setBounds(30,150,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
