@@ -1,7 +1,6 @@
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.basic.BasicPanelUI;
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
@@ -10,7 +9,6 @@ import java.awt.Font;
 import javax.swing.*;
 
 public class LoginPage extends JFrame {
-    
     public LoginPage() {
         super("Leading University");
         
@@ -26,12 +24,13 @@ public class LoginPage extends JFrame {
 
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
-	    headerpanel.setBackground(new Color(93,161,217));
+	    headerpanel.setBackground(new Color(93,130,250));
 	    headerpanel.setBounds(0,0,1000,60);
 	    
 	  
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
-	    headerTxt.setFont((new Font("Segoe UI",Font.BOLD,30)));
+		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+		headerTxt.setForeground(Color.WHITE);
         headerpanel.add(headerTxt);
         add(headerpanel);
 
@@ -41,33 +40,32 @@ public class LoginPage extends JFrame {
 	    inputpanel1.setLayout(null);
         add(inputpanel1);
         add(images);
-
-        
-        
 	    
 	    JPanel inputpanel=new JPanel();
-	    inputpanel.setBackground(new Color(93,161,217));
+	    inputpanel.setBackground(new Color(93,130,250));
 	    inputpanel.setBounds(350,60,640,700);
 	    inputpanel.setLayout(null);
 	    add(inputpanel);
 
-        JLabel namelabel=new JLabel("UserName :");
+        JLabel namelabel=new JLabel("UserName ");
 	    namelabel.setBounds(80,250,100,25);
-	    namelabel.setFont(labelFont);
+		namelabel.setFont(labelFont);
+		namelabel.setForeground(Color.WHITE);
 	    inputpanel.add(namelabel);
 	    
-	    JTextField nameTxt=new JTextField("UserName");
+	    JTextField nameTxt=new JTextField();
 	    nameTxt.setBounds(200,250,200,25);
 	    nameTxt.setFont(labelFont);
 	    inputpanel.add(nameTxt);
 	    
-	    JLabel passlabel=new JLabel("Password :");
-	    passlabel.setBounds(80,270,100,25);
-	    passlabel.setFont(labelFont);
+	    JLabel passlabel=new JLabel("Password ");
+	    passlabel.setBounds(80,290,100,25);
+		passlabel.setFont(labelFont);
+		passlabel.setForeground(Color.WHITE);
 	    inputpanel.add(passlabel);
 	    
 	    JTextField passTxt=new JTextField();
-	    passTxt.setBounds(200,270,200,25);
+	    passTxt.setBounds(200,290,200,25);
 	    passTxt.setFont(labelFont);
 	    inputpanel.add(passTxt);
 	    
@@ -78,7 +76,12 @@ public class LoginPage extends JFrame {
 	    loginBtn.setForeground(Color.WHITE);
 	    loginBtn.setBorder(new LineBorder(Color.BLUE));
 	    loginBtn.setFocusable(false);
-	    inputpanel.add(loginBtn);
+		inputpanel.add(loginBtn);
+		
+		JLabel registerLink = new JLabel("Don't have an account?");
+        registerLink.setBounds(270, 380, 200, 20);
+        registerLink.setForeground(Color.WHITE);
+        inputpanel.add(registerLink);
 
     }
     
