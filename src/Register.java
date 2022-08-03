@@ -129,6 +129,12 @@ public class Register extends JFrame{
 		uniIDText.setBounds(500,300,200,25);
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
+
+		JLabel uniID = new JLabel("University ID");
+		uniID.setBounds(300,300,100,25);
+		uniID.setFont(labelFont);
+		uniID.setForeground(Color.WHITE);
+		inputPanel.add(uniID);
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
