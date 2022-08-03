@@ -129,7 +129,7 @@ public class LoginPage extends JFrame {
 				new Register();
 			}
 		});
-		fgorget.addActionListener(new ActionListener() {
+		forgotPassLink.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
