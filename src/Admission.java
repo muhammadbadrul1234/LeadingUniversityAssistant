@@ -171,14 +171,14 @@ public class Admission extends JFrame {
         id15.add(c1);
         
         lab2=new JLabel("Branch");
-        lab2.setBounds(50,450,150,30);
+        lab2.setBounds(50,530,150,30);
 	lab2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab2);
         
         String branch[] = {"Computer Science","Electronics","Electrical","Mechanical","Civil"};
         c2 = new JComboBox(branch);
         c2.setBackground(Color.WHITE);
-        c2.setBounds(200,450,150,30);
+        c2.setBounds(200,530,150,30);
         id15.add(c2);
         
         b = new JButton("Submit");
