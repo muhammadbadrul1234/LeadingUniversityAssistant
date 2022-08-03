@@ -348,7 +348,7 @@ public class Admission extends JFrame {
                 String k = t11.getText();
                 String l = (String)c1.getSelectedItem();
                 String m = (String) c2.getSelectedItem();
-                if (a == null) {
+                if (a.trim().isEmpty()) {
                     JOptionPane.showMessageDialog(null, "Some Required Fields are Empty");
                 }
                 else {
