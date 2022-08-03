@@ -65,8 +65,8 @@ public class Database {
 
 				if(userName.equals(tableUserName) && pass.equals(tablePass)) {
 					for(int i = 0; i < 10; i++) {
-						x[i] = rs.getString(i);
-						System.out.println(x);
+						x(i) = rs.getString(i);
+	
 					}
 					flag =1;
 					break;
