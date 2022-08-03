@@ -35,7 +35,7 @@ public class Register extends JFrame{
 		add(headerpanel);
 
 		JPanel headerpanel2 = new JPanel();
-		headerpanel.setBounds(0, 0, 1000, 150);
+		headerpanel2.setBounds(0, 150, 1000, 150);
 	    //headerpanel.setBackground(new Color(93,130,250));
 		headerpanel.setBounds(0, 0, 1000, 150);
 		
