@@ -348,7 +348,8 @@ public class Admission extends JFrame {
             String k = t11.getText();
             String l = (String)c1.getSelectedItem();
                 String m = (String) c2.getSelectedItem();
-            if(a==null){
+                if (a == null) {
+                JOptionPane.showMessageDialog(null, "Admission Not Completed. Internal error");
 
             }
             String insertQuery = "INSERT INTO `student`"
