@@ -54,19 +54,9 @@ public class Database {
 		}
 
 	}
-
 	public void Login1(String queryLogin, String userName, String pass) {
-		while(rs.next()) {
-				String tableUserName = rs.getString(7);
-				String tablePass = rs.getString(3);
-
-				if(userName.equals(tableUserName) && pass.equals(tablePass)) {
-					String x=tablePass;
-					flag =1;
-					break;
-				}
 		try {
-
+			
 			rs = st.executeQuery(queryLogin);
 			String x;
 			while(rs.next()) {
