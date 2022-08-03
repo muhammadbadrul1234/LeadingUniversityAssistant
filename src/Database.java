@@ -1,7 +1,7 @@
 import java.sql.*;
 import javax.swing.*;
 import java.awt.*;
-import database;
+import LoginPage.LoginPage;
 public class Database {
     private Connection con;
 	private Statement st;
