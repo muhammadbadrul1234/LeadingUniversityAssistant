@@ -86,12 +86,12 @@ public class Database {
 	public void admissionRegister(String insertQuesry) {
 		try {
 			st.executeUpdate(insertQuesry);
-			JOptionPane.showMessageDialog(null, "You have successfully registered!");
+			JOptionPane.showMessageDialog(null, "Student Details Inserted Successfully");
 		}
 
 		catch (Exception e) {
 
-			JOptionPane.showMessageDialog(null, "Registration Not Completed");
+			JOptionPane.showMessageDialog(null, "Admission Not Completed.internal error");
 		}
 
 	}
