@@ -143,7 +143,7 @@ public class Register extends JFrame{
 
 		
 		JButton loginButton = new JButton("Login");
-		loginButton.setBounds(100,300,100,30);
+		loginButton.setBounds(100,350,100,30);
 		loginButton.setBackground(new Color(93,161,217));
 		loginButton.setFont(labelFont);
 		loginButton.setForeground(new Color(255,255,255));
