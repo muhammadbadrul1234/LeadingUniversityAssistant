@@ -20,15 +20,19 @@ public class Register extends JFrame{
         setLayout(null);
 
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
-	    JPanel headerpanel=new JPanel();
-	    headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1000, 60);
+	     JPanel headerpanel=new JPanel();
+	    //headerpanel.setBackground(new Color(93,130,250));
+		headerpanel.setBounds(0, 0, 1000, 150);
 		
-	    JLabel headerTxt=new JLabel("Registration");
+
+	    
+	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
 		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
 		headerTxt.setForeground(Color.WHITE);
-		headerpanel.add(headerTxt);
-        add(headerpanel);
+		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
+		
+		headerpanel.add(imgLabel);
+		add(headerpanel);
 		
 		JPanel inputPanel = new JPanel();
 		inputPanel.setBackground(new Color(93,130,250));

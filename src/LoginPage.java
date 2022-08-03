@@ -22,30 +22,38 @@ public class LoginPage extends JFrame {
         
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
-	    headerpanel.setBackground(new Color(93,130,250));
-	    headerpanel.setBounds(0,0,1000,60);
+	    //headerpanel.setBackground(new Color(93,130,250));
+		headerpanel.setBounds(0, 0, 1000, 150);
+		
+
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
 		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
 		headerTxt.setForeground(Color.WHITE);
-		headerpanel.add(headerTxt);
+		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
+		
+		headerpanel.add(imgLabel);
 		add(headerpanel);
+		
 	
         JPanel inputpanel1=new JPanel();
-        JLabel images = new JLabel(new ImageIcon("lu.png"));
-        inputpanel1.setBounds(0, 60, 350, 700);
-	    inputpanel1.setLayout(null);
+		
+		//inputpanel1.setBackground(new Color(93,130,250));
+        inputpanel1.setBounds(0, 90, 350, 700);
+		//inputpanel1.setLayout(null);
+		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
+		inputpanel1.add(imgLabel2);
 		add(inputpanel1);
 
-		add(images);
-	    
+		
+
 	    JPanel inputpanel=new JPanel();
 	    inputpanel.setBackground(new Color(93,130,250));
 	    inputpanel.setBounds(350,60,640,700);
 	    inputpanel.setLayout(null);
 		add(inputpanel);
 
-        JLabel namelabel=new JLabel("UserName ");
+        JLabel namelabel=new JLabel("University ID");
 	    namelabel.setBounds(80,250,100,25);
 		namelabel.setFont(labelFont);
 		namelabel.setForeground(Color.WHITE);
