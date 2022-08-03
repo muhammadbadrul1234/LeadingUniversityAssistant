@@ -146,7 +146,17 @@ public class ForgetPass extends JFrame{
 	            String queryLogin = "SELECT * FROM `registered`";
 	            db1.Login1(queryLogin,userName,pass);
 			}
+        });
+        
+        loginButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new LoginPage();
+			}
 		});
+		
 		
 		
 		
