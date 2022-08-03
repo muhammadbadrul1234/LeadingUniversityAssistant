@@ -80,7 +80,7 @@ public class Register extends JFrame{
 		
 		//confirm password field input label
 		JLabel conPassLabel = new JLabel("Confirm Password");
-		conPassLabel.setBounds(30,150,170,25);
+		conPassLabel.setBounds(400,150,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
@@ -93,7 +93,7 @@ public class Register extends JFrame{
 		
 		//mobile number field of input label
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(120,200,100,25);
+		MobileNum.setBounds(400,200,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
@@ -107,7 +107,7 @@ public class Register extends JFrame{
 		
 		//address field of input label
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(110,250,100,25);
+		addressField.setBounds(400,250,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
@@ -120,7 +120,7 @@ public class Register extends JFrame{
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
-		registerButton.setBounds(300,300,100,30);
+		registerButton.setBounds(400,300,100,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
