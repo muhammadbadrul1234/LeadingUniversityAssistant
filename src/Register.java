@@ -117,6 +117,18 @@ public class Register extends JFrame{
 		addressText.setBounds(500,250,200,25);
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
+
+		JLabel uniID = new JLabel("Address");
+		addressField.setBounds(350,250,100,25);
+		addressField.setFont(labelFont);
+		addressField.setForeground(Color.WHITE);
+		inputPanel.add(addressField);
+				
+		//mobile number text field
+		JTextField addressText= new JTextField();
+		addressText.setBounds(500,250,200,25);
+		addressText.setFont(labelFont);
+		inputPanel.add(addressText);
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
