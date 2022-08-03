@@ -202,7 +202,7 @@ public class Register extends JFrame{
 				//System.out.println(userName);
 				String insertQuery = "INSERT INTO `registered`"
 						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
-						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+uniID+"') ";
+						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
 				
 				Database db = new Database();
 				db.insertRegister(insertQuery);
