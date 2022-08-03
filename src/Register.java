@@ -47,7 +47,7 @@ public class Register extends JFrame{
 		inputPanel.add(nameLabel);
 
 		JTextField nameText = new JTextField();
-		nameText.setBounds(500,200,200,25);
+		nameText.setBounds(500,165,200,25);
 		nameText.setFont(labelFont);
 		inputPanel.add(nameText);
 		
@@ -58,7 +58,7 @@ public class Register extends JFrame{
 		inputPanel.add(emailLabel);
 		
 		JTextField emailTextField = new JTextField();
-		emailTextField.setBounds(500,50,200,25);
+		emailTextField.setBounds(500,200,200,25);
 		emailTextField.setFont(labelFont);
 		inputPanel.add(emailTextField);
 		
