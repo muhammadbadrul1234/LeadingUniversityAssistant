@@ -97,7 +97,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Deptsbtn);
         
         JButton Librarybtn=new JButton("Library");
-	    Librarybtn.setBounds(0,0,100,30);
+	    Librarybtn.setBounds(600,0,100,30);
 	    Librarybtn.setBackground(new Color(112,128,144));
 	    Librarybtn.setFont(labelFont);
 	    Librarybtn.setForeground(Color.WHITE);
@@ -106,13 +106,13 @@ public class Homepage extends JFrame {
         inputpanel1.add(Librarybtn);
         
         JButton Resultbtn=new JButton("Result");
-	    Homebtn.setBounds(0,0,100,30);
-	    Homebtn.setBackground(new Color(112,128,144));
-	    Homebtn.setFont(labelFont);
-	    Homebtn.setForeground(Color.WHITE);
-	    Homebtn.setBorder(new LineBorder(new Color(112,128,144)));
-	    Homebtn.setFocusable(false);
-		inputpanel1.add(Homebtn);
+	    Resultbtn.setBounds(0,0,100,30);
+	    Resultbtn.setBackground(new Color(112,128,144));
+	    Resultbtn.setFont(labelFont);
+	    Resultbtn.setForeground(Color.WHITE);
+	    Resultbtn.setBorder(new LineBorder(new Color(112,128,144)));
+	    Resultbtn.setFocusable(false);
+		inputpanel1.add(Resultbtn);
         
 
 
