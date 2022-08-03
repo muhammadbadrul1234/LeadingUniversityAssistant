@@ -96,7 +96,7 @@ public class LoginPage extends JFrame {
 		inputpanel.add(registerLink);
 
 		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
-		uniIDpp.setBounds(710, 285, 500, 50);
+		forgotPassLink.setBounds(210, 380, 250, 30);
 		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
