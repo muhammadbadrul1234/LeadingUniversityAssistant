@@ -133,7 +133,7 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDpp2);
 
 		JButton registerButton = new JButton("Register");
-		registerButton.setBounds(550,370,100,30);
+		registerButton.setBounds(550,450,100,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
@@ -142,7 +142,7 @@ public class Register extends JFrame{
 		inputPanel.add(registerButton);
 		
 		JButton loginButton = new JButton("Return to Login Page");
-		loginButton.setBounds(450, 450, 300, 25);
+		loginButton.setBounds(450, 480, 300, 25);
 		loginButton.setBackground(new Color(93,130,250));
 		loginButton.setFont(labelFont);
 		loginButton.setForeground(new Color(255,255,255));
