@@ -328,7 +328,11 @@ public class Admission extends JFrame {
             String j = t10.getText();
             String k = t11.getText();
             String l = (String)c1.getSelectedItem();
-            String m = (String) c2.getSelectedItem();
+                String m = (String) c2.getSelectedItem();
+            String insertQuery = "INSERT INTO `registered`"
+						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
+						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
+				
             String insertQuery = "insert into student('"+a+"','"+bb+"','"+c+"','"+d+"','"+ee+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
 				
 				Database db = new Database();
