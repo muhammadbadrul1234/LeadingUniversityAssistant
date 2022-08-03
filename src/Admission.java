@@ -249,7 +249,7 @@ public class Admission extends JFrame {
         t10.setBounds(700,400,150,30);
         id15.add(t10);
 
-        id12= new JLabel("Roll No");
+        id12= new JLabel("Student Id");
         id12.setBounds(150,500,150,30);
         id12.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id12);
