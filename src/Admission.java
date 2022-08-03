@@ -35,7 +35,7 @@ public class Admission extends JFrame {
         headerpane2.setBounds(0, 0, 1000, 150);
 
         JLabel headerTxt = new JLabel("Admission");
-        headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+        headerTxt.setFont((new Font("Calibri", Font.BOLD, 30)));
         headerTxt.setForeground(Color.WHITE);
         add(headerpanel);
 
