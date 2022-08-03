@@ -88,7 +88,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(noticebButton);
         
         JButton Deptsbtn=new JButton("Departments");
-	    Deptsbtn.setBounds(500,0,150,30);
+	    Deptsbtn.setBounds(500,0,120,30);
 	    Deptsbtn.setBackground(new Color(112,128,144));
 	    Deptsbtn.setFont(labelFont);
 	    Deptsbtn.setForeground(Color.WHITE);
@@ -97,7 +97,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Deptsbtn);
         
         JButton Librarybtn=new JButton("Library");
-	    Librarybtn.setBounds(650,0,100,30);
+	    Librarybtn.setBounds(620,0,100,30);
 	    Librarybtn.setBackground(new Color(112,128,144));
 	    Librarybtn.setFont(labelFont);
 	    Librarybtn.setForeground(Color.WHITE);
@@ -106,7 +106,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Librarybtn);
         
         JButton Resultbtn=new JButton("Result");
-	    Resultbtn.setBounds(750,0,100,30);
+	    Resultbtn.setBounds(720,0,100,30);
 	    Resultbtn.setBackground(new Color(112,128,144));
 	    Resultbtn.setFont(labelFont);
 	    Resultbtn.setForeground(Color.WHITE);
@@ -115,7 +115,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Resultbtn);
         
         JButton Regbtn=new JButton("Semester Registration");
-	    Regbtn.setBounds(850,0,150,30);
+	    Regbtn.setBounds(820,0,150,30);
 	    Regbtn.setBackground(new Color(112,128,144));
 	    Regbtn.setFont(labelFont);
 	    Regbtn.setForeground(Color.WHITE);
