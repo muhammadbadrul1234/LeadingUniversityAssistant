@@ -47,16 +47,16 @@ public class Homepage extends JFrame {
 	    Homebtn.setBackground(new Color(69,90,100));
 	    Homebtn.setFont(labelFont);
 	    Homebtn.setForeground(Color.WHITE);
-	    Homebtn.setBorder(new LineBorder(new Color(112,128,144)));
+	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Homebtn.setFocusable(false);
         inputpanel1.add(Homebtn);
         
         JButton Admissionbtn=new JButton("Admission");
 	    Admissionbtn.setBounds(100,0,100,30);
-	    Admissionbtn.setBackground(new Color(112,128,144));
+	    Admissionbtn.setBackground(new Color(69,90,100));
 	    Admissionbtn.setFont(labelFont);
 	    Admissionbtn.setForeground(Color.WHITE);
-	    Admissionbtn.setBorder(new LineBorder(new Color(112,128,144)));
+	    Admissionbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Admissionbtn.setFocusable(false);
         inputpanel1.add(Admissionbtn);
         
