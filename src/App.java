@@ -3,7 +3,7 @@ public class App {
       // new LoginPage();
        //new Register();
        // new Homepage();
-      new 
+       new Admission();
         
     }
 }
