@@ -60,7 +60,7 @@ public class Register extends JFrame{
 		
 		//email text field
 		JTextField emailTextField = new JTextField();
-		emailTextField.setBounds(200,50,200,25);
+		emailTextField.setBounds(500,50,200,25);
 		emailTextField.setFont(labelFont);
 		inputPanel.add(emailTextField);
 		
@@ -73,7 +73,7 @@ public class Register extends JFrame{
 		
 		//password text field
 		JTextField passwordTextField = new JTextField();
-		passwordTextField.setBounds(200,100,200,25);
+		passwordTextField.setBounds(500,100,200,25);
 		passwordTextField.setFont(labelFont);
 		
 		inputPanel.add(passwordTextField);
