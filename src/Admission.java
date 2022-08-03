@@ -149,12 +149,12 @@ public class Admission extends JFrame {
         id15.add(t10);
 
         id12= new JLabel("Roll No");
-        id12.setBounds(50,400,150,30);
+        id12.setBounds(50,480,150,30);
         id12.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id12);
 
         t11=new JTextField();   
-        t11.setBounds(200,400,150,30);
+        t11.setBounds(200,480,150,30);
         t11.setText("");
         id15.add(t11);
 
