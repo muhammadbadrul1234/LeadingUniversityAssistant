@@ -203,9 +203,12 @@ public class Admission extends JFrame {
         id15.add(b);
 
         b1=new JButton("Cancel");   
-        b1.setBackground(Color.BLACK);
-        b1.setForeground(Color.WHITE);
-        b1.setBounds(450,550,150,40);
+        b1.setBounds(550,590,100,30);
+		b1.setBackground(new Color(69,90,100));
+		b1.setFont(labelFont);
+		b1.setForeground(Color.white);
+		b1.setBorder(new LineBorder(new Color(69,90,100)));
+		b1.setFocusable(false);
         
         id15.add(b1);
         
