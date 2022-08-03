@@ -178,7 +178,7 @@ public class Admission extends JFrame {
         String branch[] = {"Computer Science","Electronics","Electrical","Mechanical","Civil"};
         c2 = new JComboBox(branch);
         c2.setBackground(Color.WHITE);
-        c2.setBounds(200,530,150,30);
+        c2.setBounds(300,530,150,30);
         id15.add(c2);
         
         b = new JButton("Submit");
