@@ -329,7 +329,7 @@ public class Admission extends JFrame {
             String k = t11.getText();
             String l = (String)c1.getSelectedItem();
             String m = (String) c2.getSelectedItem();
-            String insertQuery = "insert into student values('"+a+"','"+bb+"','"+c+"','"+d+"','"+ee+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
+            String insertQuery = "insert into student('"+a+"','"+bb+"','"+c+"','"+d+"','"+ee+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
 				
 				Database db = new Database();
 				db.insertRegister(insertQuery);
