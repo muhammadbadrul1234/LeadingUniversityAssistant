@@ -22,7 +22,7 @@ public class Admission extends JFrame {
 
         Font labelFont = ((new Font("Segoe UI", Font.CENTER_BASELINE, 16)));
         Font labelFont2 = ((new Font("Segoe UI", Font.ROMAN_BASELINE, 20)));
-        Font labelFont3 = ((new Font("Segoe UI", Font.CENTER_BASELINE, 16)));
+        Font labelFont3 = ((new Font("Segoe UI", Font.CENTER_BASELINE, 20)));
         JPanel headerpanel = new JPanel();
         //headerpanel.setBackground(new Color(93,130,250));
         headerpanel.setBounds(0, 0, 1000, 150);
@@ -35,7 +35,7 @@ public class Admission extends JFrame {
         JLabel Homebtn=new JLabel("New Student Admission");
         Homebtn.setBounds(400,160,1000,30);
 	    //Homebtn.setBackground(new Color(69,90,100));
-	    Homebtn.setFont(labelFont2);
+	    Homebtn.setFont(labelFont3);
 	    Homebtn.setForeground(Color.WHITE);
 	    //Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	   // Homebtn.setFocusable(false);
