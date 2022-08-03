@@ -24,8 +24,8 @@ public class Register extends JFrame{
 	    headerpanel.setBackground(new Color(93,130,250));
 		headerpanel.setBounds(0, 0, 1000, 60);
 		
-		
-
+		hiul;
+		;;;;;
 	    
 	    JLabel headerTxt=new JLabel("Registration");
 		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
