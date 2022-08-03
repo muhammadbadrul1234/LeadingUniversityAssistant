@@ -38,10 +38,8 @@ public class Homepage extends JFrame {
         add(headerpanel);
         JPanel inputpanel1=new JPanel();
 		inputpanel1.setBackground(new Color(47,79,79));
-        inputpanel1.setBounds(0, 150, 280, 50);
+        inputpanel1.setBounds(0, 150, 1000, 50);
 		//inputpanel1.setLayout(null);
-		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/Forgot.png")));
-		inputpanel1.add(imgLabel2);
 		add(inputpanel1);
         
 
