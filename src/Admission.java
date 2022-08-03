@@ -48,7 +48,7 @@ public class Admission extends JFrame {
         id8.setFont(new Font("serif",Font.ITALIC,25));
         id8.setForeground(Color.black);
         id15.add(id8);
-        f.add(id15);
+        add(id15);
 
  
         id1 = new JLabel("Name");
