@@ -41,10 +41,10 @@ public class Admission extends JFrame {
 	   // Homebtn.setFocusable(false);
         
 
-        JPanel inputpanel1=new JPanel();
-		inputpanel1.setBackground(new Color(69,90,100));
-        inputpanel1.setBounds(0, 150, 1000, 50);
-        inputpanel1.setLayout(null);
+        JPanel inputpanel2=new JPanel();
+		inputpanel2.setBackground(new Color(69,90,100));
+        inputpanel2.setBounds(0, 150, 1000, 50);
+        inputpanel2.setLayout(null);
         add(Homebtn);
         add(inputpanel1);
 
