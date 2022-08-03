@@ -102,7 +102,8 @@ public class LoginPage extends JFrame {
 	   	forgotPassLink.setFont(labelFont);
 	    forgotPassLink.setForeground(Color.WHITE);
 	    forgotPassLink.setBorder(new LineBorder(new Color(93,130,250)));
-	    forgotPassLink.setFocusable(false);
+		forgotPassLink.setFocusable(false);
+		inputpanel.add(forgotPassLink);
 		loginBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
