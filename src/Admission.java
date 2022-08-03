@@ -160,7 +160,7 @@ public class Admission extends JFrame {
 
 
         lab=new JLabel("Course");
-        lab.setBounds(400,480,150,30);
+        lab.setBounds(430,480,150,30);
 	lab.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab);
             
