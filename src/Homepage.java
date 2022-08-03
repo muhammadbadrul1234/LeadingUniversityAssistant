@@ -80,16 +80,16 @@ public class Homepage extends JFrame {
         
         JButton noticebButton=new JButton("Notice");
 	    noticebButton.setBounds(400,0,100,30);
-	    noticebButton.setBackground(new Color(112,128,144));
+	    noticebButton.setBackground(new Color(69,90,100));
 	    noticebButton.setFont(labelFont);
 	    noticebButton.setForeground(Color.WHITE);
-	    noticebButton.setBorder(new LineBorder(new Color(112,128,144)));
+	    noticebButton.setBorder(new LineBorder(new Color(69,90,100)));
 	    noticebButton.setFocusable(false);
         inputpanel1.add(noticebButton);
         
         JButton Deptsbtn=new JButton("Departments");
 	    Deptsbtn.setBounds(500,0,120,30);
-	    Deptsbtn.setBackground(new Color(112,128,144));
+	    Deptsbtn.setBackground(new Color(69,90,100));
 	    Deptsbtn.setFont(labelFont);
 	    Deptsbtn.setForeground(Color.WHITE);
 	    Deptsbtn.setBorder(new LineBorder(new Color(112,128,144)));
