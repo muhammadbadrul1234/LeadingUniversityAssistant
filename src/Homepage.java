@@ -126,7 +126,7 @@ public class Homepage extends JFrame {
         JPanel inputpanel2=new JPanel();
 		
 
-        inputpanel2.setBounds(0, 90, 350, 700);
+        inputpanel2.setBounds(0, 180, 1000, 700);
 
 		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
 		inputpanel1.add(imgLabel2);
