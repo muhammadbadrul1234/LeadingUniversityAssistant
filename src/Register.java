@@ -119,7 +119,7 @@ public class Register extends JFrame{
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
-		JLabel dob = new JLabel("UDate of Birth");
+		JLabel dob = new JLabel("Date of Birth");
 		dob.setBounds(300,440,100,25);
 		dob.setFont(labelFont);
 		dob.setForeground(Color.WHITE);
