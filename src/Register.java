@@ -130,8 +130,8 @@ public class Register extends JFrame{
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
-		JLabel uniID = new JLabel("Contact Admission Office if you don't have University ID");
-		uniID.setBounds(300,300,100,25);
+		JLabel uniIDpp = new JLabel("Contact Admission Office if you don't have University ID");
+		uniID.setBounds(700,300,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
