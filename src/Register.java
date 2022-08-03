@@ -126,9 +126,9 @@ public class Register extends JFrame{
 				
 		//mobile number text field
 		JTextField uniIDText= new JTextField();
-		addressText.setBounds(500,250,200,25);
-		addressText.setFont(labelFont);
-		inputPanel.add(addressText);
+		uniIDText.setBounds(500,250,200,25);
+		uniIDText.setFont(labelFont);
+		inputPanel.add(uniIDText);
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
