@@ -38,6 +38,10 @@ public class Admission extends JFrame {
         JTextField t,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13;
         JButton b,b1,b2,b3;
         JComboBox c1, c2;
+
+        id15=new JLabel();
+        id15.setBounds(0,0,900,700);
+        id15.setLayout(null);
         
 
 
