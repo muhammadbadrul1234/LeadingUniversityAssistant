@@ -36,7 +36,7 @@ public class Register extends JFrame{
 
 		JPanel headerpanel2 = new JPanel();
 		headerpanel2.setBounds(0, 150, 1000, 100);
-		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
+		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/Registration.png")));
 		headerpanel.add(imgLabel2);
 		add(headerpanel2);
 	
