@@ -49,17 +49,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
   * [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-  * [Running Tests](#test_tube-running-tests)
-  * [Run Locally](#running-run-locally)
-  * [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
-  * [Code of Conduct](#scroll-code-of-conduct)
-- [FAQ](#grey_question-faq)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
@@ -74,7 +64,11 @@ Maybe you can mention me or this repo in the acknowledgements too
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://user-images.githubusercontent.com/97453992/182684205-684c5b49-7fd5-4d66-b384-1dcdb134bf11.PNG" alt="screenshot" />
+  <img src="https://user-images.githubusercontent.com/97453992/182684487-1a40560b-960c-4be2-8f86-24774d304280.PNG
+" alt="screenshot" />
+  <img src="https://user-images.githubusercontent.com/97453992/182684499-e165ec8b-1a1b-4a94-b02b-fe9d94dd1f72.PNG
+" alt="screenshot" />
 </div>
 
 
