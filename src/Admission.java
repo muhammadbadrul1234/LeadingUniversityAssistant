@@ -330,10 +330,8 @@ public class Admission extends JFrame {
             String l = (String)c1.getSelectedItem();
                 String m = (String) c2.getSelectedItem();
             String insertQuery = "INSERT INTO `student`"
-						+ "(`Name`, `Father's Name`, `Age`, `DOB (dd/mm/yyyy)`, `Address`, `Phone`,`Email Id`, `SSC GPA`, `HSC GPA`, `NID No`, `Student Id`, `Course`,`Email Id`) "
-						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
-				
-            String insertQuery = "insert into student('"+a+"','"+bb+"','"+c+"','"+d+"','"+ee+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
+						+ "(`Name`, `Father's Name`, `Age`, `DOB (dd/mm/yyyy)`, `Address`, `Phone`,`Email Id`, `SSC GPA`, `HSC GPA`, `NID No`, `Student Id`, `Course`,`Branch`) "
+						+ " VALUES ('"+a+"','"+bb+"','"+c+"','"+d+"','"+ee+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
 				
 				Database db = new Database();
 				db.admissionRegister(insertQuery);
