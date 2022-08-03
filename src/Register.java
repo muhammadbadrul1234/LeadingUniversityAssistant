@@ -200,7 +200,7 @@ public class Register extends JFrame{
 				String adress = addressText.getText();
 				String uniID = uniIDText.getText();
 				//System.out.println(userName);
-				if(u)
+				if(userName.)
 				String insertQuery = "INSERT INTO `registered`"
 						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
 						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
