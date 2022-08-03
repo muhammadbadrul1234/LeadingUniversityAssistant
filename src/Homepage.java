@@ -137,6 +137,15 @@ public class Homepage extends JFrame {
         add(inputpanel1);
         setVisible(true);
 
+         b1.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Homepage();
+			}
+		});
+
 
     }
 }
