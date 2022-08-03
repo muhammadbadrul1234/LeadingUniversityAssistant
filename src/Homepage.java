@@ -96,7 +96,7 @@ public class Homepage extends JFrame {
 	    Deptsbtn.setFocusable(false);
         inputpanel1.add(Deptsbtn);
         
-        JButton Homebtn=new JButton("Faculty");
+        JButton Homebtn=new JButton("Library");
 	    Homebtn.setBounds(0,0,100,30);
 	    Homebtn.setBackground(new Color(112,128,144));
 	    Homebtn.setFont(labelFont);
