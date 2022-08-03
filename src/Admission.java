@@ -63,7 +63,7 @@ public class Admission extends JFrame {
         id15.add(id1);
 
         t1=new JTextField();
-        t1.setBounds(200,230,150,30);
+        t1.setBounds(300,230,150,30);
         id15.add(t1);
 
         id2 = new JLabel("Father's Name");
@@ -81,7 +81,7 @@ public class Admission extends JFrame {
         id15.add(id3);
 
         t3=new JTextField();
-        t3.setBounds(200,280,150,30);
+        t3.setBounds(300,280,150,30);
         id15.add(t3);
 
         id4= new JLabel("DOB (dd/mm/yyyy)");  
@@ -99,7 +99,7 @@ public class Admission extends JFrame {
         id15.add(id5);
 
         t5=new JTextField();
-        t5.setBounds(200,430,150,30);
+        t5.setBounds(300,430,150,30);
         id15.add(t5);
 
         id6= new JLabel("Phone");
