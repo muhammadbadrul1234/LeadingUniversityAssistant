@@ -204,16 +204,18 @@ public class Register extends JFrame{
 					JOptionPane.showMessageDialog(null, "Please fill all the fields");
 				}
 				else {
-					
-				String insertQuery = "INSERT INTO `registered`"
-						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
-						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
-				
-				Database db = new Database();
-				db.insertRegister(insertQuery);
-				dispose();
 
-				new LoginPage();
+					String insertQuery = "INSERT INTO `registered`"
+							+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
+							+ " VALUES ('" + userName + "','" + pass + "','" + email + "','" + mobile + "','" + adress
+							+ "','" + uniID + "','" + conPass + "') ";
+
+					Database db = new Database();
+					db.insertRegister(insertQuery);
+					dispose();
+
+					new LoginPage();
+				}
 
 				
 			}
