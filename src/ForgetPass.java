@@ -89,19 +89,19 @@ public class ForgetPass extends JFrame{
 		inputPanel.add(MobileNum);
 		
 		JTextField mobileText= new JTextField();
-		mobileText.setBounds(500,320,200,25);
+		mobileText.setBounds(500,240,200,25);
 		mobileText.setFont(labelFont);
 
 		inputPanel.add(mobileText);
 
 				
 		JTextField addressText= new JTextField();
-		addressText.setBounds(500,360,200,25);
+		addressText.setBounds(500,280,200,25);
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
 
 		JLabel uniID = new JLabel("University ID");
-		uniID.setBounds(250,400,100,25);
+		uniID.setBounds(250,280,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
