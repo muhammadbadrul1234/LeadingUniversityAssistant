@@ -348,7 +348,7 @@ public class Admission extends JFrame {
                 String k = t11.getText();
                 String l = (String)c1.getSelectedItem();
                 String m = (String) c2.getSelectedItem();
-                if (a.trim().isEmpty() && bb.trim().isEmpty() && c.trim().isEmpty() && d.trim().isEmpty() && ee.trim().isEmpty() && ff.trim().isEmpty() && g.trim().isEmpty() && h.trim().isEmpty() && i.trim().isEmpty() && j.trim().isEmpty() && k.trim().isEmpty() && l.trim().isEmpty() && m.trim().isEmpty()) {
+                if (a.trim().isEmpty() || bb.trim().isEmpty() || c.trim().isEmpty() || d.trim().isEmpty() || ee.trim().isEmpty() || ff.trim().isEmpty() || g.trim().isEmpty() || h.trim().isEmpty() || i.trim().isEmpty() || j.trim().isEmpty() || k.trim().isEmpty() || l.trim().isEmpty() || m.trim().isEmpty()) {
                     JOptionPane.showMessageDialog(null, "Some Required Fields are Empty");
                 }
                 else {
