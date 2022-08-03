@@ -144,8 +144,28 @@ public class ForgetPass extends JFrame{
 	            String pass = mobileText.getText();
 				Database db1 = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
-	            db1.Login1(queryLogin,userName,pass);
-			}
+	            try {
+			
+                rs = st.executeQuery(queryLogin);
+                String x;
+                while(rs.next()) {
+                    String tableUserName = rs.getString(7);
+                    String tablePass = rs.getString(3);
+
+                    if(userName.equals(tableUserName) && pass.equals(tablePass)) {
+                        flag =1;
+                        break;
+                    }
+                }
+                if (flag == 0) {
+                    JOptionPane.showMessageDialog(null, "Data Not Found");
+                }
+                
+                else {
+                    JOptionPane.showMessageDialog(null, "Password is: aa ");
+                    //JOptionPane.showMessageDialog (null, x, "Title", JOptionPane.INFORMATION_MESSAGE);
+                }
+                }
         });
         
         loginButton.addActionListener(new ActionListener() {
