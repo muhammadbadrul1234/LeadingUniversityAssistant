@@ -1,6 +1,8 @@
 import javax.swing.*;
 import javax.swing.border.LineBorder;
-
+import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -144,9 +146,9 @@ public class ForgetPass extends JFrame {
 			@Override
             public void actionPerformed(ActionEvent e) {
                 private Connection con;
-	private Statement st;
-	private ResultSet rs;
-	private int flag = 0;
+	            private Statement st;
+	            private ResultSet rs;
+	            private int flag = 0;
                 String userName = nameText.getText();
                 String pass = mobileText.getText();
                 Database db1 = new Database();
