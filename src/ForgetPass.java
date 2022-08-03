@@ -6,7 +6,8 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ForgetPass extends JFrame{
+public class ForgetPass extends JFrame {
+    
     public ForgetPass() {
 		super("Leading University");
         
