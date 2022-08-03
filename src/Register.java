@@ -195,7 +195,7 @@ public class Register extends JFrame{
 				String userName= nameText.getText();
 				String email= emailTextField.getText();
 				String pass= passwordTextField.getText();
-				//String conPass= consPassText.getText();
+				String conPass= dobText.getText();
 				String mobile = mobileText.getText();
 				String adress = addressText.getText();
 				String uniID = uniIDText.getText();
