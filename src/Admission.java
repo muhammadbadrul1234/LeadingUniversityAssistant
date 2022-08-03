@@ -72,7 +72,7 @@ public class Admission extends JFrame {
         id15.add(id2);
 
         t2=new JTextField();
-        t2.setBounds(600,230,150,30);
+        t2.setBounds(700,230,150,30);
         id15.add(t2);
 
         id3= new JLabel("Age");
