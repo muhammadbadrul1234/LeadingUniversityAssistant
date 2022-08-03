@@ -21,7 +21,7 @@ public class Admission extends JFrame {
         setLayout(null);
 
         Font labelFont = ((new Font("Segoe UI", Font.CENTER_BASELINE, 16)));
-        Font labelFont2 = ((new Font("Segoe UI", Font.CENTER_BASELINE, 20)));
+        Font labelFont2 = ((new Font("Segoe UI", Font.ROMAN_BASELINE, 20)));
         JPanel headerpanel = new JPanel();
         //headerpanel.setBackground(new Color(93,130,250));
         headerpanel.setBounds(0, 0, 1000, 150);
