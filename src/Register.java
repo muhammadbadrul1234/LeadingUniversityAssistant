@@ -161,7 +161,7 @@ public class Register extends JFrame{
 		loginButton.setBackground(new Color(93,130,250));
 		loginButton.setFont(labelFont);
 		loginButton.setForeground(new Color(255,255,255));
-		loginButton.setBorder(new LineBorder(Color.blue));
+		loginButton.setBorder(new LineBorder(new Color(93,130,250)));
 		loginButton.setFocusable(false);
 		inputPanel.add(loginButton);
 		
