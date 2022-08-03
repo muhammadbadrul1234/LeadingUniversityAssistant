@@ -125,9 +125,9 @@ public class Register extends JFrame{
 		dob.setForeground(Color.WHITE);
 		inputPanel.add(dob);
 				
-		JTextField uniIDText= new JTextField();
-		uniIDText.setBounds(500,400,200,25);
-		uniIDText.setFont(labelFont);
+		JTextField dobText= new JTextField();
+		dobText.setBounds(500,400,200,25);
+		dobText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
 		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
