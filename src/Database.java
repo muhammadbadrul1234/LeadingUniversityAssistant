@@ -72,7 +72,7 @@ public class Database {
 			}
 			
 			else {
-				JOptionPane.showMessageDialog(null, "Data Found");
+				JOptionPane.showMessageDialog(null, "Password is: "+x);
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
