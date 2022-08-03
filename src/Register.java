@@ -107,7 +107,7 @@ public class Register extends JFrame{
 		
 		//address field of input label
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(400,250,100,25);
+		addressField.setBounds(110,250,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
@@ -120,7 +120,7 @@ public class Register extends JFrame{
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
-		registerButton.setBounds(400,300,100,30);
+		registerButton.setBounds(300,300,100,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
