@@ -33,6 +33,8 @@ public class Homepage extends JFrame {
         headerpanel.add(headerTxt);
         add(headerpanel);
 
+        setVisible(true);
+
     }
 }
 
