@@ -119,7 +119,8 @@ public class LoginPage extends JFrame {
 				//String queryLogin = "SELECT * FROM `registered`";
 				Database db1 = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
-	            db1.Login(queryLogin,userName,pass);
+				db1.Login(queryLogin, userName, pass);
+				
 			}
 		});
 		registerLink.addActionListener(new ActionListener() {
