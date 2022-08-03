@@ -161,8 +161,7 @@ public class ForgetPass extends JFrame{
                     }
                     
                     else {
-                        JOptionPane.showMessageDialog(null, "Password is: aa ");
-                        //JOptionPane.showMessageDialog (null, x, "Title", JOptionPane.INFORMATION_MESSAGE);
+                        dispose();
                     }
                 }
                  catch (Exception e) {
