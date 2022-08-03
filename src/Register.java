@@ -204,30 +204,7 @@ public class Register extends JFrame{
 					JOptionPane.showMessageDialog(null, "Please fill all the fields");
 				}
 				else {
-					if(pass.equals(conPass)) {
-						try {
-							String query = "insert into user values(?,?,?,?,?,?,?)";
-							PreparedStatement pst = connection.prepareStatement(query);
-							pst.setString(1, userName);
-							pst.setString(2, email);
-							pst.setString(3, pass);
-							pst.setString(4, mobile);
-							pst.setString(5, adress);
-							pst.setString(6, uniID);
-							pst.setString(7, dobText.getText());
-							pst.executeUpdate();
-							JOptionPane.showMessageDialog(null, "Registered Successfully");
-							dispose();
-							new LoginPage();
-						}
-						catch(Exception e1) {
-							JOptionPane.showMessageDialog(null, "User already exists");
-						}
-					}
-					else {
-						JOptionPane.showMessageDialog(null, "Passwords do not match");
-					}
-				}
+					
 				String insertQuery = "INSERT INTO `registered`"
 						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
 						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
