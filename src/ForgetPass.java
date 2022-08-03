@@ -139,35 +139,34 @@ public class ForgetPass extends JFrame{
 		
         registerButton.addActionListener(new ActionListener() {
 			@Override
-			public void actionPerformed(ActionEvent e) {
-				String userName = nameText.getText();
-	            String pass = mobileText.getText();
-				Database db1 = new Database();
-	            String queryLogin = "SELECT * FROM `registered`";
-	            try {
+            public void actionPerformed(ActionEvent e) {
+                String userName = nameText.getText();
+                String pass = mobileText.getText();
+                Database db1 = new Database();
+                String queryLogin = "SELECT * FROM `registered`";
+                try {
                     rs = st.executeQuery(queryLogin);
                     String x;
-                    while(rs.next()) {
+                    while (rs.next()) {
                         String tableUserName = rs.getString(7);
                         String tablePass = rs.getString(3);
 
-                        if(userName.equals(tableUserName) && pass.equals(tablePass)) {
-                            flag =1;
+                        if (userName.equals(tableUserName) && pass.equals(tablePass)) {
+                            flag = 1;
                             break;
                         }
                     }
                     if (flag == 0) {
                         JOptionPane.showMessageDialog(null, "Data Not Found");
                     }
-                    
+
                     else {
                         dispose();
                     }
+                } catch (Exception e) {
+                    JOptionPane.showMessageDialog(null, e);
                 }
-                 catch (Exception e) {
-			JOptionPane.showMessageDialog(null, e);
-		}
-        
+            }
         });
         
         loginButton.addActionListener(new ActionListener() {
