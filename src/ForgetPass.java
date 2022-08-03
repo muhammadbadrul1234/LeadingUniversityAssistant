@@ -166,6 +166,9 @@ public class ForgetPass extends JFrame{
                         //JOptionPane.showMessageDialog (null, x, "Title", JOptionPane.INFORMATION_MESSAGE);
                     }
                 }
+                 catch (Exception e) {
+			JOptionPane.showMessageDialog(null, e);
+		}
         });
         
         loginButton.addActionListener(new ActionListener() {
