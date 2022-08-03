@@ -151,5 +151,9 @@ public class AddEmployee extends JFrame {
         id8.setForeground(Color.black);
         id15.add(id8);
         add(id15);
+
+
+
+        setVisible(true);
     }
 }
