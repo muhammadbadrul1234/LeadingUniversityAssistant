@@ -32,7 +32,7 @@ public class Database {
 				JOptionPane.showMessageDialog(null, "Invalid paswword or username!!");
 			}
 			else {
-				dispose();
+				LoginPage.dispose();
 				new Homepage();
 			}
 		} catch (Exception e) {
