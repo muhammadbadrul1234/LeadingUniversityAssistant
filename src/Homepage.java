@@ -128,9 +128,9 @@ public class Homepage extends JFrame {
 
         inputpanel2.setBounds(0, 180, 1000, 700);
 
-		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/uielement/lu.png")));
-		inputpanel1.add(imgLabel2);
-		add(inputpanel1);
+		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/uielement/Frontpage.png")));
+		inputpanel2.add(imgLabel2);
+		add(inputpanel2);
         
 
 
