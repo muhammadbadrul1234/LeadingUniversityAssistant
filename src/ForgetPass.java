@@ -148,8 +148,8 @@ public class ForgetPass extends JFrame {
                 String userName = nameText.getText();
                 String pass = mobileText.getText();
                 Database db1 = new Database();
-                String queryLogin = "SELECT * FROM `registered`";
-                ResultSet rs = db1.selectQuery(queryLogin);
+	            String queryLogin = "SELECT * FROM `registered`";
+	            db1.Login(queryLogin,userName,pass);
             }
         });
         
