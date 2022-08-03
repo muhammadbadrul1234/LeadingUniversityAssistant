@@ -117,7 +117,7 @@ public class Admission extends JFrame {
         id15.add(id7);
 
         t7=new JTextField();
-        t7.setBounds(200,330,150,30);
+        t7.setBounds(300,330,150,30);
         id15.add(t7);
 
         id9= new JLabel("Class X(%)");
@@ -135,7 +135,7 @@ public class Admission extends JFrame {
         id15.add(id10);
 
         t9=new JTextField();
-        t9.setBounds(200,380,150,30);
+        t9.setBounds(300,380,150,30);
         id15.add(t9);
 
 
