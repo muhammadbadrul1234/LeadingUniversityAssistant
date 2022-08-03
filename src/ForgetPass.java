@@ -143,6 +143,10 @@ public class ForgetPass extends JFrame {
         registerButton.addActionListener(new ActionListener() {
 			@Override
             public void actionPerformed(ActionEvent e) {
+                private Connection con;
+	private Statement st;
+	private ResultSet rs;
+	private int flag = 0;
                 String userName = nameText.getText();
                 String pass = mobileText.getText();
                 Database db1 = new Database();
