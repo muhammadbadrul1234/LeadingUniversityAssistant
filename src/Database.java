@@ -62,6 +62,7 @@ public class Database {
 				String tablePass = rs.getString(3);
 
 				if(userName.equals(tableUserName) && pass.equals(tablePass)) {
+					strinx
 					flag =1;
 					break;
 				}
