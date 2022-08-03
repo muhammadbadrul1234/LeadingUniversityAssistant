@@ -103,9 +103,9 @@ public class Homepage extends JFrame {
 	    Librarybtn.setForeground(Color.WHITE);
 	    Librarybtn.setBorder(new LineBorder(new Color(112,128,144)));
 	    Librarybtn.setFocusable(false);
-        inputpanel1.add(Homebtn);
+        inputpanel1.add(Librarybtn);
         
-        JButton Homebtn=new JButton("Home");
+        JButton Resultbtn=new JButton("Result");
 	    Homebtn.setBounds(0,0,100,30);
 	    Homebtn.setBackground(new Color(112,128,144));
 	    Homebtn.setFont(labelFont);
