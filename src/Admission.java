@@ -30,14 +30,7 @@ public class Admission extends JFrame {
         headerpanel.add(imgLabel);
         add(headerpanel);
 
-        JPanel headerpane2 = new JPanel();
-        //headerpanel.setBackground(new Color(93,130,250));
-        headerpane2.setBounds(0, 150, 1000, 50);
-
-        JLabel headerTxt = new JLabel("Admission");
-        headerTxt.setFont((new Font("Arial", Font.BOLD, 30)));
-        headerTxt.setForeground(Color.WHITE);
-        add(headerpane2);
+        
 
         JFrame f;
         JLabel id,id1,id2,id3,id4,id5,id6,id7,id8,id9,id10,id11,id12,id15,id16,id17,lab,lab1,lab2;
