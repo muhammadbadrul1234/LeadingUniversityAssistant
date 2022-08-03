@@ -131,7 +131,7 @@ public class Admission extends JFrame {
 
         id10= new JLabel("Class XII(%)");
         id10.setBounds(150,380,130,30);
-        id10.setFont(new Font("serif",Font.BOLD,20));
+        id10.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id10);
 
         t9=new JTextField();
@@ -141,7 +141,7 @@ public class Admission extends JFrame {
 
         id11= new JLabel("NID No");
         id11.setBounds(500,380,100,30);
-        id11.setFont(new Font("serif",Font.BOLD,20));
+        id11.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id11);
 
         t10=new JTextField();
@@ -150,7 +150,7 @@ public class Admission extends JFrame {
 
         id12= new JLabel("Roll No");
         id12.setBounds(150,480,150,30);
-        id12.setFont(new Font("serif",Font.BOLD,20));
+        id12.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id12);
 
         t11=new JTextField();   
@@ -161,7 +161,7 @@ public class Admission extends JFrame {
 
         lab=new JLabel("Course");
         lab.setBounds(500,480,150,30);
-	lab.setFont(new Font("serif",Font.BOLD,20));
+	lab.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(lab);
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
