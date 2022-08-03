@@ -33,15 +33,6 @@ public class Admission extends JFrame {
         headerpanel.add(imgLabel);
         add(headerpanel);
 
-        JPanel inputpanel1 = new JPanel();
-
-        inputpanel1.setBounds(0, 90, 350, 700);
-
-        JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
-        inputpanel1.add(imgLabel2);
-        add(inputpanel1);
-
-
 
 
 
