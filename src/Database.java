@@ -83,7 +83,7 @@ public class Database {
 		}
 	}
 	
-	public void aRegister(String insertQuesry) {
+	public void admissionRegister(String insertQuesry) {
 		try {
 			st.executeUpdate(insertQuesry);
 			JOptionPane.showMessageDialog(null, "You have successfully registered!");
