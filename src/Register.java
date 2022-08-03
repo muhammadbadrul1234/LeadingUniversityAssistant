@@ -66,7 +66,7 @@ public class Register extends JFrame{
 		
 		//password field input label
 		JLabel passwordLabel = new JLabel("Password ");
-		passwordLabel.setBounds(350,100,100,25);
+		passwordLabel.setBounds(300,100,100,25);
 		passwordLabel.setFont(labelFont);
 		passwordLabel.setForeground(Color.WHITE);
 		inputPanel.add(passwordLabel);
@@ -80,7 +80,7 @@ public class Register extends JFrame{
 		
 		//confirm password field input label
 		JLabel conPassLabel = new JLabel("Confirm Password");
-		conPassLabel.setBounds(350,150,170,25);
+		conPassLabel.setBounds(300,150,170,25);
 		conPassLabel.setFont(labelFont);
 		conPassLabel.setForeground(Color.WHITE);
 		inputPanel.add(conPassLabel);
@@ -93,7 +93,7 @@ public class Register extends JFrame{
 		
 		//mobile number field of input label
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(350,200,100,25);
+		MobileNum.setBounds(300,200,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
@@ -107,7 +107,7 @@ public class Register extends JFrame{
 		
 		//address field of input label
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(350,250,100,25);
+		addressField.setBounds(300,250,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
@@ -119,7 +119,7 @@ public class Register extends JFrame{
 		inputPanel.add(addressText);
 
 		JLabel uniID = new JLabel("University ID");
-		uniID.setBounds(350,300,100,25);
+		uniID.setBounds(300,300,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
