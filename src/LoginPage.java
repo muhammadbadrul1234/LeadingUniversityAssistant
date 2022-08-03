@@ -120,7 +120,8 @@ public class LoginPage extends JFrame {
 				Database db1 = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
 				db1.Login(queryLogin, userName, pass);
-				
+				dispose();
+				new Homepage();
 			}
 		});
 		registerLink.addActionListener(new ActionListener() {
