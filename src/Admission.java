@@ -135,6 +135,9 @@ public class Admission extends JFrame {
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
 
+        add(inputpanel1);
+
+
         
 
         JFrame f;
