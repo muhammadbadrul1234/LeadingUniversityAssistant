@@ -71,7 +71,7 @@ public class Database {
 			}
 			
 			else {
-				JOptionPane.showMessageDialog(null, "Passworrd is correct" );
+				JOptionPane.showMessageDialog(null, tablepass );
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
