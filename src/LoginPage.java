@@ -95,12 +95,12 @@ public class LoginPage extends JFrame {
 	    registerLink.setFocusable(false);
 		inputpanel.add(registerLink);
 
-		JButton forgotPassLink1 = new JButton("Forgot Password?");
+		JButton forgotPassLink1 = new JButton("or");
 		forgotPassLink1.setBounds(210, 420, 250, 30);
 		inputpanel.add(forgotPassLink1);
 
 		JButton forgotPassLink = new JButton("Forgot Password?");
-		forgotPassLink.setBounds(210, 420, 250, 30);
+		forgotPassLink.setBounds(210, 460, 250, 30);
 		forgotPassLink.setForeground(Color.WHITE);
 	    forgotPassLink.setBackground(new Color(93,130,250));
 	   	forgotPassLink.setFont(labelFont);
