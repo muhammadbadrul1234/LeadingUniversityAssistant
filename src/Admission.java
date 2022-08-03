@@ -103,12 +103,12 @@ public class Admission extends JFrame {
         id15.add(t5);
 
         id6= new JLabel("Phone");
-        id6.setBounds(400,280,100,30);
+        id6.setBounds(400,330,100,30);
         id6.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id6);
 
         t6=new JTextField();
-        t6.setBounds(600,250,150,30);
+        t6.setBounds(600,330,150,30);
         id15.add(t6);
 
         id7= new JLabel("Email Id");
