@@ -24,6 +24,7 @@ public class Register extends JFrame{
 	    headerpanel.setBackground(new Color(93,130,250));
 		headerpanel.setBounds(0, 0, 1000, 60);
 		
+		12212
 
 	    
 	    JLabel headerTxt=new JLabel("Registration");
