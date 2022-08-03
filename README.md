@@ -8,7 +8,8 @@ Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/97453992/182681507-a4b3d95f-3bd0-4bc6-8b2e-aaee0586e939.png" alt="logo" width="200" height="auto" />
+  <img src="https://user-images.githubusercontent.com/97453992/182682312-39ccff4a-cb5f-494e-8cb4-77c55d93f9a6.png"
+ alt="logo" width="200" height="auto" />
   <h1>Leading University Assistant</h1>
   
   <p align="justify">
