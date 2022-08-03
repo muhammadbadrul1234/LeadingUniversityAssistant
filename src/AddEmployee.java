@@ -145,7 +145,7 @@ public class AddEmployee extends JFrame {
         id15.setBounds(0, 0, 900, 700);
         id15.setLayout(null);
 
-        id8 = new JLabel("New Student Details");
+        id8 = new JLabel("Employee Management");
         id8.setBounds(320, 100, 500, 50);
         id8.setFont(new Font("serif", Font.ITALIC, 25));
         id8.setForeground(Color.black);
