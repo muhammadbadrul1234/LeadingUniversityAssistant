@@ -31,12 +31,6 @@ public class Admission extends JFrame {
         headerpanel.add(imgLabel);
         add(headerpanel);
 
-        JPanel inputpanel1=new JPanel();
-		inputpanel1.setBackground(new Color(69,90,100));
-        inputpanel1.setBounds(0, 150, 1000, 50);
-		inputpanel1.setLayout(null);
-        add(inputpanel1);
-
         JLabel Homebtn=new JLabel("New Student Admission");
         Homebtn.setBounds(0,150,1000,30);
 	    Homebtn.setBackground(new Color(69,90,100));
@@ -45,6 +39,14 @@ public class Admission extends JFrame {
 	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Homebtn.setFocusable(false);
         inputpanel1.add(Homebtn);
+
+        JPanel inputpanel1=new JPanel();
+		inputpanel1.setBackground(new Color(69,90,100));
+        inputpanel1.setBounds(0, 150, 1000, 50);
+		inputpanel1.setLayout(null);
+        add(inputpanel1);
+
+        
 
         JFrame f;
         JLabel id,id1,id2,id3,id4,id5,id6,id7,id8,id9,id10,id11,id12,id15,id16,id17,lab,lab1,lab2;
