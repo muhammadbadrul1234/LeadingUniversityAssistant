@@ -9,10 +9,10 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Awesome Readme Template</h1>
+  <h1>Leading University Assistant</h1>
   
-  <p>
-    An awesome README template for your projects! 
+  <p align="justify">
+    A fully functional Java project, The Leading University Assistant Project which is my 3rd year Java Project, contains details about colleges, universities, and schools in general. It was developed so that the university and the institutions that are affiliated with it could manage, track, and conduct intricate operations like centralized admission, centralized testing, and much more. It's helpful to practice Java Desktop Development and learn new skills with this Leading University Assistant In Java With Source Code. The project's concept and logic are easy to understand, and it is quite useful. It is free and open source to use the source code. Click the download link by simply scrolling down.
   </p>
   
   
@@ -24,12 +24,6 @@ Maybe you can mention me or this repo in the acknowledgements too
   <a href="">
     <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
-  </a>
   <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
     <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
   </a>
@@ -39,13 +33,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 </p>
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
+    
   </h4>
 </div>
 
