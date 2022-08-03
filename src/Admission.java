@@ -314,9 +314,21 @@ public class Admission extends JFrame {
         b.addActionListener(new ActionListener() {
 			
 			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new Homepage();
+            public void actionPerformed(ActionEvent e) {
+                
+                String a = t1.getText();
+            String bb = t2.getText();
+            String c = t3.getText();
+            String d = t4.getText();
+            String e = t5.getText();
+            String ff = t6.getText();
+            String g = t7.getText();
+            String h = t8.getText();
+            String i = t9.getText();
+            String j = t10.getText();
+            String k = t11.getText();
+            String l = (String)c1.getSelectedItem();
+            String m = (String)c2.getSelectedItem();
 			}
 		});
 
