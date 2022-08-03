@@ -37,8 +37,8 @@ public class Homepage extends JFrame {
 		headerpanel.add(imgLabel);
         add(headerpanel);
         JPanel inputpanel1=new JPanel();
-		inputpanel1.setBackground(new Color(47,79,79));
-        inputpanel1.setBounds(0, 150, 1000, 50);
+		inputpanel1.setBackground(new Color(112,128,144));
+        inputpanel1.setBounds(0, 145, 1000, 50);
 		inputpanel1.setLayout(null);
 		add(inputpanel1);
         
