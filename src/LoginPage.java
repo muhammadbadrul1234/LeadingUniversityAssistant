@@ -90,7 +90,8 @@ public class LoginPage extends JFrame {
 				String userName = nameTxt.getText();
 	            String pass = passTxt.getText();
 	            Database db = new Database();
-	            String queryLogin = "SELECT * FROM `registered`";
+				String queryLogin = "SELECT * FROM `registered`";
+				
 			}
 		});
 		registerLink.addActionListener(new ActionListener() {
