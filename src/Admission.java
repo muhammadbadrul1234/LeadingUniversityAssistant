@@ -94,12 +94,12 @@ public class Admission extends JFrame {
         id15.add(t4);
 
         id5= new JLabel("Address");
-        id5.setBounds(50,330,100,30);
+        id5.setBounds(50,380,100,30);
         id5.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id5);
 
         t5=new JTextField();
-        t5.setBounds(200,330,150,30);
+        t5.setBounds(200,380,150,30);
         id15.add(t5);
 
         id6= new JLabel("Phone");
