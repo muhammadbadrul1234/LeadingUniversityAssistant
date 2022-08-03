@@ -76,7 +76,7 @@ public class Database {
 				JOptionPane.showMessageDialog(null, "Password is: aa ");
 				//JOptionPane.showMessageDialog (null, x, "Title", JOptionPane.INFORMATION_MESSAGE);
 			}
-			System.out.println(x);
+			//System.out.println(x);
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
 		}
