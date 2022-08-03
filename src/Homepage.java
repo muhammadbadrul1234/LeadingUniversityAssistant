@@ -115,7 +115,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Resultbtn);
         
         JButton Regbtn=new JButton("Semester Registration");
-	    Regbtn.setBounds(820,0,150,30);
+	    Regbtn.setBounds(800,0,200,30);
 	    Regbtn.setBackground(new Color(112,128,144));
 	    Regbtn.setFont(labelFont);
 	    Regbtn.setForeground(Color.WHITE);
