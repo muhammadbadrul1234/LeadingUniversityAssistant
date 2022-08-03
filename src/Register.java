@@ -55,6 +55,7 @@ public class Register extends JFrame{
 		JLabel emailLabel = new JLabel("Email : ");
 		emailLabel.setBounds(130,50,100,25);
 		emailLabel.setFont(labelFont);
+		emailLabel.setForeground(Color.WHITE);
 		inputPanel.add(emailLabel);
 		
 		//email text field
