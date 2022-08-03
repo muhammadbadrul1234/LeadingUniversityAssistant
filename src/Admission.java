@@ -149,7 +149,7 @@ public class Admission extends JFrame {
         id15.add(t10);
 
         id12= new JLabel("Roll No");
-        id12.setBounds(50,480,150,30);
+        id12.setBounds(150,480,150,30);
         id12.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id12);
 
@@ -171,7 +171,7 @@ public class Admission extends JFrame {
         id15.add(c1);
         
         lab2=new JLabel("Branch");
-        lab2.setBounds(50,530,150,30);
+        lab2.setBounds(150,530,150,30);
 	lab2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab2);
         
