@@ -20,7 +20,7 @@ public class Register extends JFrame{
         setLayout(null);
 
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
-	     JPanel headerpanel=new JPanel();
+	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
 		headerpanel.setBounds(0, 0, 1000, 150);
 		
@@ -33,6 +33,10 @@ public class Register extends JFrame{
 		
 		headerpanel.add(imgLabel);
 		add(headerpanel);
+
+		JPanel headerpanel2=new JPanel();
+	    //headerpanel.setBackground(new Color(93,130,250));
+		headerpanel.setBounds(0, 0, 1000, 150);
 		
 		JPanel inputPanel = new JPanel();
 		inputPanel.setBackground(new Color(93,130,250));
