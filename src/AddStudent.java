@@ -22,7 +22,7 @@ class AddStudent implements ActionListener {
     public AddStudent() {
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
-        f.setIconImage(icon.getImage());
+        //f.setIconImage(icon.getImage());
 
         f.setSize(1000,800);
         f.setLocationRelativeTo(null);
