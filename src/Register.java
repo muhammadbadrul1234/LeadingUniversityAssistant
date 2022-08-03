@@ -68,12 +68,14 @@ public class Register extends JFrame{
 		JLabel passwordLabel = new JLabel("Password : ");
 		passwordLabel.setBounds(95,100,100,25);
 		passwordLabel.setFont(labelFont);
+		passwordLabel.setForeground(Color.WHITE);
 		inputPanel.add(passwordLabel);
 		
 		//password text field
 		JTextField passwordTextField = new JTextField();
 		passwordTextField.setBounds(200,100,200,25);
 		passwordTextField.setFont(labelFont);
+		
 		inputPanel.add(passwordTextField);
 		
 		//confirm password field input label
