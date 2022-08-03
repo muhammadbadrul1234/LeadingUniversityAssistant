@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ForgetPass extends JFrame{
-    public Forget() {
+    public ForgetPass() {
 		super("Leading University");
         
         ImageIcon icon;
