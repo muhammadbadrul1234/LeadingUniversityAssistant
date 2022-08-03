@@ -302,12 +302,12 @@ public class Admission extends JFrame {
         
         id15.add(b1);
 
-        loginButton.addActionListener(new ActionListener() {
+        b1.addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new LoginPage();
+				new Homepage();
 			}
 		});
 
