@@ -20,11 +20,9 @@ class AddStudent implements ActionListener {
     
 
     public AddStudent() {
-        super("Leading University");
-        
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
-        this.setIconImage(icon.getImage());
+        f.setIconImage(icon.getImage());
 
         f.setSize(1000,800);
         f.setLocationRelativeTo(null);
