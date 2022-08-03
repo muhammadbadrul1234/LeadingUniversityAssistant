@@ -44,7 +44,7 @@ public class Homepage extends JFrame {
         
         JButton Homebtn=new JButton("Login");
 	    Homebtn.setBounds(300,320,100,30);
-	    Homebtn.setBackground(new Color(93,161,217));
+	    Homebtn.setBackground(new Color(112,128,144));
 	    Homebtn.setFont(labelFont);
 	    Homebtn.setForeground(Color.WHITE);
 	    Homebtn.setBorder(new LineBorder(new Color(93,130,250)));
