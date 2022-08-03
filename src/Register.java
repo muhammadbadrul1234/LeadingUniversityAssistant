@@ -118,7 +118,7 @@ public class Register extends JFrame{
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
 
-		JLabel uniID = new JLabel("Address");
+		JLabel uniID = new JLabel("University ID");
 		uniID.setBounds(350,250,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
@@ -132,7 +132,7 @@ public class Register extends JFrame{
 		
 		//Register BUtton
 		JButton registerButton = new JButton("Register");
-		registerButton.setBounds(300,300,100,30);
+		registerButton.setBounds(300,350,100,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
