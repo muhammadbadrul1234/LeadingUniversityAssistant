@@ -95,12 +95,15 @@ public class LoginPage extends JFrame {
 	    registerLink.setFocusable(false);
 		inputpanel.add(registerLink);
 
-		JLabel uniIDpp1 = new JLabel("or");
-		uniIDpp1.setBounds(210, 420, 250, 30);
-		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
-		uniIDpp1.setFont(labelFont2);
-		uniIDpp1.setForeground(Color.WHITE);
-		inputPanel.add(uniIDpp1);
+		JButton forgotPassLink1 = new JButton("or");
+		forgotPassLink1.setBounds(210, 420, 250, 30);
+		forgotPassLink1.setForeground(Color.WHITE);
+	    forgotPassLink1.setBackground(new Color(93,130,250));
+	   	forgotPassLink1.setFont(labelFont);
+	    forgotPassLink1.setForeground(Color.WHITE);
+	    forgotPassLink1.setBorder(new LineBorder(new Color(93,130,250)));
+		forgotPassLink1.setFocusable(false);
+		inputpanel.add(forgotPassLink1);
 
 		JButton forgotPassLink = new JButton("Forgot Password?");
 		forgotPassLink.setBounds(210, 460, 250, 30);
