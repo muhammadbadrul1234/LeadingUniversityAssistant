@@ -66,7 +66,7 @@ public class Database {
 				}
 			}
 			if (flag == 0) {
-				JOptionPane.showMessageDialog(null, "Invalid paswword or username!!");
+				JOptionPane.showMessageDialog(null, "Data Not Found");
 			}
 			
 			else {
