@@ -25,9 +25,6 @@ public class Admission extends JFrame {
         //headerpanel.setBackground(new Color(93,130,250));
         headerpanel.setBounds(0, 0, 1000, 150);
 
-        JLabel headerTxt = new JLabel("Welcome to Leading University Portal");
-        headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
-        headerTxt.setForeground(Color.WHITE);
         JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 
         headerpanel.add(imgLabel);
@@ -35,7 +32,7 @@ public class Admission extends JFrame {
 
         JPanel headerpane2 = new JPanel();
         //headerpanel.setBackground(new Color(93,130,250));
-        headerpane.setBounds(0, 0, 1000, 150);
+        headerpane2.setBounds(0, 0, 1000, 150);
 
         JLabel headerTxt = new JLabel("Welcome to Leading University Portal");
         headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
