@@ -131,8 +131,9 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDText);
 
 		JLabel uniIDpp = new JLabel("Contact Admission Office if you don't have University ID");
-		uniIDpp.setBounds(700,300,500,50);
-		uniIDpp.setFont(labelFont);
+		uniIDpp.setBounds(700, 300, 500, 50);
+		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,10)));
+		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
 		inputPanel.add(uniIDpp);
 		
