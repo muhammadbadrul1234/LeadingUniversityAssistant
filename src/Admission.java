@@ -34,12 +34,9 @@ public class Admission extends JFrame {
         //headerpanel.setBackground(new Color(93,130,250));
         headerpane2.setBounds(0, 0, 1000, 150);
 
-        JLabel headerTxt = new JLabel("Welcome to Leading University Portal");
+        JLabel headerTxt = new JLabel("Admission");
         headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
         headerTxt.setForeground(Color.WHITE);
-        JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
-
-        headerpanel.add(imgLabel);
         add(headerpanel);
 
         JFrame f;
