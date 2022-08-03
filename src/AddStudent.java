@@ -29,7 +29,7 @@ class AddStudent implements ActionListener {
         f.setSize(1000,800);
         f.setLocationRelativeTo(null);
 		f.setDefaultCloseOperation(3);
-		setLayout(null);
+		f.setLayout(null);
         
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
