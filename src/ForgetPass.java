@@ -145,7 +145,6 @@ public class ForgetPass extends JFrame{
 				Database db1 = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
 	            try {
-			
                     rs = st.executeQuery(queryLogin);
                     String x;
                     while(rs.next()) {
