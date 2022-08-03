@@ -85,7 +85,7 @@ public class Admission extends JFrame {
         id15.add(t3);
 
         id4= new JLabel("DOB (dd/mm/yyyy)");  
-        id4.setBounds(420,280,200,30);
+        id4.setBounds(430,280,200,30);
         id4.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id4);
 
@@ -103,7 +103,7 @@ public class Admission extends JFrame {
         id15.add(t5);
 
         id6= new JLabel("Phone");
-        id6.setBounds(420,430,100,30);
+        id6.setBounds(430,430,100,30);
         id6.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id6);
 
@@ -121,7 +121,7 @@ public class Admission extends JFrame {
         id15.add(t7);
 
         id9= new JLabel("Class X(%)");
-        id9.setBounds(400,330,130,30);
+        id9.setBounds(430,330,130,30);
         id9.setFont(new Font("serif",Font.BOLD,20));    
         id15.add(id9);
 
