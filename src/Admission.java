@@ -160,14 +160,14 @@ public class Admission extends JFrame {
 
 
         lab=new JLabel("Course");
-        lab.setBounds(400,400,150,30);
+        lab.setBounds(400,480,150,30);
 	lab.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab);
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
-        c1.setBounds(600,400,150,30);
+        c1.setBounds(600,480,150,30);
         id15.add(c1);
         
         lab2=new JLabel("Branch");
