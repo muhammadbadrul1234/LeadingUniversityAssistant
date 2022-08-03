@@ -143,32 +143,7 @@ public class ForgetPass extends JFrame{
 				new LoginPage();
 			}
 		});
-		registerButton.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				String userName= nameText.getText();
-				String email= emailTextField.getText();
-				//String pass= passwordTextField.getText();
-				String conPass= dobText.getText();
-				String mobile = mobileText.getText();
-				//String adress = addressText.getText();
-				String uniID = uniIDText.getText();
-				//System.out.println(userName);
-				String insertQuery = "INSERT INTO `registered`"
-						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
-						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"','"+conPass+"') ";
-				
-				Database db = new Database();
-				db.insertRegister(insertQuery);
-				dispose();
-
-				new LoginPage();
-
-				
-			}
-			
-		});
+		
 		
 		
 		
