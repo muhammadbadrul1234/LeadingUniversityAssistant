@@ -58,7 +58,7 @@ public class Admission extends JFrame {
 
  
         id1 = new JLabel("Name");
-        id1.setBounds(50,230,100,30);
+        id1.setBounds(150,230,100,30);
         id1.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id1);
 
@@ -76,7 +76,7 @@ public class Admission extends JFrame {
         id15.add(t2);
 
         id3= new JLabel("Age");
-        id3.setBounds(50,280,100,30);
+        id3.setBounds(150,280,100,30);
         id3.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id3);
 
@@ -94,7 +94,7 @@ public class Admission extends JFrame {
         id15.add(t4);
 
         id5= new JLabel("Address");
-        id5.setBounds(50,430,100,30);
+        id5.setBounds(150,430,100,30);
         id5.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id5);
 
@@ -112,7 +112,7 @@ public class Admission extends JFrame {
         id15.add(t6);
 
         id7= new JLabel("Email Id");
-        id7.setBounds(50,330,100,30);
+        id7.setBounds(150,330,100,30);
         id7.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id7);
 
@@ -130,7 +130,7 @@ public class Admission extends JFrame {
         id15.add(t8);
 
         id10= new JLabel("Class XII(%)");
-        id10.setBounds(50,380,130,30);
+        id10.setBounds(150,380,130,30);
         id10.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id10);
 
