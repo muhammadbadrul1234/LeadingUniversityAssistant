@@ -33,7 +33,7 @@ public class Database {
 			}
 			
 			else {
-				static LoginPage lp = new LoginPage();
+				LoginPage lp = new LoginPage();
 				lp.dispose();
 				new Homepage();
 			}
