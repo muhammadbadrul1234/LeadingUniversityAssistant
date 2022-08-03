@@ -98,7 +98,7 @@ public class Homepage extends JFrame {
         
         JButton Librarybtn=new JButton("Library");
 	    Librarybtn.setBounds(620,0,100,30);
-	    Librarybtn.setBackground(new Color(69,90,100)));
+	    Librarybtn.setBackground(new Color(69,90,100));
 	    Librarybtn.setFont(labelFont);
 	    Librarybtn.setForeground(Color.WHITE);
 	    Librarybtn.setBorder(new LineBorder(new Color(69,90,100)));
