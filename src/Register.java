@@ -150,7 +150,7 @@ public class Register extends JFrame{
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
-		registerButton.setBorder(new LineBorder(Color.red));
+		registerButton.setBorder(new LineBorder(new Color(93,130,250)));
 		registerButton.setFocusable(false);
 		inputPanel.add(registerButton);
 		
