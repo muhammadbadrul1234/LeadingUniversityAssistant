@@ -92,7 +92,7 @@ public class Register extends JFrame{
 		inputPanel.add(consPassText);
 		
 		//mobile number field of input label
-		JLabel MobileNum = new JLabel("Mobile : ");
+		JLabel MobileNum = new JLabel("Mobile");
 		MobileNum.setBounds(120,200,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
@@ -106,7 +106,7 @@ public class Register extends JFrame{
 		inputPanel.add(mobileText);
 		
 		//address field of input label
-		JLabel addressField = new JLabel("Address : ");
+		JLabel addressField = new JLabel("Address");
 		addressField.setBounds(110,250,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
