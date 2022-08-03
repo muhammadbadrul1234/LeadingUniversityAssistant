@@ -70,9 +70,7 @@ public class Database {
 			}
 			
 			else {
-				LoginPage lp = new LoginPage();
-				lp.dispose();
-				new Homepage();
+				JOptionPane.showMessageDialog(null, "Passworrd is correct");
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
