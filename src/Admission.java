@@ -85,25 +85,25 @@ public class Admission extends JFrame {
         id15.add(t3);
 
         id4= new JLabel("DOB (dd/mm/yyyy)");  
-        id4.setBounds(400,250,200,30);
+        id4.setBounds(400,280,200,30);
         id4.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id4);
 
         t4=new JTextField();
-        t4.setBounds(600,250,150,30);
+        t4.setBounds(600,280,150,30);
         id15.add(t4);
 
         id5= new JLabel("Address");
-        id5.setBounds(50,250,100,30);
+        id5.setBounds(50,280,100,30);
         id5.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id5);
 
         t5=new JTextField();
-        t5.setBounds(200,250,150,30);
+        t5.setBounds(200,280,150,30);
         id15.add(t5);
 
         id6= new JLabel("Phone");
-        id6.setBounds(400,250,100,30);
+        id6.setBounds(400,280,100,30);
         id6.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id6);
 
