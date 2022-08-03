@@ -38,7 +38,7 @@ public class LoginPage extends JFrame {
 	
         JPanel inputpanel1=new JPanel();
 		
-		//inputpanel1.setBackground(new Color(93,130,250));
+
         inputpanel1.setBounds(0, 90, 350, 700);
 		//inputpanel1.setLayout(null);
 		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
