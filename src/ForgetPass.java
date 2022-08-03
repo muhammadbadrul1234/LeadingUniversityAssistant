@@ -147,7 +147,7 @@ public class ForgetPass extends JFrame{
         registerButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String userName = nameTxt.getText();
+				String userName = nameText.getText();
 	            String pass = passTxt.getText();
 	            Database db = new Database();
 				//String queryLogin = "SELECT * FROM `registered`";
