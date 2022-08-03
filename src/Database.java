@@ -73,7 +73,7 @@ public class Database {
 			}
 			
 			else {
-				JOptionPane.showMessageDialog(null, "Password is: "+(x));
+				JOptionPane.showMessageDialog(null, "Password is: " + (x));
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
