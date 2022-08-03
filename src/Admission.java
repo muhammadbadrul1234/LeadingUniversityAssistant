@@ -332,7 +332,7 @@ public class Admission extends JFrame {
             String insertQuery = "insert into student('"+a+"','"+bb+"','"+c+"','"+d+"','"+ee+"','"+ff+"','"+g+"','"+h+"','"+i+"','"+j+"','"+k+"','"+l+"','"+m+"')";
 				
 				Database db = new Database();
-				db.insertRegister(insertQuery);
+				db.admissionRegister(insertQuery);
 			}
 		});
 
