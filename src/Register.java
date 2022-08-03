@@ -43,7 +43,7 @@ public class Register extends JFrame{
 		inputPanel.add(nameLabel);
 
 		JTextField nameText = new JTextField();
-		nameText.setBounds(500,5,200,25);//(x,y,width,heihjt)
+		nameText.setBounds(500,5,200,25);
 		nameText.setFont(labelFont);
 		inputPanel.add(nameText);
 		
@@ -129,7 +129,7 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDpp2);
 
 		JButton registerButton = new JButton("Register");
-		registerButton.setBounds(550,390,100,60);
+		registerButton.setBounds(550,370,100,30);
 		registerButton.setBackground(new Color(219,143,160));
 		registerButton.setFont(labelFont);
 		registerButton.setForeground(Color.white);
@@ -151,27 +151,31 @@ public class Register extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				//new LoginForm();
+				new LoginPage();
 			}
 		});
 		registerButton.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				String userName= nameText.getText();
 				String email= emailTextField.getText();
 				String pass= passwordTextField.getText();
-				String conPass= consPassText.getText();
+				//String conPass= consPassText.getText();
 				String mobile = mobileText.getText();
 				String adress = addressText.getText();
+				String uniID = uniIDText.getText();
 				//System.out.println(userName);
-				String insertQuesry = "INSERT INTO `register`"
-						+ "(`name`, `password`, `email`, `number`, `address`)"
-						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"') ";
+				String insertQuery = "INSERT INTO `registered`"
+						+ "(`name`, `password`, `email`, `number`, `address`, `uniID`) "
+						+ " VALUES ('"+userName+"','"+pass+"','"+email+"','"+mobile+"','"+adress+"','"+uniID+"') ";
 				
-				//DbConnect db = new DbConnect();
-				//db.insertRegister(insertQuesry);
+				Database db = new Database();
+				db.insertRegister(insertQuery);
+				dispose();
+
+				new LoginPage();
+
 				
 			}
 			

@@ -1,11 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
-import javax.swing.plaf.basic.BasicPanelUI;
-import org.w3c.dom.events.MouseEvent;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseListener;
 import javax.swing.*;
 import java.awt.*;
 
@@ -22,20 +18,17 @@ public class LoginPage extends JFrame {
 		setDefaultCloseOperation(3);
 		setLayout(null);
         
-
         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
 	    headerpanel.setBackground(new Color(93,130,250));
 	    headerpanel.setBounds(0,0,1000,60);
 	    
-	  
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
 		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
 		headerTxt.setForeground(Color.WHITE);
 		headerpanel.add(headerTxt);
 		add(headerpanel);
 	
-
         JPanel inputpanel1=new JPanel();
         JLabel images = new JLabel(new ImageIcon("lu.png"));
         inputpanel1.setBounds(0, 60, 350, 700);
@@ -43,7 +36,6 @@ public class LoginPage extends JFrame {
 		add(inputpanel1);
 
 		add(images);
-
 	    
 	    JPanel inputpanel=new JPanel();
 	    inputpanel.setBackground(new Color(93,130,250));
@@ -92,8 +84,6 @@ public class LoginPage extends JFrame {
 	    registerLink.setBorder(new LineBorder(new Color(93,130,250)));
 	    registerLink.setFocusable(false);
 		inputpanel.add(registerLink);
-		
-
 		loginBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -101,28 +91,16 @@ public class LoginPage extends JFrame {
 	            String pass = passTxt.getText();
 	            Database db = new Database();
 	            String queryLogin = "SELECT * FROM `registered`";
-	            db.Login(queryLogin,userName,pass);
-				
 			}
 		});
-
 		registerLink.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
 				new Register();
-				
 			}
 		});
-
-		
-		
-		
-		
-
-		
 		setVisible(true);
-		
     }
     
 }

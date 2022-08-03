@@ -30,10 +30,10 @@ public class Database {
 				}
 			}
 			if(flag==0) {
-				JOptionPane.showMessageDialog(null, "invalid paswword or username!!");
+				JOptionPane.showMessageDialog(null, "Invalid paswword or username!!");
 			}
 			else {
-				//new MainSoftware();
+				new Homepage();
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
@@ -42,7 +42,7 @@ public class Database {
 	public void insertRegister(String insertQuesry) {
 				try {
 					st.executeUpdate(insertQuesry);
-					JOptionPane.showMessageDialog(null, "Registration Completed");
+					JOptionPane.showMessageDialog(null, "You have successfully registered!");
 				} 
 				
 				catch (Exception e) {
