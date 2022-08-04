@@ -135,7 +135,9 @@ public class AboutUs extends JFrame {
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
 
+        
+
         add(inputpanel1);
-                setVisible(true);
+        setVisible(true);
     }
 }
