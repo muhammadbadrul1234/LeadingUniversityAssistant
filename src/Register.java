@@ -192,7 +192,7 @@ public class Register extends JFrame{
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String userName= nameText.getText();
+				String userName= nameText.getText();//badrul
 				String email= emailTextField.getText();
 				String pass= passwordTextField.getText();
 				String conPass= dobText.getText();
