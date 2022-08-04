@@ -5,7 +5,7 @@ public class App {
        new Homepage();
       // new Admission();
       //new AddEmployee();
-       new a
+      new AboutUs();
         
     }
 }
