@@ -125,6 +125,7 @@ public class LoginPage extends JFrame {
 					dispose();
 					//new Homepage();
 				} else {
+					dispose();
 					JOptionPane.showMessageDialog(null, "Login Failed");
 				}
 				//dispose();
