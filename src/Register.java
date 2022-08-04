@@ -207,7 +207,7 @@ public class Register extends JFrame{
 
 					String insertQuery = "INSERT INTO `registered`"
 							+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
-							+ " VALUES ('" + userName + "','" + pass + "','" + email + "','" + mobile + "','" + adress
+							+ " VALUES ('" + pass + "','" + userName + "','" + email + "','" + mobile + "','" + adress
 							+ "','" + uniID + "','" + conPass + "') ";
 
 					Database db = new Database();
