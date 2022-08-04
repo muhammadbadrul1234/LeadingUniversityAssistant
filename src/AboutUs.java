@@ -9,7 +9,7 @@ import java.awt.*;
 
 public class AboutUs extends JFrame {
     public AboutUs() {
-        super("About Us");
+        super("About Us- Leading University");
 
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
@@ -32,7 +32,7 @@ public class AboutUs extends JFrame {
         headerpanel.add(imgLabel);
         add(headerpanel);
 
-        JLabel Homebtn1=new JLabel("New Student Admission");
+        JLabel Homebtn1=new JLabel("About Us");
         Homebtn1.setBounds(380,190,1000,30);
 	    //Homebtn.setBackground(new Color(69,90,100));
 	    Homebtn1.setFont(labelFont3);
