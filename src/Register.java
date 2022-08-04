@@ -210,8 +210,8 @@ public class Register extends JFrame{
 							+ " VALUES ('" + userName + "','" + pass + "','" + email + "','" + mobile + "','" + adress
 							+ "','" + uniID + "','" + conPass + "') ";
 
-					//Database db = new Database();
-					//db.insertRegister(insertQuery);
+					Database db = new Database();
+					db.insertRegister(insertQuery);
 					dispose();
 					new LoginPage();
 				}
