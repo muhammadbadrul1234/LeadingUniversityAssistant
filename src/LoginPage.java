@@ -122,9 +122,9 @@ public class LoginPage extends JFrame {
 				db1.Login(queryLogin, userName, pass);
 				if (db1.LoginChk(queryLogin, userName, pass)==true) {
 					//JOptionPane.showMessageDialog(null, "Login Successful");
-					//dispose();
-					new Admission();
-					//new Homepage();
+					dispose();
+					//new Admission();
+					new Homepage();
 				} else {
 					dispose();
 					JOptionPane.showMessageDialog(null, "Login Failed");
