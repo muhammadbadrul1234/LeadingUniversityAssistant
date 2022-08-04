@@ -104,7 +104,6 @@ public class Database {
 			st.executeUpdate(insertQuesry);
 			JOptionPane.showMessageDialog(null, "You have successfully registered!");
 		}
-
 		catch (Exception e) {
 
 			JOptionPane.showMessageDialog(null, "Registration Not Completed");
