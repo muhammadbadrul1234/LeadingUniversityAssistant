@@ -64,11 +64,12 @@ Maybe you can mention me or this repo in the acknowledgements too
 ### :camera: Screenshots
 
 <div align="center"> 
+  <img src="https://user-images.githubusercontent.com/97453992/182710290-2c0c4fa5-7469-49fc-9c97-9225ce8676bf.PNG" alt="screenshot" />
+  <img src="https://user-images.githubusercontent.com/97453992/182710350-029963fd-0f88-4863-9584-043ffffa47cf.png" alt="screenshot" />
   <img src="https://user-images.githubusercontent.com/97453992/182684205-684c5b49-7fd5-4d66-b384-1dcdb134bf11.PNG" alt="screenshot" />
   <img src="https://user-images.githubusercontent.com/97453992/182684487-1a40560b-960c-4be2-8f86-24774d304280.PNG" alt="screenshot" />
   <img src="https://user-images.githubusercontent.com/97453992/182684499-e165ec8b-1a1b-4a94-b02b-fe9d94dd1f72.PNG" alt="screenshot" />
-  <img src="https://user-images.githubusercontent.com/97453992/182710290-2c0c4fa5-7469-49fc-9c97-9225ce8676bf.PNG" alt="screenshot" />
-  <img src="https://user-images.githubusercontent.com/97453992/182710350-029963fd-0f88-4863-9584-043ffffa47cf.png" alt="screenshot" />
+
 </div>
 
 
