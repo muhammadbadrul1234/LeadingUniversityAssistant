@@ -136,3 +136,6 @@ public class AboutUs extends JFrame {
         inputpanel1.add(Regbtn);
 
         add(inputpanel1);
+                setVisible(true);
+    }
+}
