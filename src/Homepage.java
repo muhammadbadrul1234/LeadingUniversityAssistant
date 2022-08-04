@@ -59,8 +59,8 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
         inputpanel1.add(Admissionbtn);
         
-        JButton contacButton=new JButton("Contact");
-	    contacButton.setBounds(200,0,100,30);
+        JButton contacButton=new JButton("Add Teacher");
+	    contacButton.setBounds(200,0,150,30);
 	    contacButton.setBackground(new Color(69,90,100));
 	    contacButton.setFont(labelFont);
 	    contacButton.setForeground(Color.WHITE);
@@ -69,7 +69,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(contacButton);
         
         JButton FormBtn=new JButton("Forms");
-	    FormBtn.setBounds(300,0,100,30);
+	    FormBtn.setBounds(350,0,50,30);
 	    FormBtn.setBackground(new Color(69,90,100));
 	    FormBtn.setFont(labelFont);
 	    FormBtn.setForeground(Color.WHITE);
@@ -160,6 +160,15 @@ public class Homepage extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
 				new Admission();
+			}
+			});
+		
+			contacButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new AddEmployee();
 			}
 		});
 

@@ -249,7 +249,7 @@ public class Admission extends JFrame {
         t10.setBounds(700,400,150,30);
         id15.add(t10);
 
-        id12= new JLabel("Student Id");
+        id12= new JLabel("Employee ID");
         id12.setBounds(150,500,150,30);
         id12.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id12);
@@ -352,7 +352,7 @@ public class Admission extends JFrame {
                     JOptionPane.showMessageDialog(null, "Some Required Fields are Empty");
                 }
                 else {
-                    String insertQuery = "INSERT INTO `student`"
+                    String insertQuery = "INSERT INTO `teacher`"
                             + "(`Name`, `Father's Name`, `Age`, `DOB (dd/mm/yyyy)`, `Address`, `Phone`,`Email Id`, `SSC GPA`, `HSC GPA`, `NID No`, `Student Id`, `Course`,`Branch`) "
                             + " VALUES ('" + a + "','" + bb + "','" + c + "','" + d + "','" + ee + "','" + ff + "','"
                             + g + "','" + h + "','" + i + "','" + j + "','" + k + "','" + l + "','" + m + "')";

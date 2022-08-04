@@ -8,8 +8,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class AddEmployee extends JFrame {
+    
     public AddEmployee() {
-        super("Add Employee");
+        super("Add Teacher/Employee");
 
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
@@ -32,7 +33,7 @@ public class AddEmployee extends JFrame {
         headerpanel.add(imgLabel);
         add(headerpanel);
 
-        JLabel Homebtn1 = new JLabel("New Student Admission");
+        JLabel Homebtn1 = new JLabel("New Teacher/Employee");
         Homebtn1.setBounds(380, 190, 1000, 30);
         //Homebtn.setBackground(new Color(69,90,100));
         Homebtn1.setFont(labelFont3);
@@ -151,6 +152,213 @@ public class AddEmployee extends JFrame {
         id8.setForeground(Color.black);
         id15.add(id8);
         add(id15);
+
+
+ 
+        id1 = new JLabel("Name");
+        id1.setBounds(150,250,100,30);
+        id1.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id1);
+
+        t1=new JTextField();
+        t1.setBounds(300,250,150,30);
+        id15.add(t1);
+
+        id2 = new JLabel("Father's Name");
+        id2.setBounds(500,250,200,30);
+        id2.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id2);
+
+        t2=new JTextField();
+        t2.setBounds(700,250,150,30);
+        id15.add(t2);
+
+        id3= new JLabel("Age");
+        id3.setBounds(150,300,100,30);
+        id3.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id3);
+
+        t3=new JTextField();
+        t3.setBounds(300,300,150,30);
+        id15.add(t3);
+
+        id4= new JLabel("DOB (dd/mm/yyyy)");  
+        id4.setBounds(500,300,200,30);
+        id4.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id4);
+
+        t4=new JTextField();
+        t4.setBounds(700,300,150,30);
+        id15.add(t4);
+
+        id5= new JLabel("Address");
+        id5.setBounds(150,450,100,30);
+        id5.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id5);
+
+        t5=new JTextField();
+        t5.setBounds(300,450,150,30);
+        id15.add(t5);
+
+        id6= new JLabel("Phone");
+        id6.setBounds(500,450,100,30);
+        id6.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id6);
+
+        t6=new JTextField();
+        t6.setBounds(700,450,150,30);
+        id15.add(t6);
+
+        id7= new JLabel("Email Id");
+        id7.setBounds(150,350,100,30);
+        id7.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id7);
+
+        t7=new JTextField();
+        t7.setBounds(300,350,150,30);
+        id15.add(t7);
+
+        id9= new JLabel("SSC GPA");
+        id9.setBounds(500,350,130,30);
+        id9.setFont(new Font("Calibri",Font.BOLD,20));    
+        id15.add(id9);
+
+        t8=new JTextField();
+        t8.setBounds(700,350,150,30);
+        id15.add(t8);
+
+        id10= new JLabel("HSC GPA");
+        id10.setBounds(150,400,130,30);
+        id10.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id10);
+
+        t9=new JTextField();
+        t9.setBounds(300,400,150,30);
+        id15.add(t9);
+
+
+        id11= new JLabel("NID No");
+        id11.setBounds(500,400,100,30);
+        id11.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id11);
+
+        t10=new JTextField();
+        t10.setBounds(700,400,150,30);
+        id15.add(t10);
+
+        id12= new JLabel("Student Id");
+        id12.setBounds(150,500,150,30);
+        id12.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id12);
+
+        t11=new JTextField();   
+        t11.setBounds(300,500,150,30);
+        t11.setText("");
+        id15.add(t11);
+
+
+        lab=new JLabel("Course");
+        lab.setBounds(500,500,150,30);
+	lab.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(lab);
+            
+        String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
+        c1 = new JComboBox(course);
+        c1.setBackground(Color.WHITE);
+        c1.setBounds(700,500,150,30);
+        id15.add(c1);
+        
+        lab2=new JLabel("Branch");
+        lab2.setBounds(150,550,150,30);
+	lab2.setFont(new Font("serif",Font.BOLD,20));
+        id15.add(lab2);
+        
+        String branch[] = {"Computer Science","Electronics","Electrical","Mechanical","Civil"};
+        c2 = new JComboBox(branch);
+        c2.setBackground(Color.WHITE);
+        c2.setBounds(300,550,150,30);
+        id15.add(c2);
+        
+        b = new JButton("Submit");
+        b.setBounds(670,610,100,30);
+		b.setBackground(new Color(69,90,100));
+		b.setFont(labelFont);
+		b.setForeground(Color.white);
+		b.setBorder(new LineBorder(new Color(69,90,100)));
+		b.setFocusable(false);
+        
+        id15.add(b);
+
+        b1=new JButton("Return");   
+        b1.setBounds(550,610,100,30);
+		b1.setBackground(new Color(69,90,100));
+		b1.setFont(labelFont);
+		b1.setForeground(Color.white);
+		b1.setBorder(new LineBorder(new Color(69,90,100)));
+		b1.setFocusable(false);
+        
+        id15.add(b1);
+
+        b2=new JButton("Clear");   
+        b2.setBounds(430,610,100,30);
+		b2.setBackground(new Color(69,90,100));
+		b2.setFont(labelFont);
+		b2.setForeground(Color.white);
+		b2.setBorder(new LineBorder(new Color(69,90,100)));
+		b2.setFocusable(false);
+        
+        id15.add(b2);
+
+        b1.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Homepage();
+			}
+        });
+
+        b2.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Admission();
+			}
+        });
+        
+        b.addActionListener(new ActionListener() {
+			
+			@Override
+            public void actionPerformed(ActionEvent e) {
+                
+                String a = t1.getText();
+                String bb = t2.getText();
+                String c = t3.getText();
+                String d = t4.getText();
+                String ee = t5.getText();
+                String ff = t6.getText();
+                String g = t7.getText();
+                String h = t8.getText();
+                String i = t9.getText();
+                String j = t10.getText();
+                String k = t11.getText();
+                String l = (String)c1.getSelectedItem();
+                String m = (String) c2.getSelectedItem();
+                if (a.trim().isEmpty() || bb.trim().isEmpty() || c.trim().isEmpty() || d.trim().isEmpty() || ee.trim().isEmpty() || ff.trim().isEmpty() || g.trim().isEmpty() || h.trim().isEmpty() || i.trim().isEmpty() || j.trim().isEmpty() || k.trim().isEmpty() || l.trim().isEmpty() || m.trim().isEmpty()) {
+                    JOptionPane.showMessageDialog(null, "Some Required Fields are Empty");
+                }
+                else {
+                    String insertQuery = "INSERT INTO `teacher`"
+                            + "(`Name`, `Father's Name`, `Age`, `DOB (dd/mm/yyyy)`, `Address`, `Phone`,`Email Id`, `SSC GPA`, `HSC GPA`, `NID No`, `Student Id`, `Course`,`Branch`) "
+                            + " VALUES ('" + a + "','" + bb + "','" + c + "','" + d + "','" + ee + "','" + ff + "','"
+                            + g + "','" + h + "','" + i + "','" + j + "','" + k + "','" + l + "','" + m + "')";
+
+                    Database db = new Database();
+                    db.admissionRegister(insertQuery);
+                }
+			}
+		});
 
 
 

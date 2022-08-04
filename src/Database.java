@@ -17,26 +17,85 @@ public class Database {
 			System.out.println(e);
 		}
 	}
+
 	public void Login(String queryLogin, String userName, String pass) {
 		try {
 			rs = st.executeQuery(queryLogin);
-			while(rs.next()) {
+			while (rs.next()) {
 				String tableUserName = rs.getString(7);
 				String tablePass = rs.getString(3);
-				if(userName.equals(tableUserName) && pass.equals(tablePass)) {
-					flag =1;
+				if (userName.equals(tableUserName) && pass.equals(tablePass)) {
+					flag = 1;
 					break;
 				}
 			}
 			if (flag == 0) {
 				JOptionPane.showMessageDialog(null, "Invalid paswword or username!!");
 			}
-			
+
 			else {
 				//JOptionPane.showMessageDialog(null, "Registration Not Completed");
 			}
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
+		}
+	}
+
+	public void Logi(String queryLogin, String userName, String pass) {
+		try {
+			rs = st.executeQuery(queryLogin);
+			while (rs.next()) {
+				String tableUserName = rs.getString(7);
+				String tablePass = rs.getString(3);
+				if (userName.equals(tableUserName) ) {
+					flag = 1;
+					break;
+				}
+			}
+			if (flag == 0) {
+				//JOptionPane.showMessageDialog(null, "Data not found!");
+			}
+
+			else {
+				//JOptionPane.showMessageDialog(null, "Registration Not Completed");
+			}
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, e);
+		}
+	}
+	
+	boolean LoginChk(String queryLogin, String userName, String pass) {
+		try {
+			rs = st.executeQuery(queryLogin);
+			while (rs.next()) {
+				String tableUserName = rs.getString(7);
+				String tablePass = rs.getString(3);
+				if (userName.equals(tableUserName) && pass.equals(tablePass)) {
+					return true;
+				}
+			}
+			return false;
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, e);
+			return false;
+		}
+	}
+
+	boolean ForgetChk(String queryLogin, String userName, String pass) {
+		try {
+			rs = st.executeQuery(queryLogin);
+			while (rs.next()) {
+				String tableUserName = rs.getString(2);
+				String tablePass = rs.getString(3);
+				if (userName.equals(tableUserName)) {
+					//System.out.println(tableUserName);
+					return true;
+				}
+			}
+			return false;
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, e);
+			return false;
 		}
 	}
 
@@ -49,6 +108,18 @@ public class Database {
 		catch (Exception e) {
 
 			JOptionPane.showMessageDialog(null, "Registration Not Completed");
+		}
+
+	}
+	public void insertRegister1(String insertQuesry) {
+		try {
+			st.executeUpdate(insertQuesry);
+			//JOptionPane.showMessageDialog(null, "You have successfully registered!");
+		}
+
+		catch (Exception e) {
+
+			//JOptionPane.showMessageDialog(null, "Registration Not Completed");
 		}
 
 	}
@@ -84,12 +155,12 @@ public class Database {
 	public void admissionRegister(String insertQuesry) {
 		try {
 			st.executeUpdate(insertQuesry);
-			JOptionPane.showMessageDialog(null, "Student Details Inserted Successfully");
+			JOptionPane.showMessageDialog(null, "Details Inserted Successfully");
 		}
 
 		catch (Exception e) {
 
-			JOptionPane.showMessageDialog(null, "Admission Not Completed. Internal error");
+			JOptionPane.showMessageDialog(null, "Process Not Completed. Internal error");
 		}
 
 	}
