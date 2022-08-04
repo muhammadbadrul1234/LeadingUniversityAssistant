@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import java.awt.*;
 
-public class AboutUS extends JFrame {
-    public AboutUS() {
+public class AboutUs extends JFrame {
+    public AboutUs() {
         super("Admission");
 
         ImageIcon icon;
