@@ -208,59 +208,59 @@ JFrame f;
         
         f.add(b1);
         
-        b.addActionListener(this);
-        b1.addActionListener(this);
+        // b.addActionListener(this);
+        // b1.addActionListener(this);
         
         f.setVisible(true);
     }
 
 
 
-    public void actionPerformed(ActionEvent ae){
-        if(ae.getSource()==b){
-            try{
-                conn con = new conn();
-                String str = "update student set name='"+t1.getText()+"',fathers_name='"+t2.getText()+"',age='"+t3.getText()+"', dob='"+t4.getText()+"',address='"+t5.getText()+"',phone='"+t6.getText()+"',email='"+t7.getText()+"',class_x='"+t8.getText()+"',class_xii='"+t9.getText()+"',aadhar='"+t10.getText()+"',course='"+t13.getText()+"',branch='"+t14.getText()+"' where rollno='"+t12.getText()+"'";
-                con.s.executeUpdate(str);
-                JOptionPane.showMessageDialog(null,"successfully updated");
+    // public void actionPerformed(ActionEvent ae){
+    //     if(ae.getSource()==b){
+    //         try{
+    //             conn con = new conn();
+    //             String str = "update student set name='"+t1.getText()+"',fathers_name='"+t2.getText()+"',age='"+t3.getText()+"', dob='"+t4.getText()+"',address='"+t5.getText()+"',phone='"+t6.getText()+"',email='"+t7.getText()+"',class_x='"+t8.getText()+"',class_xii='"+t9.getText()+"',aadhar='"+t10.getText()+"',course='"+t13.getText()+"',branch='"+t14.getText()+"' where rollno='"+t12.getText()+"'";
+    //             con.s.executeUpdate(str);
+    //             JOptionPane.showMessageDialog(null,"successfully updated");
                
-            }catch(Exception e){
-                System.out.println("The error is:"+e);
-            }
-        }
-        if(ae.getSource()==b1){
-            f.setVisible(false);
-            new Project().setVisible(true);
-        }
-        if(ae.getSource() == b2){
-            try{
-                conn con = new conn();
-                String str = "select * from student where rollno = '"+t12.getText()+"'";
-                ResultSet rs = con.s.executeQuery(str);
+    //         }catch(Exception e){
+    //             System.out.println("The error is:"+e);
+    //         }
+    //     }
+    //     if(ae.getSource()==b1){
+    //         f.setVisible(false);
+    //         new Project().setVisible(true);
+    //     }
+    //     if(ae.getSource() == b2){
+    //         try{
+    //             conn con = new conn();
+    //             String str = "select * from student where rollno = '"+t12.getText()+"'";
+    //             ResultSet rs = con.s.executeQuery(str);
 
-                if(rs.next()){
-                    f.setVisible(true);
+    //             if(rs.next()){
+    //                 f.setVisible(true);
              
 
-                    t1.setText(rs.getString(1));
-                    t2.setText(rs.getString(2));
-                    t3.setText(rs.getString(3));
-                    t4.setText(rs.getString(4));
-                    t5.setText(rs.getString(5));
-                    t6.setText(rs.getString(6));
-                    t7.setText(rs.getString(7));
-                    t8.setText(rs.getString(8));
-                    t9.setText(rs.getString(9));
-                    t10.setText(rs.getString(10));
-                    t11.setText(rs.getString(11));
-                    t13.setText(rs.getString(12));
-                    t14.setText(rs.getString(13));
-                }
+    //                 t1.setText(rs.getString(1));
+    //                 t2.setText(rs.getString(2));
+    //                 t3.setText(rs.getString(3));
+    //                 t4.setText(rs.getString(4));
+    //                 t5.setText(rs.getString(5));
+    //                 t6.setText(rs.getString(6));
+    //                 t7.setText(rs.getString(7));
+    //                 t8.setText(rs.getString(8));
+    //                 t9.setText(rs.getString(9));
+    //                 t10.setText(rs.getString(10));
+    //                 t11.setText(rs.getString(11));
+    //                 t13.setText(rs.getString(12));
+    //                 t14.setText(rs.getString(13));
+    //             }
 
                 
-            }catch(Exception ex){}
+    //         }catch(Exception ex){}
        
-       //b2.addActionListener(this);
+    //    //b2.addActionListener(this);
 
 
     
