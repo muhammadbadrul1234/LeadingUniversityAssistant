@@ -20,7 +20,7 @@ import javax.swing.plaf.ComboBoxUI;
 
 
 public class Homepage extends JFrame {
-    public Homepage() {
+	public Homepage() {
        super("Leading University");
         
         ImageIcon icon;
@@ -283,7 +283,8 @@ public class Homepage extends JFrame {
 		});
 
 	public void actionPerformed(ActionEvent e) {
-			
+		
+	}
 
 
 
