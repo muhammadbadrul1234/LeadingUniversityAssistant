@@ -20,7 +20,8 @@ public class Demo extends JFrame {
          Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1250, 150);
+        headerpanel.setBounds(0, 0, 1250, 150);
+        headerpanel.setBackground(new Color(69,90,100));
 		
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
