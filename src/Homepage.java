@@ -66,6 +66,9 @@ public class Homepage extends JFrame {
 		//inputpanel1.add(Admissionbtn);
 
 		JMenu utility = new JMenu("Utility");
+		JMenuItem ut1 = new JMenuItem("Notepad");
+        JMenuItem ut2 = new JMenuItem("Calculator");
+        JMenuItem ut3 = new JMenuItem("Web Browser");
 		utility.setFont(labelFont);
 		utility.setForeground(Color.WHITE);
 		utility.setBackground(new Color(69, 90, 100));
