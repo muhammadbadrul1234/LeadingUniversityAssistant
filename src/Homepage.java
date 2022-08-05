@@ -133,7 +133,7 @@ public class Homepage extends JFrame {
             @Override
             protected ComboPopup createPopup() {
                 BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
-                        basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+                basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
                 basicComboPopup.setBackground(new Color(69,90,100));
                 return basicComboPopup;
             }
@@ -142,41 +142,7 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Update);
 		inputpanel1.add(Manage);
 
-        JButton Admissionbtn=new JButton("Admission");
-	    //Admissionbtn.setBounds(150,0,150,30);
-	    Admissionbtn.setBackground(new Color(69,90,100));
-	    Admissionbtn.setFont(labelFont);
-	    Admissionbtn.setForeground(Color.WHITE);
-	    Admissionbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Admissionbtn.setFocusable(false);
-		//inputpanel1.add(Admissionbtn);
-
-        JButton contacButton=new JButton("Add Teacher");
-	    contacButton.setBounds(200,0,150,30);
-	    contacButton.setBackground(new Color(69,90,100));
-	    contacButton.setFont(labelFont);
-	    contacButton.setForeground(Color.WHITE);
-	    contacButton.setBorder(new LineBorder(new Color(69,90,100)));
-	    contacButton.setFocusable(false);
-       // inputpanel1.add(contacButton);
-
-        JButton FormBtn=new JButton("Forms");
-	    FormBtn.setBounds(350,0,50,30);
-	    FormBtn.setBackground(new Color(69,90,100));
-	    FormBtn.setFont(labelFont);
-	    FormBtn.setForeground(Color.WHITE);
-	    FormBtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    FormBtn.setFocusable(false);
-        //inputpanel1.add(FormBtn);
-
-        JButton noticebButton=new JButton("Notice");
-	    noticebButton.setBounds(400,0,100,30);
-	    noticebButton.setBackground(new Color(69,90,100));
-	    noticebButton.setFont(labelFont);
-	    noticebButton.setForeground(Color.WHITE);
-	    noticebButton.setBorder(new LineBorder(new Color(69,90,100)));
-	    noticebButton.setFocusable(false);
-        inputpanel1.add(noticebButton);
+       
 
         JButton Deptsbtn=new JButton("Departments");
 	    Deptsbtn.setBounds(500,0,120,30);
