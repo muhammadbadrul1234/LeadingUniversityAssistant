@@ -135,7 +135,7 @@ public class Register extends JFrame{
 		inputPanel.add(MobileNum);
 		
 		JTextField mobileText= new JTextField();
-		mobileText.setBounds(500,320,200,25);
+		mobileText.setBounds(625,320,200,25);
 		mobileText.setFont(labelFont);
 
 		inputPanel.add(mobileText);
@@ -147,7 +147,7 @@ public class Register extends JFrame{
 		inputPanel.add(addressField);
 				
 		JTextField addressText= new JTextField();
-		addressText.setBounds(500,360,200,25);
+		addressText.setBounds(625,360,200,25);
 		addressText.setFont(labelFont);
 		inputPanel.add(addressText);
 
@@ -158,7 +158,7 @@ public class Register extends JFrame{
 		inputPanel.add(uniID);
 				
 		JTextField uniIDText= new JTextField();
-		uniIDText.setBounds(500,400,200,25);
+		uniIDText.setBounds(625,400,200,25);
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
@@ -169,7 +169,7 @@ public class Register extends JFrame{
 		inputPanel.add(dob);
 				
 		JTextField dobText= new JTextField();
-		dobText.setBounds(500,440,200,25);
+		dobText.setBounds(625,440,200,25);
 		dobText.setFont(labelFont);
 		inputPanel.add(dobText);
 
