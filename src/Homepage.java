@@ -79,6 +79,8 @@ public class Homepage extends JFrame {
 	    Home.setBorder(new LineBorder(new Color(69,90,100)));
 		menuBar.add(Home);
 
+		JmenuItem Home1 = new JmenuItem("Home");
+
 
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
