@@ -116,7 +116,7 @@ public class Homepage extends JFrame {
             }
 		});
 		
-		String dtbs[] = {"Data Sheet","Student Details","Teacher Details"," Employee Details","Student Attendance","Teacher Attendence"," Employee Attendance"};
+		String A[] = {"Data Sheet","Student Details","Teacher Details"," Employee Details","Student Attendance","Teacher Attendence"," Employee Attendance"};
         Database = new JComboBox(dtbs);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
@@ -161,6 +161,8 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
+
+		
 		
 		inputpanel1.add(Database);
 		inputpanel1.add(Update);
