@@ -150,7 +150,7 @@ public class AboutUs extends JFrame {
             JLabel l3 = new JLabel("University");
             l3.setForeground(new Color(0, 250, 154));
             l3.setFont(new Font("Courier new", Font.BOLD, 30));
-            l3.setBounds(140, 40, 200, 55);
+            l3.setBounds(140, 200, 200, 55);
             contentPane.add(l3);
 
             JLabel l4 = new JLabel("Mangement System");
