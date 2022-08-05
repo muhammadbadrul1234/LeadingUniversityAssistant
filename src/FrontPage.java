@@ -73,7 +73,7 @@ public class FrontPage extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new Homepage();
+				new LoginPage();
 			}
 		});
 
@@ -82,7 +82,7 @@ public class FrontPage extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new Admission();
+				new Register();
 			}
 		});
 
