@@ -101,7 +101,7 @@ public class Register extends JFrame{
 		inputPanel.add(emailLabel);
 		
 		JTextField emailTextField = new JTextField();
-		emailTextField.setBounds(500,200,200,25);
+		emailTextField.setBounds(625,200,200,25);
 		emailTextField.setFont(labelFont);
 		inputPanel.add(emailTextField);
 		
@@ -112,7 +112,7 @@ public class Register extends JFrame{
 		inputPanel.add(passwordLabel);
 		
 		JTextField passwordTextField = new JTextField();
-		passwordTextField.setBounds(500,240,200,25);
+		passwordTextField.setBounds(625,240,200,25);
 		passwordTextField.setFont(labelFont);
 		
 		inputPanel.add(passwordTextField);
