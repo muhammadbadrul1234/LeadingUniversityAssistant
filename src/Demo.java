@@ -34,16 +34,7 @@ public class Demo extends JFrame {
 	    inputpanel1.setBackground(new Color(69,90,100));
         inputpanel1.setBounds(0, 150, 1000, 30);
 		inputpanel1.setLayout(null);
-        
-        JButton Homebtn=new JButton("Home");
-	    Homebtn.setBounds(0,0,100,30);
-	    Homebtn.setBackground(new Color(69,90,100));
-	    Homebtn.setFont(labelFont);
-	    Homebtn.setForeground(Color.WHITE);
-	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Homebtn.setFocusable(false);
-        inputpanel1.add(Homebtn);
-        
+    
         JButton Resultbtn=new JButton("Login");
 	    Resultbtn.setBounds(720,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
@@ -53,7 +44,7 @@ public class Demo extends JFrame {
 	    Resultbtn.setFocusable(false);
         inputpanel1.add(Resultbtn);
         
-        JButton Regbtn=new JButton("Registration");
+        JButton Regbtn=new JButton("Register");
 	    Regbtn.setBounds(790,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
