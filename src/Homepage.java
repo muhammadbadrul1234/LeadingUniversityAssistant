@@ -117,19 +117,17 @@ public class Homepage extends JFrame {
 		});
 
 		String dtbs[] = {"Data Sheet","Student Details","Teacher Details"," Employee Details","Student Attendance","Teacher Attendence"," Employee Attendance"};
-        Attendence = new JComboBox(Attndnc);
-        // c1.setUI(ColorArrowUI.createUI(c1));
-       
-        
-        Attendence.setName("Badrul");
-        Attendence.setBackground(new Color(69,90,100));
-	   	Attendence.setFont(labelFont);
-	    Attendence.setForeground(Color.WHITE);
-	    Attendence.setBorder(new LineBorder(new Color(69,90,100)));
-	    Attendence.setFocusable(false);
-        Attendence.setBackground(new Color(69,90,100));
-        Attendence.setBounds(330, 0, 130, 30);
-        Attendence.setUI(new BasicComboBoxUI() {
+        Database = new JComboBox(dtbs);
+        //DatabaseI(ColorArrowUI.createUDatabase
+        Database.setName("Badrul");
+        Database.setBackground(new Color(69,90,100));
+	   	Database.setFont(labelFont);
+	    Database.setForeground(Color.WHITE);
+	    Database.setBorder(new LineBorder(new Color(69,90,100)));
+	    Database.setFocusable(false);
+        Database.setBackground(new Color(69,90,100));
+        Database.setBounds(330, 0, 130, 30);
+        Database.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
                 BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
