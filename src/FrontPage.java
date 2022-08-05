@@ -13,7 +13,7 @@ public class FrontPage extends JFrame {
     JScrollPane jp;
     JLabel img;
 
-    Demo() {
+    FrontPage() {
         super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
