@@ -215,7 +215,7 @@ public class ForgetPass extends JFrame {
 			}
 		});
 		
-				Resultbtn.addActionListener(new ActionListener() {
+			Resultbtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
@@ -226,7 +226,7 @@ public class ForgetPass extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new LoginPage();
+				new Register();
 			}
 		});
 		
