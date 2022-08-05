@@ -160,7 +160,7 @@ public class Homepage extends JFrame {
             }
 		});
 
-String fee[] = {"Fee","Student","Teacher"," Employee"};
+	String fee[] = {"Fee","Fee Structure","Payslip"};
         Fee= new JComboBox(Attndnc);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
