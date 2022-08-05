@@ -31,7 +31,7 @@ public class Homepage extends JFrame {
         JButton b,b1,b2,b3;
 		JComboBox c1, c2;
 		
-		JComboBox Manage
+		JComboBox Manage;
 
         setSize(1250,800);
         setLocationRelativeTo(null);
@@ -70,7 +70,7 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Homebtn);
 		
 		String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
-        c1 = new JComboBox(course);
+        Manage = new JComboBox(course);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
