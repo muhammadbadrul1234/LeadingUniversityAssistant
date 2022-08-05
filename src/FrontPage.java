@@ -15,6 +15,8 @@ import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
 import javax.swing.plaf.ComboBoxUI;
 
+import FrontEndClass.*;
+
 
 public class FrontPage extends JFrame {
     JScrollPane jp;
