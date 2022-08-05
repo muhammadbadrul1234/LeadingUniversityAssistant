@@ -60,7 +60,7 @@ public class Register extends JFrame{
 
 		JPanel inputpanel1=new JPanel();
 		//inputpanel1.setBackground(new Color(93,130,250));
-        inputpanel1.setBounds(300, 180, 350, 200);
+        inputpanel1.setBounds(300, 180, 350, 50);
 		//inputpanel1.setLayout(null);
 		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/Registration.png")));
 		inputpanel1.add(imgLabel2);
