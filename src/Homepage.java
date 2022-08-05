@@ -90,7 +90,8 @@ public class Homepage extends JFrame {
                 basicComboPopup.setBackground(new Color(69,90,100));
                 return basicComboPopup;
             }
-        });
+		});
+		String l = (String)c1.getSelectedItem();
 		
 		
 		String Updt[] = {"Update","Student","Teacher"," Employee"};
