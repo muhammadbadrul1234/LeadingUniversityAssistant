@@ -33,11 +33,11 @@ public class Demo extends JFrame {
         master.setForeground(Color.BLUE);
 
         m1.setFont(new Font("monospaced",Font.BOLD,16));
-        ImageIcon icon1 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon1.png"));
-        Image image1 = icon1.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
-        m1.setIcon(new ImageIcon(image1));
-        m1.setMnemonic('A');
-        m1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
+        // ImageIcon icon1 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon1.png"));
+        // Image image1 = icon1.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
+        // m1.setIcon(new ImageIcon(image1));
+        // m1.setMnemonic('A');
+        // m1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, ActionEvent.CTRL_MASK));
         m1.setBackground(Color.WHITE);
         
         m2.setFont(new Font("monospaced",Font.BOLD,16));
