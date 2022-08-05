@@ -65,10 +65,10 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
 		//inputpanel1.add(Admissionbtn);
 
-		JLabel
+		JLabel lab, c1;
 		lab=new JLabel("Course");
         lab.setBounds(500,500,150,30);
-	lab.setFont(new Font("Calibri",Font.BOLD,20));
+		lab.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(lab);
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
