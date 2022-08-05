@@ -17,7 +17,7 @@ import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
 import javax.swing.plaf.ComboBoxUI;
 
-import Front
+import FrontPage.FrontPage;
 
 public class ZFPAdministration extends JFrame {
     JScrollPane jp;
