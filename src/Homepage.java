@@ -67,6 +67,7 @@ public class Homepage extends JFrame {
 		JMenuBar menuBar = new JMenuBar();
 		menuBar.setBackground(new Color(69, 90, 100));
 		menuBar.setBorder(new LineBorder(new Color(69, 90, 100)));
+		menuvar.setBounds
 		menuBar.setForeground(Color.WHITE);
 		inputpanel1.add(menuBar);
 
