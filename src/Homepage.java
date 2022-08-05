@@ -94,7 +94,7 @@ public class Homepage extends JFrame {
 		
 		
 		String Updt[] = {"Update","Student"," Teacher"," Employee"};
-        Update = new JComboBox(Man);
+        Update = new JComboBox(Updt);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
@@ -105,7 +105,7 @@ public class Homepage extends JFrame {
 	    Update.setBorder(new LineBorder(new Color(69,90,100)));
 	    Update.setFocusable(false);
         Update.setBackground(new Color(69,90,100));
-        Update.setBounds(260, 0, 130, 30);
+        Update.setBounds(230, 0, 130, 30);
         Update.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
