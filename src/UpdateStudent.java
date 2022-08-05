@@ -270,6 +270,7 @@ id1 = new JLabel("Name");
         //    //b2.addActionListener(this);
 
         // add(inputpanel1);
+        add(id15);
         setVisible(true);
     }
 }
