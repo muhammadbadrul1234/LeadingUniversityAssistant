@@ -1,12 +1,12 @@
 public class App {
   public static void main(String[] args) throws Exception {
-    //new FrontPage(); 
+    new FrontPage(); 
       //new LoginPage();
        //new Register();
        //new Homepage();
-      // new Admission();
-      //new AddEmployee();
-      // new AboutUs();
+       new Admission();
+      new AddEmployee();
+       new AboutUs();
       new Demo();
         
     }
