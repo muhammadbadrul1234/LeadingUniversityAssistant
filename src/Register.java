@@ -129,7 +129,7 @@ public class Register extends JFrame{
 		inputPanel.add(consPassText);
 		
 		JLabel MobileNum = new JLabel("Mobile");
-		MobileNum.setBounds(400,320,100,25);
+		MobileNum.setBounds(450,320,100,25);
 		MobileNum.setFont(labelFont);
 		MobileNum.setForeground(Color.WHITE);
 		inputPanel.add(MobileNum);
