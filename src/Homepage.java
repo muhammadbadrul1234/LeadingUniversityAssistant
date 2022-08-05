@@ -79,7 +79,7 @@ public class Homepage extends JFrame {
 	    Home.setBorder(new LineBorder(new Color(69,90,100)));
 		menuBar.add(Home);
 
-		JMenuItem Home1 = new JmenuItem("Home");
+		JMenuItem Home1 = new JMenuItem("Home");
 		Home1.setBounds(0, 0, 150, 30);
 		Home1.setBackground(new Color(69, 90, 100));
 		Home1.setFont(labelFont);
