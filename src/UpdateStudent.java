@@ -61,137 +61,159 @@ public class UpdateStudent extends JFrame {
         id8.setFont(new Font("serif", Font.ITALIC, 40));
         id8.setForeground(Color.black);
         add(id8);
+id1 = new JLabel("Name");
+        id1.setBounds(250,250,100,30);
+        id1.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id1);
 
-        id1 = new JLabel("Name");
-        id1.setBounds(50, 170, 100, 30);
-        id1.setFont(new Font("serif", Font.BOLD, 20));
-       add(id1);
-
-        t1 = new JTextField();
-        t1.setBounds(200, 170, 150, 30);
-       add(t1);
+        t1=new JTextField();
+        t1.setBounds(400,250,150,30);
+        id15.add(t1);
 
         id2 = new JLabel("Father's Name");
-        id2.setBounds(400, 170, 200, 30);
-        id2.setFont(new Font("serif", Font.BOLD, 20));
-       add(id2);
+        id2.setBounds(600,250,200,30);
+        id2.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id2);
 
-        t2 = new JTextField();
-        t2.setBounds(600, 170, 150, 30);
-       add(t2);
+        t2=new JTextField();
+        t2.setBounds(800,250,150,30);
+        id15.add(t2);
 
-        id3 = new JLabel("Age");
-        id3.setBounds(50, 220, 100, 30);
-        id3.setFont(new Font("serif", Font.BOLD, 20));
-       add(id3);
+        id3= new JLabel("Age");
+        id3.setBounds(250,300,100,30);
+        id3.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id3);
 
-        t3 = new JTextField();
-        t3.setBounds(200, 220, 150, 30);
-      add(t3);
+        t3=new JTextField();
+        t3.setBounds(400,300,150,30);
+        id15.add(t3);
 
-        id4 = new JLabel("DOB (dd/mm/yyyy)");
-        id4.setBounds(400, 220, 200, 30);
-        id4.setFont(new Font("serif", Font.BOLD, 20));
-      add(id4);
+        id4= new JLabel("DOB (dd/mm/yyyy)");  
+        id4.setBounds(600,300,200,30);
+        id4.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id4);
 
-        t4 = new JTextField();
-        t4.setBounds(600, 220, 150, 30);
-      add(t4);
+        t4=new JTextField();
+        t4.setBounds(800,300,150,30);
+        id15.add(t4);
 
-        id5 = new JLabel("Address");
-        id5.setBounds(50, 270, 100, 30);
-        id5.setFont(new Font("serif", Font.BOLD, 20));
-      add(id5);
+        id5= new JLabel("Address");
+        id5.setBounds(250,450,100,30);
+        id5.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id5);
 
-        t5 = new JTextField();
-        t5.setBounds(200, 270, 150, 30);
-     add(t5);
+        t5=new JTextField();
+        t5.setBounds(400,450,150,30);
+        id15.add(t5);
 
-        id6 = new JLabel("Phone");
-        id6.setBounds(400, 270, 100, 30);
-        id6.setFont(new Font("serif", Font.BOLD, 20));
-      add(id6);
+        id6= new JLabel("Phone");
+        id6.setBounds(600,450,100,30);
+        id6.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id6);
 
-        t6 = new JTextField();
-        t6.setBounds(600, 270, 150, 30);
-     add(t6);
+        t6=new JTextField();
+        t6.setBounds(800,450,150,30);
+        id15.add(t6);
 
-        id7 = new JLabel("Email Id");
-        id7.setBounds(50, 320, 100, 30);
-        id7.setFont(new Font("serif", Font.BOLD, 20));
-      add(id7);
+        id7= new JLabel("Email Id");
+        id7.setBounds(250,350,100,30);
+        id7.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id7);
 
-        t7 = new JTextField();
-        t7.setBounds(200, 320, 150, 30);
-   add(t7);
+        t7=new JTextField();
+        t7.setBounds(400,350,150,30);
+        id15.add(t7);
 
-        id9 = new JLabel("Class X(%)");
-        id9.setBounds(400, 320, 130, 30);
-        id9.setFont(new Font("serif", Font.BOLD, 20));
-        add(id9);
+        id9= new JLabel("SSC GPA");
+        id9.setBounds(600,350,130,30);
+        id9.setFont(new Font("Calibri",Font.BOLD,20));    
+        id15.add(id9);
 
-        t8 = new JTextField();
-        t8.setBounds(600, 320, 150, 30);
-        add(t8);
+        t8=new JTextField();
+        t8.setBounds(800,350,150,30);
+        id15.add(t8);
 
-        id10 = new JLabel("Class XII(%)");
-        id10.setBounds(50, 370, 130, 30);
-        id10.setFont(new Font("serif", Font.BOLD, 20));
-        add(id10);
+        id10= new JLabel("HSC GPA");
+        id10.setBounds(250,400,130,30);
+        id10.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id10);
 
-        t9 = new JTextField();
-        t9.setBounds(200, 370, 150, 30);
-        add(t9);
+        t9=new JTextField();
+        t9.setBounds(400,400,150,30);
+        id15.add(t9);
 
-        id11 = new JLabel("Aadhar No");
-        id11.setBounds(400, 370, 100, 30);
-        id11.setFont(new Font("serif", Font.BOLD, 20));
-        add(id11);
 
-        t10 = new JTextField();
-        t10.setBounds(600, 370, 150, 30);
-        add(t10);
+        id11= new JLabel("NID No");
+        id11.setBounds(600,400,100,30);
+        id11.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id11);
 
-        id12 = new JLabel("Roll No");
-        id12.setBounds(50, 420, 150, 30);
-        id12.setFont(new Font("serif", Font.BOLD, 20));
-        add(id12);
+        t10=new JTextField();
+        t10.setBounds(800,400,150,30);
+        id15.add(t10);
 
-        t11 = new JTextField();
-        t11.setBounds(200, 420, 150, 30);
-        add(t11);
+        id12= new JLabel("Student ID");
+        id12.setBounds(250,500,150,30);
+        id12.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(id12);
 
-        lab = new JLabel("Course");
-        lab.setBounds(400, 420, 150, 30);
-        lab.setFont(new Font("serif", Font.BOLD, 20));
-        add(lab);
+        t11=new JTextField();   
+        t11.setBounds(400,500,150,30);
+        t11.setText("");
+        id15.add(t11);
 
-        t13 = new JTextField();
-        t13.setBounds(600, 420, 150, 30);
-        add(t13);
 
-        lab2 = new JLabel("Branch");
-        lab2.setBounds(50, 470, 150, 30);
-        lab2.setFont(new Font("serif", Font.BOLD, 20));
-        add(lab2);
-
-        t14 = new JTextField();
-        t14.setBounds(200, 470, 150, 30);
-        add(t14);
-
+        lab=new JLabel("Course");
+        lab.setBounds(600,500,150,30);
+	lab.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(lab);
+            
+        String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
+        c1 = new JComboBox(course);
+        c1.setBackground(Color.WHITE);
+        c1.setBounds(800,500,150,30);
+        id15.add(c1);
+        
+        lab2=new JLabel("Branch");
+        lab2.setBounds(250,550,150,30);
+	lab2.setFont(new Font("serif",Font.BOLD,20));
+        id15.add(lab2);
+        
+        String branch[] = {"Computer Science","Electronics","Electrical","Mechanical","Civil"};
+        c2 = new JComboBox(branch);
+        c2.setBackground(Color.WHITE);
+        c2.setBounds(400,550,150,30);
+        id15.add(c2);
+        
         b = new JButton("Submit");
-        b.setBackground(Color.BLACK);
-        b.setForeground(Color.WHITE);
-        b.setBounds(250, 520, 150, 40);
+        b.setBounds(670,610,100,30);
+		b.setBackground(new Color(69,90,100));
+		b.setFont(labelFont);
+		b.setForeground(Color.white);
+		b.setBorder(new LineBorder(new Color(69,90,100)));
+		b.setFocusable(false);
+        
+        id15.add(b);
 
-        add(b);
+        b1=new JButton("Return");   
+        b1.setBounds(550,610,100,30);
+		b1.setBackground(new Color(69,90,100));
+		b1.setFont(labelFont);
+		b1.setForeground(Color.white);
+		b1.setBorder(new LineBorder(new Color(69,90,100)));
+		b1.setFocusable(false);
+        
+        id15.add(b1);
 
-        b1 = new JButton("Cancel");
-        b1.setBackground(Color.BLACK);
-        b1.setForeground(Color.WHITE);
-        b1.setBounds(450, 520, 150, 40);
-
-        add(b1);
+        b2=new JButton("Clear");   
+        b2.setBounds(430,610,100,30);
+		b2.setBackground(new Color(69,90,100));
+		b2.setFont(labelFont);
+		b2.setForeground(Color.white);
+		b2.setBorder(new LineBorder(new Color(69,90,100)));
+		b2.setFocusable(false);
+        
+        id15.add(b2);
 
         // b.addActionListener(this);
         // b1.addActionListener(this);
