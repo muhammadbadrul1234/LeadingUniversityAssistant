@@ -72,7 +72,7 @@ public class Homepage extends JFrame {
 		inputpanel1.add(menuBar);
 
 		JMenu Home = new JMenu("Home");
-		
+		menuBar.add()
 
 
         JButton contacButton=new JButton("Add Teacher");
