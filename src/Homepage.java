@@ -115,7 +115,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
         });
-        inputpanel1.add(Manage);
+        inputpanel1.add(Update);
 
         JButton Admissionbtn=new JButton("Admission");
 	    //Admissionbtn.setBounds(150,0,150,30);
