@@ -129,9 +129,10 @@ public class AboutUs extends JFrame {
 		  setBackground(new Color(173, 216, 230));
             //setBounds(500, 250, 700, 500);
 		
-            contentPane = new JPanel();
+			contentPane = new JPanel();
+			
             setContentPane(contentPane);
-           // contentPane.setLayout(null);
+           contentPane.setLayout(null);
 
             
 
