@@ -93,7 +93,9 @@ public class Homepage extends JFrame {
 		});
 		String Man2 = (String) Manage.getSelectedItem();
 		switch (Man2) {//check for a match
-                    case "Admission":
+			case "Admission":
+				dispose();
+					new Admission()
                         
                     case "Week":
                         
