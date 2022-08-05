@@ -231,7 +231,7 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Utility);
 		inputpanel1.add(Exam);
 		
-inputpanel1.add(Fee);
+		inputpanel1.add(Fee);
 		inputpanel1.add(Attendence);
 		inputpanel1.add(Database);
 		inputpanel1.add(Update);
