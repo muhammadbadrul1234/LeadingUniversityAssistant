@@ -244,6 +244,7 @@ public class Register extends JFrame{
 			}
 			
 		});
+
 		Resultbtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -255,7 +256,7 @@ public class Register extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new Register();
+				new LoginPage();
 			}
 		});
 		
