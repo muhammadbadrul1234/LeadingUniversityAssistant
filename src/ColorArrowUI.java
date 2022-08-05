@@ -3,6 +3,7 @@ import javax.swing.JComponent;
 import javax.swing.plaf.ComboBoxUI;
 import javax.swing.plaf.basic.BasicArrowButton;
 import javax.swing.plaf.basic.BasicComboBoxUI;
+import java.awt.*;
 
 class ColorArrowUI extends BasicComboBoxUI {
 
