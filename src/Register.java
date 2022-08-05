@@ -38,6 +38,24 @@ public class Register extends JFrame{
         inputpanel3.setBounds(0, 150, 1250, 30);
 		inputpanel3.setLayout(null);
 		add(inputpanel3);
+
+		 JButton Resultbtn=new JButton("Return");
+	    Resultbtn.setBounds(950,0,70,30);
+	    Resultbtn.setBackground(new Color(69,90,100));
+	    Resultbtn.setFont(labelFont);
+	    Resultbtn.setForeground(Color.lightGray);
+	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Resultbtn.setFocusable(false);
+        inputpanel3.add(Resultbtn);
+        
+        JButton Regbtn=new JButton("Login");
+	    Regbtn.setBounds(1020,0,195,30);
+	    Regbtn.setBackground(new Color(69,90,100));
+	    Regbtn.setFont(labelFont);
+	    Regbtn.setForeground(Color.lightGray);
+	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Regbtn.setFocusable(false);
+		inputpanel3.add(Regbtn);
 	
 
 		JPanel inputpanel1=new JPanel();
