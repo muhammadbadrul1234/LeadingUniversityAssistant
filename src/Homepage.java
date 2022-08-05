@@ -31,7 +31,7 @@ public class Homepage extends JFrame {
         JButton b,b1,b2,b3;
 		JComboBox c1, c2;
 		
-		JComboBox Manage,Update;
+		JComboBox Manage,Update,Database;
 
         setSize(1250,800);
         setLocationRelativeTo(null);
@@ -121,14 +121,14 @@ public class Homepage extends JFrame {
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
-        Update.setName("Badrul");
-        Update.setBackground(new Color(69,90,100));
-	   	Update.setFont(labelFont);
-	    Update.setForeground(Color.WHITE);
-	    Update.setBorder(new LineBorder(new Color(69,90,100)));
-	    Update.setFocusable(false);
-        Update.setBackground(new Color(69,90,100));
-        Update.setBounds(230, 0, 130, 30);
+        Database.setName("Badrul");
+        Database.setBackground(new Color(69,90,100));
+	   	Database.setFont(labelFont);
+	    Database.setForeground(Color.WHITE);
+	    Database.setBorder(new LineBorder(new Color(69,90,100)));
+	    Database.setFocusable(false);
+        Database.setBackground(new Color(69,90,100));
+        Database.setBounds(230, 0, 130, 30);
         Update.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
