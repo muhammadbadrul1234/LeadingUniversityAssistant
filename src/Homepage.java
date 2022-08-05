@@ -217,7 +217,7 @@ public class Homepage extends JFrame {
 
 
 
-        add(inputpanel1);
+        //add(inputpanel1);
         setVisible(true);
 
 
