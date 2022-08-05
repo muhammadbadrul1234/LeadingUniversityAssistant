@@ -165,7 +165,7 @@ public class AboutUs extends JFrame {
             JLabel l10 = new JLabel("Phone - +8801727819354");
             l10.setForeground(new Color(47, 79, 79));
             l10.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 18));
-            l10.setBounds(140, 400, 600, 34);
+            l10.setBounds(140, 365, 600, 34);
             contentPane.add(l10);
                 
 		
