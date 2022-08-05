@@ -69,7 +69,7 @@ public class Register extends JFrame{
 		JPanel inputpanel2=new JPanel();
 		
 		inputpanel2.setBackground(new Color(255,255,255));
-        inputpanel2.setBounds(0, 150, 1000, 50);
+        inputpanel2.setBounds(0, 150, 1250, 50);
 		//inputpanel1.setLayout(null);
 		add(inputpanel2);
 	
