@@ -68,7 +68,7 @@ public class Homepage extends JFrame {
 		JComboBox c1;
 		lab=new JLabel("Course");
 		lab.setBounds(150, 0, 150, 30);
-		lab..setBackground(new Color(69,90,100));
+		lab.setBackground(new Color(69,90,100));
 		lab.setFont(new Font("Calibri",Font.BOLD,20));
         inputpanel1.add(lab);
             
