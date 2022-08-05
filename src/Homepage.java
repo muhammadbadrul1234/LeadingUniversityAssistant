@@ -98,15 +98,15 @@ public class Homepage extends JFrame {
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
-        Manage.setName("Badrul");
-        Manage.setBackground(new Color(69,90,100));
-	   	Manage.setFont(labelFont);
-	    Manage.setForeground(Color.WHITE);
-	    Manage.setBorder(new LineBorder(new Color(69,90,100)));
-	    Manage.setFocusable(false);
-        Manage.setBackground(new Color(69,90,100));
-        Manage.setBounds(130, 0, 130, 30);
-        Manage.setUI(new BasicComboBoxUI() {
+        Update.setName("Badrul");
+        Update.setBackground(new Color(69,90,100));
+	   	Update.setFont(labelFont);
+	    Update.setForeground(Color.WHITE);
+	    Update.setBorder(new LineBorder(new Color(69,90,100)));
+	    Update.setFocusable(false);
+        Update.setBackground(new Color(69,90,100));
+        Update.setBounds(130, 0, 130, 30);
+        Update.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
                 BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
