@@ -178,7 +178,7 @@ public class AboutUs extends JFrame {
 
         
 
-        
+        add(inputpanel1);
         setVisible(true);
     }
 }
