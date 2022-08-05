@@ -133,7 +133,9 @@ public class AboutUs extends JFrame {
 	    Regbtn.setForeground(Color.WHITE);
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
-        inputpanel1.add(Regbtn);
+		inputpanel1.add(Regbtn);
+
+		
 
         
 
