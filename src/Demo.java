@@ -31,7 +31,8 @@ public class Demo extends JFrame {
 
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         JComboBox c1 = new JComboBox(course);
-        c1.setBackground(Color.WHITE);
+       // c1.setBackground(Color.WHITE);
+
         c1.setBounds(700,500,150,30);
         id15.add(c1);
 
