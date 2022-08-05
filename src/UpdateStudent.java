@@ -53,20 +53,25 @@ public class UpdateStudent extends JFrame {
         //inputpanel1.setBackground(new Color(112,128,144));
         inputpanel1.setBounds(0, 150, 1000, 30);
         inputpanel1.setLayout(null);
-        JFrame f;
+       JFrame f;
         JLabel id,id1,id2,id3,id4,id5,id6,id7,id8,id9,id10,id11,id12,id15,id16,id17,lab,lab1,lab2;
         JTextField t,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13;
         JButton b,b1,b2,b3;
         JComboBox c1, c2;
-        String id_emp;
-        JComboBox c3;
 
-        id8 = new JLabel("Update Student Details:");
-        id8.setBounds(50, 10, 500, 50);
-        id8.setFont(new Font("serif", Font.ITALIC, 40));
+        id15=new JLabel();
+        id15.setBounds(0,0,1250,700);
+        id15.setLayout(null);
+
+         id8 = new JLabel("New Student Details");
+        id8.setBounds(320,100,500,50);
+        id8.setFont(new Font("serif",Font.ITALIC,25));
         id8.setForeground(Color.black);
-        add(id8);
-id1 = new JLabel("Name");
+        id15.add(id8);
+        add(id15);
+
+ 
+        id1 = new JLabel("Name");
         id1.setBounds(250,250,100,30);
         id1.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id1);
