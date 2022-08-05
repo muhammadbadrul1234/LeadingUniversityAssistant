@@ -169,6 +169,15 @@ public class Homepage extends JFrame {
 		}
 		});
 
+		Aboutbtn.addActionListener(new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			dispose();
+				new LoginPage();
+		}
+		});
+
 		Logoutbtn.addActionListener(new ActionListener() {
 		
 		@Override
