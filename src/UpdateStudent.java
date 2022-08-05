@@ -69,48 +69,48 @@ public class UpdateStudent extends JFrame {
 
         t1 = new JTextField();
         t1.setBounds(200, 170, 150, 30);
-        f.add(t1);
+       add(t1);
 
         id2 = new JLabel("Father's Name");
         id2.setBounds(400, 170, 200, 30);
         id2.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id2);
+       add(id2);
 
         t2 = new JTextField();
         t2.setBounds(600, 170, 150, 30);
-        f.add(t2);
+       add(t2);
 
         id3 = new JLabel("Age");
         id3.setBounds(50, 220, 100, 30);
         id3.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id3);
+       add(id3);
 
         t3 = new JTextField();
         t3.setBounds(200, 220, 150, 30);
-        f.add(t3);
+      add(t3);
 
         id4 = new JLabel("DOB (dd/mm/yyyy)");
         id4.setBounds(400, 220, 200, 30);
         id4.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id4);
+      add(id4);
 
         t4 = new JTextField();
         t4.setBounds(600, 220, 150, 30);
-        f.add(t4);
+      add(t4);
 
         id5 = new JLabel("Address");
         id5.setBounds(50, 270, 100, 30);
         id5.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id5);
+      add(id5);
 
         t5 = new JTextField();
         t5.setBounds(200, 270, 150, 30);
-        f.add(t5);
+     add(t5);
 
         id6 = new JLabel("Phone");
         id6.setBounds(400, 270, 100, 30);
         id6.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id6);
+      add(id6);
 
         t6 = new JTextField();
         t6.setBounds(600, 270, 150, 30);
