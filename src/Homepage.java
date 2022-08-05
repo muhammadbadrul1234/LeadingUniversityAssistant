@@ -123,6 +123,15 @@ public class Homepage extends JFrame {
 	    Regbtn.setForeground(Color.WHITE);
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
+		inputpanel1.add(Regbtn);
+		
+		JButton Regbtn=new JButton("Log");
+	    Regbtn.setBounds(790,0,195,30);
+	    Regbtn.setBackground(new Color(69,90,100));
+	    Regbtn.setFont(labelFont);
+	    Regbtn.setForeground(Color.WHITE);
+	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
 
         JPanel inputpanel2=new JPanel();
