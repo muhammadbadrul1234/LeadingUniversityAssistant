@@ -22,7 +22,7 @@ import javax.swing.plaf.ComboBoxUI;
 public class ZFPAdministration extends JFrame {
     JScrollPane jp;
     JLabel img;
-    ZFPAdministration(){
+    public ZFPAdministration(){
     super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
