@@ -78,7 +78,7 @@ public class Homepage extends JFrame {
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
-        c1.setBounds(700,500,150,30);
+        c1.setBounds(300,0,150,30);
         inputpanel1.add(c1);
 
         JButton contacButton=new JButton("Add Teacher");
