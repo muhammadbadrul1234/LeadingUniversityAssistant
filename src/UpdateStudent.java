@@ -280,7 +280,57 @@ public class UpdateStudent extends JFrame {
         // add(inputpanel1);
 
 
+         b1.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Homepage();
+			}
+        });
+
+        b2.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Admission();
+			}
+        });
         
+        b.addActionListener(new ActionListener() {
+			
+			@Override
+            public void actionPerformed(ActionEvent e) {
+                
+                String a = t1.getText();
+                String bb = t2.getText();
+                String c = t3.getText();
+                String d = t4.getText();
+                String ee = t5.getText();
+                String ff = t6.getText();
+                String g = t7.getText();
+                String h = t8.getText();
+                String i = t9.getText();
+                String j = t10.getText();
+                String k = t11.getText();
+                String l = (String)c1.getSelectedItem();
+                String m = (String) c2.getSelectedItem();
+                if (a.trim().isEmpty() || bb.trim().isEmpty() || c.trim().isEmpty() || d.trim().isEmpty() || ee.trim().isEmpty() || ff.trim().isEmpty() || g.trim().isEmpty() || h.trim().isEmpty() || i.trim().isEmpty() || j.trim().isEmpty() || k.trim().isEmpty() || l.trim().isEmpty() || m.trim().isEmpty()) {
+                    JOptionPane.showMessageDialog(null, "Some Required Fields are Empty");
+                }
+                else {
+                    String insertQuery = "INSERT INTO `teacher`"
+                            + "(`Name`, `Father's Name`, `Age`, `DOB (dd/mm/yyyy)`, `Address`, `Phone`,`Email Id`, `SSC GPA`, `HSC GPA`, `NID No`, `Student Id`, `Course`,`Branch`) "
+                            + " VALUES ('" + a + "','" + bb + "','" + c + "','" + d + "','" + ee + "','" + ff + "','"
+                            + g + "','" + h + "','" + i + "','" + j + "','" + k + "','" + l + "','" + m + "')";
+
+                    Database db = new Database();
+                    db.admissionRegister(insertQuery);
+                }
+			}
+		});
+
         add(id15);
         setVisible(true);
     }
