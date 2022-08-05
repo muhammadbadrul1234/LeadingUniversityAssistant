@@ -155,12 +155,7 @@ public class Demo extends JFrame {
     id15.add(lab);
         
 
-    @Override protected JButton createArrowButton() {
-        return new BasicArrowButton(
-            BasicArrowButton.SOUTH,
-            Color.cyan, Color.magenta,
-            Color.yellow, Color.blue);
-    }
+  
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
