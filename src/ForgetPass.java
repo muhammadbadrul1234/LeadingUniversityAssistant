@@ -124,18 +124,18 @@ public class ForgetPass extends JFrame {
 		inputPanel.add(mobileText);
 
 		JLabel uniID = new JLabel("University ID");
-		uniID.setBounds(450,400,100,25);
+		uniID.setBounds(450,305,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
 				
 		JTextField uniIDText= new JTextField();
-		uniIDText.setBounds(625,400,200,25);
+		uniIDText.setBounds(625,305,200,25);
 		uniIDText.setFont(labelFont);
 		inputPanel.add(uniIDText);
 
 		JLabel dob = new JLabel("Date of Birth");
-		dob.setBounds(450,440,100,25);
+		dob.setBounds(450,340,100,25);
 		dob.setFont(labelFont);
 		dob.setForeground(Color.WHITE);
 		inputPanel.add(dob);
