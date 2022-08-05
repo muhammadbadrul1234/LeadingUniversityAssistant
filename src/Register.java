@@ -262,11 +262,11 @@ public class Register extends JFrame{
 			}
 		});
 
-		Homebtn.addActionListener(new ActionListener() {
+		Resultbtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new FrontPage();
+				new LoginPage();
 			}
 		});
 		Regbtn.addActionListener(new ActionListener() {
