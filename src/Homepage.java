@@ -40,7 +40,7 @@ public class Homepage extends JFrame {
 	//inputpanel1.setBackground(new Color(112,128,144));
         inputpanel1.setBounds(0, 150, 1250, 30);
 		inputpanel1.setLayout(null);
-		input
+		inputpanel1.setBackground(new Color(69,90,100));
 
 
         JButton Homebtn=new JButton("Home");
