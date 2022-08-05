@@ -8,6 +8,13 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseListener;
 import javax.swing.*;
 import java.awt.*;
+import java.lang.Object;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicComboBoxUI;
+import javax.swing.plaf.basic.BasicComboPopup;
+import javax.swing.plaf.basic.ComboPopup;
+import javax.swing.plaf.ComboBoxUI;
+
 
 public class FrontPage extends JFrame {
     JScrollPane jp;
@@ -16,9 +23,10 @@ public class FrontPage extends JFrame {
         super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
-        this.setIconImage(icon.getImage());
+		this.setIconImage(icon.getImage());
+		JComboBox Manage,Update,Database,Attendence,Fee,Utility,Exam;
 
-         Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
+        Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
         headerpanel.setBounds(0, 0, 1250, 150);
@@ -36,15 +44,66 @@ public class FrontPage extends JFrame {
 	    inputpanel1.setBackground(new Color(69,90,100));
         inputpanel1.setBounds(0, 150, 1250, 30);
 		inputpanel1.setLayout(null);
+
+		JButton Homebtn=new JButton("Home");
+	    Homebtn.setBounds(0,0,130,30);
+	    Homebtn.setBackground(new Color(69,90,100));
+	    Homebtn.setFont(labelFont);
+	    Homebtn.setForeground(Color.WHITE);
+	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Homebtn.setFocusable(false);
+		inputpanel1.add(Homebtn);
     
-        // JButton Resultbtn=new JButton("Login");
-	    // Resultbtn.setBounds(950,0,70,30);
-	    // Resultbtn.setBackground(new Color(69,90,100));
-	    // Resultbtn.setFont(labelFont);
-	    // Resultbtn.setForeground(Color.lightGray);
-	    // Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    // Resultbtn.setFocusable(false);
-        // inputpanel1.add(Resultbtn);
+        String Man[] = {"About Us","Admministration","Board of Trustees","Syndicate","Academic Council","Proctorial Body"};
+        Manage = new JComboBox(Man);
+        // c1.setUI(ColorArrowUI.createUI(c1));
+       
+        
+        Manage.setName("Badrul");
+        Manage.setBackground(new Color(69,90,100));
+	   	Manage.setFont(labelFont);
+	    Manage.setForeground(Color.WHITE);
+	    Manage.setBorder(new LineBorder(new Color(69,90,100)));
+	    Manage.setFocusable(false);
+        Manage.setBackground(new Color(69,90,100));
+        Manage.setBounds(130, 0, 130, 30);
+        Manage.setUI(new BasicComboBoxUI() {
+            @Override
+            protected ComboPopup createPopup() {
+                BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
+                        basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+                basicComboPopup.setBackground(new Color(69,90,100));
+                return basicComboPopup;
+            }
+        });
+          Manage.addActionListener(new ActionListener() {
+			
+			@Override
+            public void actionPerformed(ActionEvent e) {
+		String Man2 = (String) Manage.getSelectedItem();
+		switch (Man2) {//check for a match
+			case "Admministration":
+				dispose();
+				new ZFPAdministration();
+                break;
+            case "Board of Trustees":
+                dispose();
+							new ZFPTrustee();
+                break;
+            case "Add Employee":
+                dispose();
+							new ZFPSyndicate();
+                break;
+            default:
+                        
+                }
+            }
+			});
+		
+
+
+
+		inputpanel1.add(Manage);
         
         JButton Regbtn=new JButton("Login to Portal");
 	    Regbtn.setBounds(1020,0,195,30);

@@ -20,16 +20,12 @@ import javax.swing.plaf.ComboBoxUI;
 
 
 public class Homepage extends JFrame {
-	public Homepage() {
+    public Homepage() {
        super("Leading University");
         
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
 		this.setIconImage(icon.getImage());
-		JLabel id,id1,id2,id3,id4,id5,id6,id7,id8,id9,id10,id11,id12,id15,id16,id17,lab,lab1,lab2;
-        JTextField t,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13;
-        JButton b,b1,b2,b3;
-		JComboBox c1, c2;
 		
 		JComboBox Manage,Update,Database,Attendence,Fee,Utility,Exam;
 
@@ -90,20 +86,30 @@ public class Homepage extends JFrame {
                 basicComboPopup.setBackground(new Color(69,90,100));
                 return basicComboPopup;
             }
-		});
+        });
+          Manage.addActionListener(new ActionListener() {
+			
+			@Override
+            public void actionPerformed(ActionEvent e) {
 		String Man2 = (String) Manage.getSelectedItem();
 		switch (Man2) {//check for a match
 			case "Admission":
 				dispose();
 				new Admission();
-                        
-                    case "Week":
-                        
-                    case "Month":
-                       
-                    default:
+                break;
+            case "New Faculty":
+                dispose();
+                new AddTeacher();
+                break;
+            case "Add Employee":
+                dispose();
+				new AddEmployee();
+                break;
+            default:
                         
                 }
+            }
+        });
 		
 		
 		String Updt[] = {"Update","Student","Teacher"," Employee"};
@@ -334,4 +340,3 @@ public class Homepage extends JFrame {
 
     }
 }
-

@@ -15,7 +15,7 @@ public class Admission extends JFrame {
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000, 800);
+        setSize(1250, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(3);
         setLayout(null);
@@ -25,16 +25,16 @@ public class Admission extends JFrame {
         Font labelFont3 = ((new Font("Segoe UI", Font.CENTER_BASELINE, 20)));
         JPanel headerpanel = new JPanel();
         //headerpanel.setBackground(new Color(93,130,250));
-        headerpanel.setBounds(0, 0, 1000, 150);
-
+        headerpanel.setBounds(0, 0, 1250, 150);
+headerpanel.setBackground(new Color(69,90,100));
         JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 
         headerpanel.add(imgLabel);
         add(headerpanel);
 
         JLabel Homebtn1=new JLabel("New Student Admission");
-        Homebtn1.setBounds(380,190,1000,30);
-	    //Homebtn.setBackground(new Color(69,90,100));
+        Homebtn1.setBounds(450,190,1000,30);
+	   // Homebtn1.setBackground(new Color(255,255,255));
 	    Homebtn1.setFont(labelFont3);
 	    Homebtn1.setForeground(Color.WHITE);
 	    //Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
@@ -43,7 +43,7 @@ public class Admission extends JFrame {
 
         JPanel inputpanel2=new JPanel();
 		inputpanel2.setBackground(new Color(69,90,100));
-        inputpanel2.setBounds(0, 180, 1000, 50);
+        inputpanel2.setBounds(0, 180, 1250, 50);
         inputpanel2.setLayout(null);
         add(Homebtn1);
         add(inputpanel2);
@@ -147,7 +147,7 @@ public class Admission extends JFrame {
         JComboBox c1, c2;
 
         id15=new JLabel();
-        id15.setBounds(0,0,900,700);
+        id15.setBounds(0,0,1250,700);
         id15.setLayout(null);
 
          id8 = new JLabel("New Student Details");
@@ -159,127 +159,127 @@ public class Admission extends JFrame {
 
  
         id1 = new JLabel("Name");
-        id1.setBounds(150,250,100,30);
+        id1.setBounds(250,250,100,30);
         id1.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id1);
 
         t1=new JTextField();
-        t1.setBounds(300,250,150,30);
+        t1.setBounds(400,250,150,30);
         id15.add(t1);
 
         id2 = new JLabel("Father's Name");
-        id2.setBounds(500,250,200,30);
+        id2.setBounds(600,250,200,30);
         id2.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id2);
 
         t2=new JTextField();
-        t2.setBounds(700,250,150,30);
+        t2.setBounds(800,250,150,30);
         id15.add(t2);
 
         id3= new JLabel("Age");
-        id3.setBounds(150,300,100,30);
+        id3.setBounds(250,300,100,30);
         id3.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id3);
 
         t3=new JTextField();
-        t3.setBounds(300,300,150,30);
+        t3.setBounds(400,300,150,30);
         id15.add(t3);
 
         id4= new JLabel("DOB (dd/mm/yyyy)");  
-        id4.setBounds(500,300,200,30);
+        id4.setBounds(600,300,200,30);
         id4.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id4);
 
         t4=new JTextField();
-        t4.setBounds(700,300,150,30);
+        t4.setBounds(800,300,150,30);
         id15.add(t4);
 
         id5= new JLabel("Address");
-        id5.setBounds(150,450,100,30);
+        id5.setBounds(250,450,100,30);
         id5.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id5);
 
         t5=new JTextField();
-        t5.setBounds(300,450,150,30);
+        t5.setBounds(400,450,150,30);
         id15.add(t5);
 
         id6= new JLabel("Phone");
-        id6.setBounds(500,450,100,30);
+        id6.setBounds(600,450,100,30);
         id6.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id6);
 
         t6=new JTextField();
-        t6.setBounds(700,450,150,30);
+        t6.setBounds(800,450,150,30);
         id15.add(t6);
 
         id7= new JLabel("Email Id");
-        id7.setBounds(150,350,100,30);
+        id7.setBounds(250,350,100,30);
         id7.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id7);
 
         t7=new JTextField();
-        t7.setBounds(300,350,150,30);
+        t7.setBounds(400,350,150,30);
         id15.add(t7);
 
         id9= new JLabel("SSC GPA");
-        id9.setBounds(500,350,130,30);
+        id9.setBounds(600,350,130,30);
         id9.setFont(new Font("Calibri",Font.BOLD,20));    
         id15.add(id9);
 
         t8=new JTextField();
-        t8.setBounds(700,350,150,30);
+        t8.setBounds(800,350,150,30);
         id15.add(t8);
 
         id10= new JLabel("HSC GPA");
-        id10.setBounds(150,400,130,30);
+        id10.setBounds(250,400,130,30);
         id10.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id10);
 
         t9=new JTextField();
-        t9.setBounds(300,400,150,30);
+        t9.setBounds(400,400,150,30);
         id15.add(t9);
 
 
         id11= new JLabel("NID No");
-        id11.setBounds(500,400,100,30);
+        id11.setBounds(600,400,100,30);
         id11.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id11);
 
         t10=new JTextField();
-        t10.setBounds(700,400,150,30);
+        t10.setBounds(800,400,150,30);
         id15.add(t10);
 
-        id12= new JLabel("Employee ID");
-        id12.setBounds(150,500,150,30);
+        id12= new JLabel("Student ID");
+        id12.setBounds(250,500,150,30);
         id12.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(id12);
 
         t11=new JTextField();   
-        t11.setBounds(300,500,150,30);
+        t11.setBounds(400,500,150,30);
         t11.setText("");
         id15.add(t11);
 
 
         lab=new JLabel("Course");
-        lab.setBounds(500,500,150,30);
+        lab.setBounds(600,500,150,30);
 	lab.setFont(new Font("Calibri",Font.BOLD,20));
         id15.add(lab);
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
-        c1.setBounds(700,500,150,30);
+        c1.setBounds(800,500,150,30);
         id15.add(c1);
         
         lab2=new JLabel("Branch");
-        lab2.setBounds(150,550,150,30);
+        lab2.setBounds(250,550,150,30);
 	lab2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(lab2);
         
         String branch[] = {"Computer Science","Electronics","Electrical","Mechanical","Civil"};
         c2 = new JComboBox(branch);
         c2.setBackground(Color.WHITE);
-        c2.setBounds(300,550,150,30);
+        c2.setBounds(400,550,150,30);
         id15.add(c2);
         
         b = new JButton("Submit");

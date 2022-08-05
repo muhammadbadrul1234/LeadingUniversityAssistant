@@ -1,7 +1,6 @@
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.xml.crypto.Data;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -33,7 +32,7 @@ public class AddEmployee extends JFrame {
         headerpanel.add(imgLabel);
         add(headerpanel);
 
-        JLabel Homebtn1 = new JLabel("New Teacher/Employee");
+        JLabel Homebtn1 = new JLabel("New Employee");
         Homebtn1.setBounds(380, 190, 1000, 30);
         //Homebtn.setBackground(new Color(69,90,100));
         Homebtn1.setFont(labelFont3);
