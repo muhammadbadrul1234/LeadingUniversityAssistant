@@ -10,22 +10,20 @@ import javax.swing.*;
 import java.awt.*;
 
 public class FrontPage extends JFrame {
-    public FrontPage() {
-       super("Leading University");
-        
+    JScrollPane jp;
+    JLabel img;
+
+    Demo() {
+        super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000,800);
-        setLocationRelativeTo(null);
-		setDefaultCloseOperation(3);
-		setLayout(null);
-        
-        Font labelFont=((new Font("sans-serif",Font.BOLD,14)));
+         Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1000, 150);
+        headerpanel.setBounds(0, 0, 1250, 150);
+        headerpanel.setBackground(new Color(69,90,100));
 		
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
@@ -36,26 +34,12 @@ public class FrontPage extends JFrame {
 		headerpanel.add(imgLabel);
         add(headerpanel);
         JPanel inputpanel1=new JPanel();
-	//inputpanel1.setBackground(new Color(112,128,144));
-        inputpanel1.setBounds(0, 150, 1000, 30);
-        inputpanel1.setLayout(null);
-        
-        
-        
-        
-        JButton Homebtn=new JButton("Home");
-	    Homebtn.setBounds(0,0,100,30);
-	    Homebtn.setBackground(new Color(69,90,100));
-	    Homebtn.setFont(labelFont);
-	    Homebtn.setForeground(Color.WHITE);
-	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Homebtn.setFocusable(false);
-        inputpanel1.add(Homebtn);
-        
+	    inputpanel1.setBackground(new Color(69,90,100));
+        inputpanel1.setBounds(0, 150, 1250, 30);
+		inputpanel1.setLayout(null);
     
-        
-        JButton Resultbtn=new JButton("Result");
-	    Resultbtn.setBounds(720,0,70,30);
+        JButton Resultbtn=new JButton("Login");
+	    Resultbtn.setBounds(950,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
 	    Resultbtn.setForeground(Color.WHITE);
@@ -63,8 +47,8 @@ public class FrontPage extends JFrame {
 	    Resultbtn.setFocusable(false);
         inputpanel1.add(Resultbtn);
         
-        JButton Regbtn=new JButton("Semester Registration");
-	    Regbtn.setBounds(790,0,195,30);
+        JButton Regbtn=new JButton("Register");
+	    Regbtn.setBounds(1020,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
 	    Regbtn.setForeground(Color.WHITE);
@@ -72,44 +56,19 @@ public class FrontPage extends JFrame {
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
         
-        JPanel inputpanel2=new JPanel();
-		
-
-        inputpanel2.setBounds(0, 180, 1000, 600);
-
-		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/uielement/Frontpage.png")));
-		//inputpanel2.add(imgLabel2);
-       // add(inputpanel2);
-
-        
-
-
-        
-
-
+        setSize(1250, 800);
+        setLocationRelativeTo(null);
+		setDefaultCloseOperation(3);
+		setLayout(null);
+        img = new JLabel(new ImageIcon("fp.png"));
+        jp = new JScrollPane(img);
+        jp.setBounds(00, 180, 1234, 580);
+        jp.setForeground(Color.WHITE);
+        jp.setViewportView(img);
+        add(jp);
 
         add(inputpanel1);
         setVisible(true);
-
-
-
-
-
-
-        /*
-         * Action Listener of menu bar
-         */
-        Homebtn.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				//dispose();
-				//new Homepage();
-			}
-		});
-        
-         
-
 
     }
 }
