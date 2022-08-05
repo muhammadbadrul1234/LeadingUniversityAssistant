@@ -130,7 +130,7 @@ public class AboutUs extends JFrame {
             //setBounds(500, 250, 700, 500);
 		
 			contentPane = new JPanel();
-			co
+			contentPane.setBounds(0, 180, 1250, 30);
 			
             setContentPane(contentPane);
            contentPane.setLayout(null);
