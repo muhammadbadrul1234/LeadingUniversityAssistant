@@ -72,12 +72,12 @@ public class FrontPage extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				//dispose();
-				//new Homepage();
+				dispose();
+				new Homepage();
 			}
 		});
 
-		Admissionbtn.addActionListener(new ActionListener() {
+		Regbtn.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
