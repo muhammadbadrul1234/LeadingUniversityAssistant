@@ -46,7 +46,7 @@ public class Demo extends JFrame {
         inputpanel1.add(Resultbtn);
         
         JButton Regbtn=new JButton("Register");
-	    Regbtn.setBounds(790,0,195,30);
+	    Regbtn.setBounds(990,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
 	    Regbtn.setForeground(Color.WHITE);
