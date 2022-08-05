@@ -132,7 +132,7 @@ public class LoginPage extends JFrame {
 	    Regbtn.setForeground(Color.lightGray);
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
-        inputpane2.add(Regbtn);
+        inputpanel2.add(Regbtn);
 		loginBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
