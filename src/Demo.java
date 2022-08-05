@@ -11,6 +11,9 @@ public class Demo extends JFrame {
     JScrollPane jp;
     JLabel img;
 
+    /**
+     * 
+     */
     Demo() {
         super("Leading University");
         
