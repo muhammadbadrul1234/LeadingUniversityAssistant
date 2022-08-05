@@ -64,7 +64,7 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
 		//inputpanel1.add(Admissionbtn);
 
-		
+		JMenuBar
 
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
