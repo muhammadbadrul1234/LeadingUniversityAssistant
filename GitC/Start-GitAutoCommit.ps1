@@ -55,3 +55,5 @@ else {
         Start-Sleep -Seconds $Interval
     }
 }
+
+git-auto -i 500 -p ;; set interval seconds
