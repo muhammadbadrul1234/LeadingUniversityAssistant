@@ -47,8 +47,17 @@ public class ForgetPass extends JFrame {
 		inputpanel3.setLayout(null);
 		add(inputpanel3);
 
-		 JButton Resultbtn=new JButton("Home");
-	    Resultbtn.setBounds(950,0,70,30);
+		JButton Homebtn=new JButton("Home");
+	    Homebtn.setBounds(630,0,195,30);
+	    Homebtn.setBackground(new Color(69,90,100));
+	    Homebtn.setFont(labelFont);
+	    Homebtn.setForeground(Color.lightGray);
+	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Homebtn.setFocusable(false);
+        inputpanel3.add(Homebtn);
+
+		JButton Resultbtn=new JButton("Return");
+	    Resultbtn.setBounds(825,0,195,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
 	    Resultbtn.setForeground(Color.lightGray);
@@ -56,7 +65,7 @@ public class ForgetPass extends JFrame {
 	    Resultbtn.setFocusable(false);
         inputpanel3.add(Resultbtn);
         
-        JButton Regbtn=new JButton("Register");
+        JButton Regbtn=new JButton("Forget Password");
 	    Regbtn.setBounds(1020,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
@@ -64,6 +73,7 @@ public class ForgetPass extends JFrame {
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
 		inputpanel3.add(Regbtn);
+	
 	
 
 		JPanel inputpanel1=new JPanel();
