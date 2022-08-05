@@ -7,6 +7,9 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class UpdateStudent extends JFrame {
+    /**
+     * 
+     */
     public UpdateStudent() {
         super("Update Student");
 
