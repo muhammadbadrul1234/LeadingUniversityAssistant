@@ -117,7 +117,7 @@ public class Homepage extends JFrame {
 		});
 		
 		String dtbs[] = {"Update","Student","Teacher"," Employee"};
-        Update = new JComboBox(Updt);
+        Database = new JComboBox(dtbs);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
