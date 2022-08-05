@@ -60,8 +60,9 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setForeground(Color.WHITE);
 	    Admissionbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Admissionbtn.setFocusable(false);
-        inputpanel1.add(Admissionbtn);
+		inputpanel1.add(Admissionbtn);
 
+		
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
 	    contacButton.setBackground(new Color(69,90,100));
