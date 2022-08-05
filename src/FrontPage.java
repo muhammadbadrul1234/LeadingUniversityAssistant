@@ -86,7 +86,7 @@ public class FrontPage extends JFrame {
 		switch (Man2) {//check for a match
 			case "Admministration":
 				dispose();
-				new ZFPAdministration();
+				new FrontEndClass.ZFPAdministration();
                 break;
             case "Board of Trustees":
                 dispose();
