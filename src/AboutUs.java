@@ -11,51 +11,39 @@ import java.awt.*;
 public class AboutUs extends JFrame {
 	private JPanel contentPane;
     public AboutUs() {
-        super("About Developer- Leading University");
-
+        super("Leading University");
+        
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1250, 800);
+        setSize(1250,800);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(3);
-        setLayout(null);
+		setDefaultCloseOperation(3);
+		setLayout(null);
 
-        Font labelFont = ((new Font("Segoe UI", Font.CENTER_BASELINE, 16)));
-        Font labelFont2 = ((new Font("Segoe UI", Font.ROMAN_BASELINE, 20)));
-        Font labelFont3 = ((new Font("Segoe UI", Font.CENTER_BASELINE, 20)));
-        JPanel headerpanel = new JPanel();
-        //headerpanel.setBackground(new Color(93,130,250));
-        headerpanel.setBounds(0, 0, 1000, 150);
+        Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
 
-        JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
+	    JPanel headerpanel=new JPanel();
+	    //headerpanel.setBackground(new Color(93,130,250));
+		headerpanel.setBounds(0, 0, 1250, 150);
+		headerpanel.setBackground(new Color(69,90,100));
 
-        headerpanel.add(imgLabel);
+
+	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
+		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+		headerTxt.setForeground(Color.WHITE);
+		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
+
+		headerpanel.add(imgLabel);
         add(headerpanel);
-
-        JLabel Homebtn1=new JLabel("About Us");
-        Homebtn1.setBounds(420,190,1000,30);
-	    //Homebtn.setBackground(new Color(69,90,100));
-	    Homebtn1.setFont(labelFont3);
-	    Homebtn1.setForeground(Color.WHITE);
-	    //Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
-	   // Homebtn.setFocusable(false);
-        
-
-        JPanel inputpanel2=new JPanel();
-		inputpanel2.setBackground(new Color(69,90,100));
-        inputpanel2.setBounds(0, 180, 1000, 50);
-        inputpanel2.setLayout(null);
-        add(Homebtn1);
-        add(inputpanel2);
-
-         JPanel inputpanel1=new JPanel();
+        JPanel inputpanel1=new JPanel();
 	//inputpanel1.setBackground(new Color(112,128,144));
-        inputpanel1.setBounds(0, 150, 1000, 30);
+        inputpanel1.setBounds(0, 150, 1250, 30);
 		inputpanel1.setLayout(null);
-        
-        
+		inputpanel1.setBackground(new Color(69,90,100));
+
+
         JButton Homebtn=new JButton("Home");
 	    Homebtn.setBounds(0,0,100,30);
 	    Homebtn.setBackground(new Color(69,90,100));
@@ -64,7 +52,7 @@ public class AboutUs extends JFrame {
 	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Homebtn.setFocusable(false);
         inputpanel1.add(Homebtn);
-        
+
         JButton Admissionbtn=new JButton("Admission");
 	    Admissionbtn.setBounds(100,0,100,30);
 	    Admissionbtn.setBackground(new Color(69,90,100));
@@ -73,25 +61,25 @@ public class AboutUs extends JFrame {
 	    Admissionbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Admissionbtn.setFocusable(false);
         inputpanel1.add(Admissionbtn);
-        
-        JButton contacButton=new JButton("Contact");
-	    contacButton.setBounds(200,0,100,30);
+
+        JButton contacButton=new JButton("Add Teacher");
+	    contacButton.setBounds(200,0,150,30);
 	    contacButton.setBackground(new Color(69,90,100));
 	    contacButton.setFont(labelFont);
 	    contacButton.setForeground(Color.WHITE);
 	    contacButton.setBorder(new LineBorder(new Color(69,90,100)));
 	    contacButton.setFocusable(false);
         inputpanel1.add(contacButton);
-        
+
         JButton FormBtn=new JButton("Forms");
-	    FormBtn.setBounds(300,0,100,30);
+	    FormBtn.setBounds(350,0,50,30);
 	    FormBtn.setBackground(new Color(69,90,100));
 	    FormBtn.setFont(labelFont);
 	    FormBtn.setForeground(Color.WHITE);
 	    FormBtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    FormBtn.setFocusable(false);
         inputpanel1.add(FormBtn);
-        
+
         JButton noticebButton=new JButton("Notice");
 	    noticebButton.setBounds(400,0,100,30);
 	    noticebButton.setBackground(new Color(69,90,100));
@@ -100,7 +88,7 @@ public class AboutUs extends JFrame {
 	    noticebButton.setBorder(new LineBorder(new Color(69,90,100)));
 	    noticebButton.setFocusable(false);
         inputpanel1.add(noticebButton);
-        
+
         JButton Deptsbtn=new JButton("Departments");
 	    Deptsbtn.setBounds(500,0,120,30);
 	    Deptsbtn.setBackground(new Color(69,90,100));
@@ -109,7 +97,7 @@ public class AboutUs extends JFrame {
 	    Deptsbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Deptsbtn.setFocusable(false);
         inputpanel1.add(Deptsbtn);
-        
+
         JButton Librarybtn=new JButton("Library");
 	    Librarybtn.setBounds(620,0,100,30);
 	    Librarybtn.setBackground(new Color(69,90,100));
@@ -118,7 +106,7 @@ public class AboutUs extends JFrame {
 	    Librarybtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Librarybtn.setFocusable(false);
         inputpanel1.add(Librarybtn);
-        
+
         JButton Resultbtn=new JButton("Result");
 	    Resultbtn.setBounds(720,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
@@ -127,7 +115,7 @@ public class AboutUs extends JFrame {
 	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Resultbtn.setFocusable(false);
         inputpanel1.add(Resultbtn);
-        
+
         JButton Regbtn=new JButton("Semester Registration");
 	    Regbtn.setBounds(790,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
@@ -135,7 +123,8 @@ public class AboutUs extends JFrame {
 	    Regbtn.setForeground(Color.WHITE);
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
-		inputpanel1.add(Regbtn);
+        inputpanel1.add(Regbtn);
+
 
 		  setBackground(new Color(173, 216, 230));
             //setBounds(500, 250, 700, 500);
