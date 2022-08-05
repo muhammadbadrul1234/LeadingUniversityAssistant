@@ -59,20 +59,6 @@ public class UpdateStudent extends JFrame {
         JButton b,b1,b2,b3;
         JComboBox c1, c2;
 
-         JLabel l1 = new JLabel("Enter roll number to update the data of student");
-        l1.setBounds(50,100,500,30);
-        l1.setFont(new Font("serif",Font.ITALIC,20));
-        f.add(l1);
-        
-        t12 = new JTextField();
-        t12.setBounds(500,100,200,30);
-        f.add(t12);
-        
-        b2 = new JButton("Update");
-        b2.setBackground(Color.BLACK);
-        b2.setForeground(Color.WHITE);
-        b2.setBounds(720,100,100,30);
-        f.add(b2);
       //  b2.addActionListener(this);
 
 
