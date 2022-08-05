@@ -56,7 +56,7 @@ public class UpdateStudent extends JFrame {
         JButton b,b1,b2,b3;
         JComboBox c1, c2;
         String id_emp;
-        //JComboBox c1, c2;
+        JComboBox c3, c4;
 
         id8 = new JLabel("Update Student Details:");
         id8.setBounds(50, 10, 500, 50);
