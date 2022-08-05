@@ -31,7 +31,7 @@ public class Homepage extends JFrame {
         JButton b,b1,b2,b3;
 		JComboBox c1, c2;
 		
-		JComboBox Manage,Update,Database,Attendence;
+		JComboBox Manage,Update,Database,Attendence,Fee;
 
         setSize(1250,800);
         setLocationRelativeTo(null);
@@ -182,7 +182,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-inputpanel1.add(Attendence);
+inputpanel1.add(Fee);
 		inputpanel1.add(Attendence);
 		inputpanel1.add(Database);
 		inputpanel1.add(Update);
