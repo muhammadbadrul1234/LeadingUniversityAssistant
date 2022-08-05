@@ -25,6 +25,8 @@ public class Demo extends JFrame {
 		setDefaultCloseOperation(3);
         setLayout(null);
 
+        
+
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         JComboBox c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
