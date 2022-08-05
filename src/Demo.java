@@ -26,7 +26,7 @@ public class Demo extends JFrame {
         setLayout(null);
 
         JLabel id15=new JLabel();
-        id15.setBounds(0,0,900,700);
+        id15.setBounds(10,0,900,700);
         id15.setLayout(null);
 
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
