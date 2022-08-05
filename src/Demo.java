@@ -31,6 +31,7 @@ public class Demo extends JFrame {
         jp = new JScrollPane(img);
         jp.setBounds(00, 200, 983, 700);
         jp.setBorder(new LineBorder(new Color(69, 90, 100)));
+        jp.setBackground(new Color(69,90,100));
        jp.setForeground(Color.WHITE);
         jp.setViewportView(img);
         add(jp);
