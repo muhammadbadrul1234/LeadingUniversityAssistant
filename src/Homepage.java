@@ -69,7 +69,7 @@ public class Homepage extends JFrame {
 	    Homebtn.setFocusable(false);
 		inputpanel1.add(Homebtn);
 		
-		String Man[] = {"Admission","Add Teacher","Add Employee"};
+		String Man[] = {"Add","Admission","Add Teacher","Add Employee"};
         Manage = new JComboBox(Man);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
@@ -93,7 +93,7 @@ public class Homepage extends JFrame {
         });
 		inputpanel1.add(Manage);
 		
-		String Updt[] = {"","Student"," Teacher"," Employee"};
+		String Updt[] = {"Update","Student"," Teacher"," Employee"};
         Update = new JComboBox(Man);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
