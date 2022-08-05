@@ -25,7 +25,9 @@ public class Demo extends JFrame {
 		setDefaultCloseOperation(3);
         setLayout(null);
 
-        
+        JLabel id15=new JLabel();
+        id15.setBounds(0,0,900,700);
+        id15.setLayout(null);
 
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         JComboBox c1 = new JComboBox(course);
