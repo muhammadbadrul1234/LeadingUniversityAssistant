@@ -15,7 +15,7 @@ class ColorArrowUI extends BasicComboBoxUI {
     @Override protected JButton createArrowButton() {
         return new BasicArrowButton(
                 BasicArrowButton.SOUTH,
-            Color.getHSBColor(h, s, b)
+            Color.getHSBColor(199, 31.0, 39.2),
             Color.RGBtoHSB(69, 90, 100, hsbvals)
             , Color.magenta,
             Color.yellow, Color.blue);
