@@ -115,6 +115,8 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
+
+		
 		
 		String Attndnc[] = {"Data Sheet","Student Details","Teacher Details"," Employee Details","Student Attendance","Teacher Attendence"," Employee Attendance"};
         Attendence = new JComboBox(Attndnc);
