@@ -22,10 +22,6 @@ public class Demo extends JFrame {
 		setDefaultCloseOperation(3);
 		setLayout(null);
 
-
-        //setSize(300, 300);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-
         img = new JLabel(new ImageIcon("fp.png"));
 
         jp = new JScrollPane(img);
