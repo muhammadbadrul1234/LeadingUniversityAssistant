@@ -12,9 +12,7 @@ public class Demo extends JFrame {
     JLabel img;
 
     Demo() {
-
         super("Leading University");
-        
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
