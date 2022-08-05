@@ -64,31 +64,6 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
 		//inputpanel1.add(Admissionbtn);
 
-		JMenuBar menuBar = new JMenuBar();
-		menuBar.setBackground(new Color(69, 90, 100));
-		menuBar.setBorder(new LineBorder(new Color(69, 90, 100)));
-		menuBar.setBounds(0,150,1250,30);
-		menuBar.setForeground(Color.WHITE);
-		inputpanel1.add(menuBar);
-
-		JMenu Home = new JMenu("Home");
-		Home.setBounds(150,0,150,30);
-	    Home.setBackground(new Color(69,90,100));
-	    Home.setFont(labelFont);
-	    Home.setForeground(Color.WHITE);
-	    Home.setBorder(new LineBorder(new Color(69,90,100)));
-		menuBar.add(Home);
-
-		JMenuItem Home1 = new JMenuItem("Home");
-		Home1.setBounds(0, 0, 150, 30);
-		Home1.setBackground(new Color(69, 90, 100));
-		Home1.setFont(labelFont);
-		Home1.setForeground(Color.WHITE);
-		Home1.setBorder(new LineBorder(new Color(69, 90, 100)));
-		Home1.setFocusable(false);
-		Home.add(Home1);
-
-
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
 	    contacButton.setBackground(new Color(69,90,100));
