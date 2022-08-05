@@ -2,6 +2,9 @@ import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.basic.BasicPanelUI;
 import org.w3c.dom.events.MouseEvent;
+
+import com.mysql.cj.util.Util;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -60,7 +63,7 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setForeground(Color.WHITE);
 	    Admissionbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Admissionbtn.setFocusable(false);
-		inputpanel1.add(Admissionbtn);
+		//inputpanel1.add(Admissionbtn);
 
 		JMenu utility = new JMenu("Utility");
 		utility.setFont(labelFont);
@@ -71,7 +74,7 @@ public class Homepage extends JFrame {
 	    utility.setFont(labelFont);
 	    utility.setForeground(Color.WHITE);
 		utility.setBorder(new LineBorder(new Color(69, 90, 100)));
-		inputpanel1.add(Admissionbtn);
+		inputpanel1.add(utility);
 
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
