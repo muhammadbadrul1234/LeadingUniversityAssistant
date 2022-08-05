@@ -91,7 +91,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-		String l = (String)c1.getSelectedItem();
+		String Man2 = (String)Manage.getSelectedItem();
 		
 		
 		String Updt[] = {"Update","Student","Teacher"," Employee"};
