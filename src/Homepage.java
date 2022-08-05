@@ -69,7 +69,7 @@ public class Homepage extends JFrame {
 	    Homebtn.setFocusable(false);
 		inputpanel1.add(Homebtn);
 		
-		String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
+		String Man[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         Manage = new JComboBox(course);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
@@ -81,7 +81,7 @@ public class Homepage extends JFrame {
 	    c1.setBorder(new LineBorder(new Color(69,90,100)));
 	    c1.setFocusable(false);
         c1.setBackground(new Color(69,90,100));
-        c1.setBounds(700, 500, 150, 30);
+        c1.setBounds(130, 500, 150, 30);
         c1.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
