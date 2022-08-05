@@ -26,7 +26,7 @@ public class FrontPage extends JFrame {
 		
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
-		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+		headerTxt.setFont((new Font("Segoe UI", Font.PLAIN, 30)));
 		headerTxt.setForeground(Color.WHITE);
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 		
