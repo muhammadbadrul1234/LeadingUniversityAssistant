@@ -278,6 +278,9 @@ public class UpdateStudent extends JFrame {
         //    //b2.addActionListener(this);
 
         // add(inputpanel1);
+
+
+        
         add(id15);
         setVisible(true);
     }
