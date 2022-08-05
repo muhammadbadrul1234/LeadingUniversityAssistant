@@ -59,7 +59,7 @@ public class Demo extends JFrame {
 		setLayout(null);
         img = new JLabel(new ImageIcon("fp.png"));
         jp = new JScrollPane(img);
-        jp.setBounds(00, 180, 1220, 580);
+        jp.setBounds(00, 180, 1230, 580);
         jp.setForeground(Color.WHITE);
         jp.setViewportView(img);
         add(jp);
