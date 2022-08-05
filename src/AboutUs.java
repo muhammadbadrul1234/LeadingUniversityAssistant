@@ -36,7 +36,7 @@ public class AboutUs extends JFrame {
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 
 		headerpanel.add(imgLabel);
-        add(headerpanel);
+        
         JPanel inputpanel1=new JPanel();
 	//inputpanel1.setBackground(new Color(112,128,144));
         inputpanel1.setBounds(0, 150, 1250, 30);
@@ -177,6 +177,7 @@ public class AboutUs extends JFrame {
 		
 
         
+			add(headerpanel);
 
         add(inputpanel1);
         setVisible(true);
