@@ -33,12 +33,18 @@ public class LoginPage extends JFrame {
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 		
 		headerpanel.add(imgLabel);
-        add(headerpanel);
+		add(headerpanel);
+		
+		JPanel inputpanel2=new JPanel();
+	    inputpanel2.setBackground(new Color(69,90,100));
+        inputpanel2.setBounds(0, 150, 1250, 30);
+		inputpanel2.setLayout(null);
+		add(inputpanel2);
 	
         JPanel inputpanel1=new JPanel();
 		
 
-        inputpanel1.setBounds(0, 180, 710, 700);
+        inputpanel1.setBounds(0, 175, 710, 700);
 
 		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/1lu.png")));
 		inputpanel1.add(imgLabel2);
@@ -110,10 +116,7 @@ public class LoginPage extends JFrame {
 		forgotPassLink.setFocusable(false);
 		inputpanel.add(forgotPassLink);
 
-		JPanel inputpanel2=new JPanel();
-	    inputpanel2.setBackground(new Color(69,90,100));
-        inputpanel2.setBounds(0, 150, 1250, 30);
-		inputpanel2.setLayout(null);
+
     
         JButton Resultbtn=new JButton("Return");
 	    Resultbtn.setBounds(950,0,70,30);
@@ -132,7 +135,7 @@ public class LoginPage extends JFrame {
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
 		inputpanel2.add(Regbtn);
-		add(inputpanel2);
+		
 		loginBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -168,6 +171,20 @@ public class LoginPage extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
 				new ForgetPass();
+			}
+		});
+		Resultbtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new FrontPage();
+			}
+		});
+		Regbtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Register();
 			}
 		});
 		setVisible(true);
