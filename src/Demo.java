@@ -7,6 +7,10 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import java.awt.*;
 
+java.lang.Object
+  extended by javax.swing.plaf.ComponentUI
+      extended by javax.swing.plaf.ComboBoxUI
+
 public class Demo extends JFrame {
     JScrollPane jp;
     JLabel img;
