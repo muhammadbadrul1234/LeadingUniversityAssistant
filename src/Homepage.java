@@ -66,11 +66,11 @@ public class Homepage extends JFrame {
 		utility.setFont(labelFont);
 		utility.setForeground(Color.WHITE);
 		utility.setBackground(new Color(69, 90, 100));
-		Aboutbtn.setBounds(935,0,150,30);
-	    Aboutbtn.setBackground(new Color(69,90,100));
-	    Aboutbtn.setFont(labelFont);
-	    Aboutbtn.setForeground(Color.WHITE);
-	    Aboutbtn.setBorder(new LineBorder(new Color(69,90,100)));
+		utility.setBounds(935,0,150,30);
+	    utility.setBackground(new Color(69,90,100));
+	    utility.setFont(labelFont);
+	    utility.setForeground(Color.WHITE);
+	    utility.setBorder(new LineBorder(new Color(69,90,100)));
 
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
