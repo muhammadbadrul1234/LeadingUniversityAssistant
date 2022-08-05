@@ -81,7 +81,7 @@ public class Homepage extends JFrame {
 	    Manage.setBorder(new LineBorder(new Color(69,90,100)));
 	    Manage.setFocusable(false);
         Manage.setBackground(new Color(69,90,100));
-        Manage.setBounds(130, 0, 150, 30);
+        Manage.setBounds(130, 0, 130, 30);
         Manage.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
