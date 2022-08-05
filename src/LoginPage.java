@@ -11,7 +11,7 @@ public class LoginPage extends JFrame {
     public LoginPage() {
 		super("Leading University");
 		
-
+0000
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
