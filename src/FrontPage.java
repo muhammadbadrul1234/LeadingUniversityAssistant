@@ -68,6 +68,23 @@ public class FrontPage extends JFrame {
 
         add(inputpanel1);
         setVisible(true);
+        Homebtn.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				//dispose();
+				//new Homepage();
+			}
+		});
+
+		Admissionbtn.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Admission();
+			}
+		});
 
     }
 }
