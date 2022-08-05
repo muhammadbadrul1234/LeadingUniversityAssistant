@@ -22,7 +22,8 @@ public class Homepage extends JFrame {
 		setDefaultCloseOperation(3);
 		setLayout(null);
 
-        Font labelFont=((new Font("sans-serif",Font.CENTER_BASELINE,16)));
+        Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
+
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
 		headerpanel.setBounds(0, 0, 1250, 150);
