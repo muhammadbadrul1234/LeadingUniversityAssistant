@@ -10,6 +10,8 @@ import java.awt.*;
 import java.lang.Object;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicComboBoxUI;
+import javax.swing.plaf.basic.BasicComboPopup;
+import javax.swing.plaf.basic.ComboPopup;
 import javax.swing.plaf.ComboBoxUI;
 
 public class Demo extends JFrame {
@@ -162,7 +164,7 @@ public class Demo extends JFrame {
         c1 = new JComboBox(course);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
-        jComboBox.setUI(new BasicComboBoxUI() {
+        c1.setUI(new BasicComboBoxUI() {
     @Override
     protected ComboPopup createPopup() {
         BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
