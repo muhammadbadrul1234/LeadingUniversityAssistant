@@ -234,7 +234,7 @@ public class ForgetPass extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new ForgetPass();
+				new Register();
 			}
 		});
 		
