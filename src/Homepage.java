@@ -124,6 +124,15 @@ public class Homepage extends JFrame {
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
 		inputpanel1.add(Regbtn);
+
+		JButton Logoutbtn=new JButton("About");
+	    Logoutbtn.setBounds(1085,0,150,30);
+	    Logoutbtn.setBackground(new Color(69,90,100));
+	    Logoutbtn.setFont(labelFont);
+	    Logoutbtn.setForeground(Color.WHITE);
+	    Logoutbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Logoutbtn.setFocusable(false);
+		inputpanel1.add(Logoutbtn);
 		
 		JButton Logoutbtn=new JButton("Logout");
 	    Logoutbtn.setBounds(1085,0,150,30);
