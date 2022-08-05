@@ -184,7 +184,7 @@ public class Homepage extends JFrame {
 		});
 
 		String utlt[] = {"Fee","Fee Structure","Payslip"};
-        Fee= new JComboBox(Attndnc);
+        Utility= new JComboBox(utlt);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
