@@ -282,10 +282,6 @@ public class Homepage extends JFrame {
 		}
 		});
 
-	public void actionPerformed(ActionEvent e) {
-		
-	}
-
 
 
 		
