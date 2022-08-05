@@ -124,7 +124,7 @@ public class Register extends JFrame{
 		inputPanel.add(conPassLabel);
 				
 	    JTextField consPassText = new JTextField();
-		consPassText.setBounds(500,280,200,25);
+		consPassText.setBounds(625,280,200,25);
 		consPassText.setFont(labelFont);
 		inputPanel.add(consPassText);
 		
