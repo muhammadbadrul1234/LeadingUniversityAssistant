@@ -126,7 +126,7 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Regbtn);
 
 		JButton Aboutbtn=new JButton("About");
-	    Aboutbtn.setBounds(1085,0,150,30);
+	    Aboutbtn.setBounds(935,0,150,30);
 	    Aboutbtn.setBackground(new Color(69,90,100));
 	    Aboutbtn.setFont(labelFont);
 	    Aboutbtn.setForeground(Color.WHITE);
