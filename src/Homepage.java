@@ -95,7 +95,7 @@ public class Homepage extends JFrame {
 		switch (Man2) {//check for a match
 			case "Admission":
 				dispose();
-					new Admission()
+				new Admission();
                         
                     case "Week":
                         
