@@ -111,10 +111,10 @@ public class LoginPage extends JFrame {
 		forgotPassLink.setFocusable(false);
 		inputpanel.add(forgotPassLink);
 
-		JPanel inputpanel1=new JPanel();
-	    inputpanel1.setBackground(new Color(69,90,100));
-        inputpanel1.setBounds(0, 150, 1250, 30);
-		inputpanel1.setLayout(null);
+		JPanel inputpanel2=new JPanel();
+	    inputpanel2.setBackground(new Color(69,90,100));
+        inputpanel2.setBounds(0, 150, 1250, 30);
+		inputpanel2.setLayout(null);
     
         JButton Resultbtn=new JButton("Login");
 	    Resultbtn.setBounds(950,0,70,30);
