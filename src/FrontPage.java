@@ -37,16 +37,16 @@ public class FrontPage extends JFrame {
         inputpanel1.setBounds(0, 150, 1250, 30);
 		inputpanel1.setLayout(null);
     
-        JButton Resultbtn=new JButton("Login");
-	    Resultbtn.setBounds(950,0,70,30);
-	    Resultbtn.setBackground(new Color(69,90,100));
-	    Resultbtn.setFont(labelFont);
-	    Resultbtn.setForeground(Color.lightGray);
-	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Resultbtn.setFocusable(false);
-        inputpanel1.add(Resultbtn);
+        // JButton Resultbtn=new JButton("Login");
+	    // Resultbtn.setBounds(950,0,70,30);
+	    // Resultbtn.setBackground(new Color(69,90,100));
+	    // Resultbtn.setFont(labelFont);
+	    // Resultbtn.setForeground(Color.lightGray);
+	    // Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    // Resultbtn.setFocusable(false);
+        // inputpanel1.add(Resultbtn);
         
-        JButton Regbtn=new JButton("Register");
+        JButton Regbtn=new JButton("Login to Portal");
 	    Regbtn.setBounds(1020,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
