@@ -132,7 +132,41 @@ public class Homepage extends JFrame {
 	    Logoutbtn.setForeground(Color.WHITE);
 	    Logoutbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Logoutbtn.setFocusable(false);
-        inputpanel1.add(Logoutbtn);
+		inputpanel1.add(Logoutbtn);
+
+		Homebtn.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				//dispose();
+				//new Homepage();
+			}
+		});
+
+		Admissionbtn.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Admission();
+			}
+		});
+				contacButton.addActionListener(new ActionListener() {
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					dispose();
+					new AddEmployee();
+				}
+		});
+
+		
+
+
+
+
+
+
 
         JPanel inputpanel2=new JPanel();
 		
