@@ -53,13 +53,13 @@ public class Demo extends JFrame {
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
         
-        setSize(1000, 900);
+        setSize(1100, 800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
         img = new JLabel(new ImageIcon("fp.png"));
         jp = new JScrollPane(img);
-        jp.setBounds(00, 180, 983, 580);
+        jp.setBounds(00, 180, 1083, 580);
         jp.setForeground(Color.WHITE);
         jp.setViewportView(img);
         add(jp);
