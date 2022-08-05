@@ -1,4 +1,3 @@
-import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.xml.crypto.Data;
 
@@ -27,7 +26,7 @@ public class Demo extends JFrame {
         setLayout(null);
 
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
-        c1 = new JComboBox(course);
+        JComboBox c1 = new JComboBox(course);
         c1.setBackground(Color.WHITE);
         c1.setBounds(700,500,150,30);
         id15.add(c1);
