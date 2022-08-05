@@ -93,7 +93,7 @@ public class Homepage extends JFrame {
         });
 		
 		
-		String Updt[] = {"Update","Student"," Teacher"," Employee"};
+		String Updt[] = {"Update","Student","Teacher"," Employee"};
         Update = new JComboBox(Updt);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
