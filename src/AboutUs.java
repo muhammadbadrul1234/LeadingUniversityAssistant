@@ -126,7 +126,7 @@ public class AboutUs extends JFrame {
         inputpanel1.add(Regbtn);
 
 
-		  setBackground(new Color(173, 216, 230));
+		  //setBackground(new Color(173, 216, 230));
             //setBounds(500, 250, 700, 500);
 		
 			contentPane = new JPanel();
