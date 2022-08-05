@@ -1,4 +1,4 @@
-package Frontend 
+package FrontendClass;
 import javax.swing.JFrame;
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
