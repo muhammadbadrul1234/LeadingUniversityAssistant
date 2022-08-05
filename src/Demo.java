@@ -168,7 +168,7 @@ public class Demo extends JFrame {
         c1.setName("Badrul");
         c1.setBackground(new Color(69,90,100));
 	   //c1.setFont(labelFont);
-	    c1.setForeground(Color.GRAY);
+	    c1.setForeground(Color.White);
 	    c1.setBorder(new LineBorder(new Color(69,90,100)));
 	    c1.setFocusable(false);
         c1.setBackground(new Color(69,90,100));
