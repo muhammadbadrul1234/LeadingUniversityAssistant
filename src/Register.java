@@ -141,7 +141,7 @@ public class Register extends JFrame{
 		inputPanel.add(mobileText);
 
 		JLabel addressField = new JLabel("Address");
-		addressField.setBounds(400,360,100,25);
+		addressField.setBounds(450,360,100,25);
 		addressField.setFont(labelFont);
 		addressField.setForeground(Color.WHITE);
 		inputPanel.add(addressField);
@@ -152,7 +152,7 @@ public class Register extends JFrame{
 		inputPanel.add(addressText);
 
 		JLabel uniID = new JLabel("University ID");
-		uniID.setBounds(400,400,100,25);
+		uniID.setBounds(450,400,100,25);
 		uniID.setFont(labelFont);
 		uniID.setForeground(Color.WHITE);
 		inputPanel.add(uniID);
