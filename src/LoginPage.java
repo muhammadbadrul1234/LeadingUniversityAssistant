@@ -126,7 +126,7 @@ public class LoginPage extends JFrame {
 	    // Resultbtn.setFocusable(false);
         // inputpanel2.add(Resultbtn);
         
-        JButton Regbtn=new JButton("Return");
+        JButton Regbtn=new JButton("Home");
 	    Regbtn.setBounds(1020,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
@@ -183,7 +183,7 @@ public class LoginPage extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new ();
+				new FrontPage();
 			}
 		});
 		setVisible(true);
