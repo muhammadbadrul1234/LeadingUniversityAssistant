@@ -17,7 +17,10 @@ public class Demo extends JFrame {
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000,800);
+        setSize(1000, 800);
+        setLocationRelativeTo(null);
+		setDefaultCloseOperation(3);
+		setLayout(null);
 
 
         //setSize(300, 300);
