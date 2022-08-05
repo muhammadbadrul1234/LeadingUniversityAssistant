@@ -164,6 +164,15 @@ public class Demo extends JFrame {
         c1 = new JComboBox(course);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
+        
+        c1.setName("Badrul");
+        c1.setBackground(new Color(69,90,100));
+	   //c1.setFont(labelFont);
+	    c1.setForeground(Color.GRAY);
+	    c1.setBorder(new LineBorder(new Color(69,90,100)));
+	    c1.setFocusable(false);
+        c1.setBackground(new Color(69,90,100));
+        c1.setBounds(700, 500, 150, 30);
         c1.setUI(new BasicComboBoxUI() {
     @Override
     protected ComboPopup createPopup() {
@@ -172,14 +181,6 @@ public class Demo extends JFrame {
         return basicComboPopup;
     }
 });
-        c1.setName("Badrul");
-        c1.setBackground(new Color(69,90,100));
-	   //c1.setFont(labelFont);
-	    c1.setForeground(Color.GRAY);
-	    c1.setBorder(new LineBorder(new Color(69,90,100)));
-	    c1.setFocusable(false);
-        c1.setBackground(new Color(69,90,100));
-        c1.setBounds(700,500,150,30);
         id15.add(c1);
         
         lab2=new JLabel("Branch");
