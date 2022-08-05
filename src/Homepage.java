@@ -158,31 +158,7 @@ public class Homepage extends JFrame {
          * Action Listener of menu bar
          */
 
-		Homebtn.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				//dispose();
-				//new Homepage();
-			}
-		});
-
-		Admissionbtn.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new Admission();
-			}
-		});
-			contacButton.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new AddEmployee();
-			}
-		});
+		
 
 
     }
