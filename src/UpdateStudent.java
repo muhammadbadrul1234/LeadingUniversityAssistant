@@ -114,39 +114,39 @@ public class UpdateStudent extends JFrame {
 
         t6 = new JTextField();
         t6.setBounds(600, 270, 150, 30);
-        f.add(t6);
+     add(t6);
 
         id7 = new JLabel("Email Id");
         id7.setBounds(50, 320, 100, 30);
         id7.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id7);
+      add(id7);
 
         t7 = new JTextField();
         t7.setBounds(200, 320, 150, 30);
-        f.add(t7);
+   add(t7);
 
         id9 = new JLabel("Class X(%)");
         id9.setBounds(400, 320, 130, 30);
         id9.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id9);
+        add(id9);
 
         t8 = new JTextField();
         t8.setBounds(600, 320, 150, 30);
-        f.add(t8);
+        add(t8);
 
         id10 = new JLabel("Class XII(%)");
         id10.setBounds(50, 370, 130, 30);
         id10.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id10);
+        add(id10);
 
         t9 = new JTextField();
         t9.setBounds(200, 370, 150, 30);
-        f.add(t9);
+        add(t9);
 
         id11 = new JLabel("Aadhar No");
         id11.setBounds(400, 370, 100, 30);
         id11.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id11);
+        add(id11);
 
         t10 = new JTextField();
         t10.setBounds(600, 370, 150, 30);
