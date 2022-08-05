@@ -195,7 +195,7 @@ public class Homepage extends JFrame {
 	    Utility.setBorder(new LineBorder(new Color(69,90,100)));
 	    Utility.setFocusable(false);
         Utility.setBackground(new Color(69,90,100));
-        Utility.setBounds(530, 0, 130, 30);
+        Utility.setBounds(730, 0, 130, 30);
         Utility.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
@@ -205,7 +205,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-		inputpanel1.add(Fee);
+		inputpanel1.add(Utility);
 inputpanel1.add(Fee);
 		inputpanel1.add(Attendence);
 		inputpanel1.add(Database);
