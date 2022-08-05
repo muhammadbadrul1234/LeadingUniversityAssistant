@@ -37,7 +37,7 @@ public class Demo extends JFrame {
 		inputpanel1.setLayout(null);
     
         JButton Resultbtn=new JButton("Login");
-	    Resultbtn.setBounds(720,0,70,30);
+	    Resultbtn.setBounds(950,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
 	    Resultbtn.setForeground(Color.WHITE);
