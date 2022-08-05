@@ -34,10 +34,10 @@ public class Register extends JFrame{
 		add(headerpanel);
 		
 		JPanel inputpanel3=new JPanel();
-	    inputpanel2.setBackground(new Color(69,90,100));
-        inputpanel2.setBounds(0, 150, 1250, 30);
-		inputpanel2.setLayout(null);
-		add(inputpanel2);
+	    inputpanel3.setBackground(new Color(69,90,100));
+        inputpanel3.setBounds(0, 150, 1250, 30);
+		inputpanel3.setLayout(null);
+		add(inputpanel3);
 	
 
 		JPanel inputpanel1=new JPanel();
