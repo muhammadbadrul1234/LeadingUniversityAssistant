@@ -20,7 +20,7 @@ public class Demo extends JFrame {
          Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1000, 150);
+		headerpanel.setBounds(0, 0, 1250, 150);
 		
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
@@ -32,7 +32,7 @@ public class Demo extends JFrame {
         add(headerpanel);
         JPanel inputpanel1=new JPanel();
 	    inputpanel1.setBackground(new Color(69,90,100));
-        inputpanel1.setBounds(0, 150, 1000, 30);
+        inputpanel1.setBounds(0, 150, 1250, 30);
 		inputpanel1.setLayout(null);
     
         JButton Resultbtn=new JButton("Login");
