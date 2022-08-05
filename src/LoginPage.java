@@ -10,8 +10,7 @@ import java.awt.*;
 public class LoginPage extends JFrame {
     public LoginPage() {
         super("Leading University");
-        55
-		
+
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
