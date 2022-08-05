@@ -68,7 +68,35 @@ public class Homepage extends JFrame {
 		JMenu utility = new JMenu("Utility");
 		JMenuItem ut1 = new JMenuItem("Notepad");
         JMenuItem ut2 = new JMenuItem("Calculator");
-        JMenuItem ut3 = new JMenuItem("Web Browser");
+		JMenuItem ut3 = new JMenuItem("Web Browser");
+		
+		        ut1.setFont(new Font("monospaced",Font.BOLD,16));
+        ImageIcon icon18 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon9.png"));
+        Image image19 = icon18.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
+        ut1.setIcon(new ImageIcon(image19));
+        ut1.setMnemonic('I');
+        ut1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, ActionEvent.CTRL_MASK));
+        ut1.setBackground(Color.WHITE);
+        
+
+        ut2.setFont(new Font("monospaced",Font.BOLD,16));
+        ImageIcon icon20 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon10.png"));
+        Image image21 = icon20.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
+        ut2.setIcon(new ImageIcon(image21));
+        ut2.setMnemonic('J');
+        ut2.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
+        ut2.setBackground(Color.WHITE);
+        
+
+        ut3.setFont(new Font("monospaced",Font.BOLD,16));
+        ImageIcon icon10 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon11.png"));
+        Image image10 = icon10.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
+        ut3.setIcon(new ImageIcon(image10));
+        ut3.setMnemonic('K');
+        ut3.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, ActionEvent.CTRL_MASK));
+		ut3.setBackground(Color.WHITE);
+        
+		
 		utility.setFont(labelFont);
 		utility.setForeground(Color.WHITE);
 		utility.setBackground(new Color(69, 90, 100));
