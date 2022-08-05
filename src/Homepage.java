@@ -31,7 +31,7 @@ public class Homepage extends JFrame {
         JButton b,b1,b2,b3;
 		JComboBox c1, c2;
 		
-		JComboBox Manage,Update,Database,Attendence,Fee,Util;
+		JComboBox Manage,Update,Database,Attendence,Fee,Utility,Exam;
 
         setSize(1250,800);
         setLocationRelativeTo(null);
