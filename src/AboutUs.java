@@ -11,7 +11,7 @@ import java.awt.*;
 public class AboutUs extends JFrame {
 	private JPanel contentPane;
     public AboutUs() {
-        super("Leading University");
+        super("About Developer - Leading University");
         
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
