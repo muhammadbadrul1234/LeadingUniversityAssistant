@@ -223,7 +223,7 @@ id1 = new JLabel("Name");
         // b.addActionListener(this);
         // b1.addActionListener(this);
 
-        setVisible(true);
+       // setVisible(true);
 
         // public void actionPerformed(ActionEvent ae){
         //     if(ae.getSource()==b){
