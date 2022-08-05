@@ -195,7 +195,7 @@ public class Homepage extends JFrame {
 	    Exam.setBorder(new LineBorder(new Color(69,90,100)));
 	    Exam.setFocusable(false);
         Exam.setBackground(new Color(69,90,100));
-        Exam.setBounds(730, 0, 130, 30);
+        Exam.setBounds(630, 0, 130, 30);
         Exam.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
@@ -228,6 +228,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
+		inputpanel1.add(Exam);
 		inputpanel1.add(Utility);
 inputpanel1.add(Fee);
 		inputpanel1.add(Attendence);
