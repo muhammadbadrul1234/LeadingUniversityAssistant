@@ -138,9 +138,12 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-inputpanel1.add(Attendence);
-		inputpanel1.add(Manage);
+		inputpanel1.add(Attendence);
+		inputpanel1.add(Database);
 		inputpanel1.add(Update);
+
+		inputpanel1.add(Manage);
+		
 		
 		
 		//add(inputpanel1);
