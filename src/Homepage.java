@@ -188,15 +188,15 @@ public class Homepage extends JFrame {
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
-        Fee.setName("Badrul");
-        Fee.setBackground(new Color(69,90,100));
-	   	Fee.setFont(labelFont);
-	    Fee.setForeground(Color.WHITE);
-	    Fee.setBorder(new LineBorder(new Color(69,90,100)));
-	    Fee.setFocusable(false);
-        Fee.setBackground(new Color(69,90,100));
-        Fee.setBounds(530, 0, 130, 30);
-        Fee.setUI(new BasicComboBoxUI() {
+        Utility.setName("Badrul");
+        Utility.setBackground(new Color(69,90,100));
+	   	Utility.setFont(labelFont);
+	    Utility.setForeground(Color.WHITE);
+	    Utility.setBorder(new LineBorder(new Color(69,90,100)));
+	    Utility.setFocusable(false);
+        Utility.setBackground(new Color(69,90,100));
+        Utility.setBounds(530, 0, 130, 30);
+        Utility.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
                 BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
@@ -205,6 +205,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
+		inputpanel1.add(Fee);
 inputpanel1.add(Fee);
 		inputpanel1.add(Attendence);
 		inputpanel1.add(Database);
