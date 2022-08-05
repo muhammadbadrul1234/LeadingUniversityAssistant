@@ -91,7 +91,25 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-		String Man2 = (String)Manage.getSelectedItem();
+		String Man2 = (String) Manage.getSelectedItem();
+		switch (s) {//check for a match
+                    case "Day":
+                        emailvalue = 1.1;
+                        System.out.println("Day selected, emailvalue:" + emailvalue);
+                        break;
+                    case "Week":
+                        emailvalue = 2.2;
+                        System.out.println("Week selected, emailvalue:" + emailvalue);
+                        break;
+                    case "Month":
+                        emailvalue = 3.3;
+                        System.out.println("Month selected, emailvalue:" + emailvalue);
+                        break;
+                    default:
+                        emailvalue = 4.4;
+                        System.out.println("No match selected, emailvalue:" + emailvalue);
+                        break;
+                }
 		
 		
 		String Updt[] = {"Update","Student","Teacher"," Employee"};
