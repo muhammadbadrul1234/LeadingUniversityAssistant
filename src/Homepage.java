@@ -77,13 +77,12 @@ public class Homepage extends JFrame {
 
         ut2.setFont(new Font("monospaced",Font.BOLD,16));
         ut2.setMnemonic('J');
-        ut2.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
         ut2.setBackground(Color.WHITE);
         
 
         ut3.setFont(new Font("monospaced",Font.BOLD,16));
         ut3.setMnemonic('K');
-        ut3.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, ActionEvent.CTRL_MASK));
+        
 		ut3.setBackground(Color.WHITE);
         
 		
