@@ -160,8 +160,29 @@ public class Homepage extends JFrame {
             }
 		});
 
+String fee[] = {"Fee","Student","Teacher"," Employee"};
+        Fee= new JComboBox(Attndnc);
+        // c1.setUI(ColorArrowUI.createUI(c1));
+       
+        
+        Attendence.setName("Badrul");
+        Attendence.setBackground(new Color(69,90,100));
+	   	Attendence.setFont(labelFont);
+	    Attendence.setForeground(Color.WHITE);
+	    Attendence.setBorder(new LineBorder(new Color(69,90,100)));
+	    Attendence.setFocusable(false);
+        Attendence.setBackground(new Color(69,90,100));
+        Attendence.setBounds(430, 0, 130, 30);
+        Attendence.setUI(new BasicComboBoxUI() {
+            @Override
+            protected ComboPopup createPopup() {
+                BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
+                        basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+                basicComboPopup.setBackground(new Color(69,90,100));
+                return basicComboPopup;
+            }
+		});
 
-		
 		inputpanel1.add(Attendence);
 		inputpanel1.add(Database);
 		inputpanel1.add(Update);
