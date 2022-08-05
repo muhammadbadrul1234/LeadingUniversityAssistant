@@ -14,7 +14,7 @@ class ColorArrowUI extends BasicComboBoxUI {
     @Override protected JButton createArrowButton() {
         return new BasicArrowButton(
             BasicArrowButton.SOUTH,
-            Color.TRANSLUCENT, Color.magenta,
+            Color.BITMASK, Color.magenta,
             Color.yellow, Color.blue);
     }
 }
