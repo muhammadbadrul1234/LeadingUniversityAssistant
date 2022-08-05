@@ -145,12 +145,10 @@ public class AboutUs extends JFrame {
             l3.setBounds(140, 200, 200, 55);
             contentPane.add(l3);
 
-           
-
 
             JLabel l6 = new JLabel("Developed By : Muhammad Badrul");
             l6.setFont(new Font("Trebuchet MS", Font.BOLD, 30));
-            l6.setBounds(70, 198, 600, 35);
+            l6.setBounds(70, 275, 600, 35);
             contentPane.add(l6);
 
             JLabel l8 = new JLabel("Contact : suarez081119@gmail.com");
