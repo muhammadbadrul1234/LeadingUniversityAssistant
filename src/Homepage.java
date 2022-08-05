@@ -70,7 +70,7 @@ public class Homepage extends JFrame {
         JMenuItem ut2 = new JMenuItem("Calculator");
 		JMenuItem ut3 = new JMenuItem("Web Browser");
 		
-		        ut1.setFont(new Font("monospaced",Font.BOLD,16));
+		ut1.setFont(new Font("monospaced",Font.BOLD,16));
         ImageIcon icon18 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon9.png"));
         Image image19 = icon18.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
         ut1.setIcon(new ImageIcon(image19));
