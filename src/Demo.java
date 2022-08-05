@@ -27,7 +27,10 @@ public class Demo extends JFrame {
         setLayout(null);
 
         JMenuBar mb = new JMenuBar();
-        mb.set
+        mb.setBounds(150, 150, 1250, 30);
+        mb.setBackground(new Color(69, 90, 100));
+        mb.setBorder(new LineBorder(new Color(69, 90, 100)));
+        
         JMenu master = new JMenu("Master");
         JMenuItem m1 = new JMenuItem("New Faculty");
         JMenuItem m2 = new JMenuItem("New Student Admission");
