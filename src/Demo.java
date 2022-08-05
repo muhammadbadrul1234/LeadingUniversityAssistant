@@ -49,7 +49,12 @@ public class Demo extends JFrame {
         m1.addActionListener(this);
         m2.addActionListener(this);
 
+                master.add(m1);
+                master.add(m2);
         
+                        mb.add(master);
+
+
 
 
        // add(inputpanel1);
