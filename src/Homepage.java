@@ -72,6 +72,11 @@ public class Homepage extends JFrame {
 		inputpanel1.add(menuBar);
 
 		JMenu Home = new JMenu("Home");
+		Home.setBounds(150,0,150,30);
+	    Home.setBackground(new Color(69,90,100));
+	    Home.setFont(labelFont);
+	    Home.setForeground(Color.WHITE);
+	    Home.setBorder(new LineBorder(new Color(69,90,100)));
 		menuBar.add(Home);
 
 
