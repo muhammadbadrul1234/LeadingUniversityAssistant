@@ -150,7 +150,7 @@ public class Demo extends JFrame {
         id15.add(lab);
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
-        c1 = new JComboBox("Badrullah",course);
+        //c1 = new JComboBox("Badrullah",course);
         c1.setBackground(new Color(69,90,100));
 	   //c1.setFont(labelFont);
 	    c1.setForeground(Color.GRAY);
