@@ -74,15 +74,15 @@ public class Homepage extends JFrame {
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
-        .setName("Badrul");
-        .setBackground(new Color(69,90,100));
-	   	.setFont(labelFont);
-	    .setForeground(Color.WHITE);
-	    .setBorder(new LineBorder(new Color(69,90,100)));
-	    .setFocusable(false);
-        .setBackground(new Color(69,90,100));
-        .setBounds(130, 0, 150, 30);
-        .setUI(new BasicComboBoxUI() {
+        Manage.setName("Badrul");
+        Manage.setBackground(new Color(69,90,100));
+	   	Manage.setFont(labelFont);
+	    Manage.setForeground(Color.WHITE);
+	    Manage.setBorder(new LineBorder(new Color(69,90,100)));
+	    Manage.setFocusable(false);
+        Manage.setBackground(new Color(69,90,100));
+        Manage.setBounds(130, 0, 150, 30);
+        Manage.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
                 BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
@@ -91,7 +91,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
         });
-        inputpanel1.add(c1);
+        inputpanel1.add(Manage);
 
         JButton Admissionbtn=new JButton("Admission");
 	    //Admissionbtn.setBounds(150,0,150,30);
