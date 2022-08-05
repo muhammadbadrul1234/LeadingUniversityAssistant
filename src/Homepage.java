@@ -165,7 +165,7 @@ public class Homepage extends JFrame {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			dispose();
-			new LoginPage()
+				new LoginPage();
 		}
 		});
 
