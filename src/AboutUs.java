@@ -156,7 +156,7 @@ public class AboutUs extends JFrame {
             l8.setBounds(140, 290, 600, 34);
             contentPane.add(l8);
 
-            JLabel l9 = new JLabel("Education - B.Sc in Computer Science & )");
+            JLabel l9 = new JLabel("Education - B.Sc in Computer Science & Engineering (Student)))");
             l9.setFont(new Font("Trebuchet MS", Font.BOLD , 20));
             l9.setBounds(70, 320, 600, 34);
             contentPane.add(l9);
