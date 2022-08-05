@@ -68,7 +68,7 @@ public class Homepage extends JFrame {
 		menuBar.setBackground(new Color(69, 90, 100));
 		menuBar.setBorder(new LineBorder(new Color(69, 90, 100)));
 		menuBar.setForeground(Color.WHITE);
-		inputpanel1.add(Admissionbtn);
+		inputpanel1.add(JMenuBar);
 
 
         JButton contacButton=new JButton("Add Teacher");
