@@ -7,7 +7,6 @@ import java.awt.*;
 
 class ColorArrowUI extends BasicComboBoxUI {
 
-    private static final String Color = null;
 
     public static ComboBoxUI createUI(JComponent c) {
         return new ColorArrowUI();
