@@ -8,7 +8,7 @@ public class App {
       // new AddEmployee();
       // new AboutUs();
       //new Demo();
-      new ForgetPass();p
+      new ForgetPass();
         
     }
 }
