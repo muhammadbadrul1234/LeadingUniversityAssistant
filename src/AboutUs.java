@@ -145,10 +145,10 @@ public class AboutUs extends JFrame {
             contentPane.setLayout(null);
 
             JLabel l1 = new JLabel("New label");
-            ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/aa.jpg"));
-            Image i2 = i1.getImage().getScaledInstance(250, 100,Image.SCALE_DEFAULT);
-            ImageIcon i3 = new ImageIcon(i2);
-            l1 = new JLabel(i3);
+          //  ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/lu.jpg"));
+          //  Image i2 = i1.getImage().getScaledInstance(250, 100,Image.SCALE_DEFAULT);
+           // ImageIcon i3 = new ImageIcon(i2);
+         //   l1 = new JLabel(i3);
             l1.setBounds(400, 40, 250, 100);
             contentPane.add(l1);
 
