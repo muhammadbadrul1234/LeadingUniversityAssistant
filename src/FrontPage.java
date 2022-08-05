@@ -18,7 +18,7 @@ public class FrontPage extends JFrame {
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-         Font labelFont=((new Font("sans-serif",Font.R,16)));
+         Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
         headerpanel.setBounds(0, 0, 1250, 150);
