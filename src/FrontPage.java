@@ -12,7 +12,6 @@ import java.awt.*;
 public class FrontPage extends JFrame {
     JScrollPane jp;
     JLabel img;
-
     FrontPage() {
         super("Leading University");
         ImageIcon icon;
