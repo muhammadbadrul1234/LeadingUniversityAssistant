@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac43417b-c9e0-453d-8ee0-3cbd6ce343ab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FrontPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/FrontPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FrontPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/FrontPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Homepage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Homepage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Homepage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Homepage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Homepage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LoginPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LoginPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LoginPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LoginPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LoginPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LoginPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fp.png" beforeDir="false" afterPath="$PROJECT_DIR$/fp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="ac43417b-c9e0-453d-8ee0-3cbd6ce343ab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659711282761</updated>
       <workItem from="1659711299152" duration="763000" />
-      <workItem from="1659712262308" duration="3111000" />
+      <workItem from="1659712262308" duration="3729000" />
     </task>
     <servers />
   </component>

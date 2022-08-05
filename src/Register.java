@@ -9,30 +9,36 @@ import java.awt.event.ActionListener;
 public class Register extends JFrame{
     public Register() {
 		super("Leading University");
-        
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000,800);
+        setSize(1250,800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
-        setLayout(null);
-
-        Font labelFont=((new Font("Segoe UI",Font.CENTER_BASELINE,16)));
+		setLayout(null);
+        
+        Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1000, 150);
+        headerpanel.setBounds(0, 0, 1250, 150);
+        headerpanel.setBackground(new Color(69,90,100));
 		
-
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
-		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+		headerTxt.setFont((new Font("Segoe UI", Font.PLAIN, 30)));
 		headerTxt.setForeground(Color.WHITE);
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 		
 		headerpanel.add(imgLabel);
 		add(headerpanel);
+		
+		JPanel inputpanel2=new JPanel();
+	    inputpanel2.setBackground(new Color(69,90,100));
+        inputpanel2.setBounds(0, 150, 1250, 30);
+		inputpanel2.setLayout(null);
+		add(inputpanel2);
+	
 
 		JPanel inputpanel1=new JPanel();
 		//inputpanel1.setBackground(new Color(93,130,250));
