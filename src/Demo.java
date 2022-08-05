@@ -53,7 +53,7 @@ public class Demo extends JFrame {
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
         
-        setSize(1000, 800);
+        setSize(1000, 900);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
