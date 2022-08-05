@@ -3,10 +3,10 @@ public class App {
       //new FrontPage(); 
        //new LoginPage();
       // new Register();
-      new Homepage();
+     // new Homepage();
       // new Admission();
       // new AddEmployee();
-      // new AboutUs();
+      new AboutUs();
       //new Demo();
       //new ForgetPass();
         
