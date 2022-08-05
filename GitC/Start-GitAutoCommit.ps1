@@ -56,4 +56,4 @@ else {
     }
 }
 
-git-auto -i 500 -p
+git-auto -i 500 -p ;;
