@@ -69,9 +69,9 @@ public class Homepage extends JFrame {
 		lab=new JLabel("Course");
 		lab.setBounds(150, 0, 150, 30);
 		lab.setBackground(new Color(69, 90, 100));
-		Admissionbtn.setFont(labelFont);
-	    Admissionbtn.setForeground(Color.WHITE);
-	    Admissionbtn.setBorder(new LineBorder(new Color(69,90,100)));
+		lab.setFont(labelFont);
+	    lab.setForeground(Color.WHITE);
+	    lab.setBorder(new LineBorder(new Color(69,90,100)));
 		lab.setFont(new Font("Calibri",Font.BOLD,20));
         inputpanel1.add(lab);
             
