@@ -47,7 +47,7 @@ public class ForgetPass extends JFrame {
 		inputpanel3.setLayout(null);
 		add(inputpanel3);
 
-		 JButton Resultbtn=new JButton("Home");
+		 JButton Resultbtn=new JButton("Go To ");
 	    Resultbtn.setBounds(950,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
