@@ -212,7 +212,7 @@ JFrame f;
         // b1.addActionListener(this);
         
         f.setVisible(true);
-    }
+    
 
 
 
@@ -264,8 +264,8 @@ JFrame f;
 
 
     
-    add(inputpanel1);
+   // add(inputpanel1);
         setVisible(true);
     }
-}
+
 
