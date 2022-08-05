@@ -94,13 +94,13 @@ public class ForgetPass extends JFrame {
 		inputPanel.add(nameLabel);
 
 		JTextField nameText = new JTextField();
-		nameText.setBounds(625,165,200,25);
+		nameText.setBounds(625,200,200,25);
 		nameText.setFont(labelFont);
 		inputPanel.add(nameText);
 		
 		
 		JLabel emailLabel = new JLabel("Email");
-		emailLabel.setBounds(450,200,100,25);
+		emailLabel.setBounds(450,235,100,25);
 		emailLabel.setFont(labelFont);
 		emailLabel.setForeground(Color.WHITE);
 		inputPanel.add(emailLabel);
