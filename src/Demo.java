@@ -21,7 +21,13 @@ public class Demo extends JFrame {
         setSize(1250,800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
-		setLayout(null);
+        setLayout(null);
+        
+        JMenuBar mb  = new JMenuBar();
+        JMenu master = new JMenu("Master");
+        JMenuItem m1 = new JMenuItem("New Faculty");
+        JMenuItem m2 = new JMenuItem("New Student Admission");
+        master.setForeground(Color.BLUE);
 
 
        // add(inputpanel1);
