@@ -172,7 +172,7 @@ public class Homepage extends JFrame {
 	    Fee.setBorder(new LineBorder(new Color(69,90,100)));
 	    Fee.setFocusable(false);
         Fee.setBackground(new Color(69,90,100));
-        Fee.setBounds(430, 0, 130, 30);
+        Fee.setBounds(530, 0, 130, 30);
         Fee.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
