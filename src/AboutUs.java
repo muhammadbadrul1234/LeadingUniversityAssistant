@@ -131,7 +131,7 @@ public class AboutUs extends JFrame {
 		
             contentPane = new JPanel();
             setContentPane(contentPane);
-            contentPane.setLayout(null);
+           // contentPane.setLayout(null);
 
             
 
