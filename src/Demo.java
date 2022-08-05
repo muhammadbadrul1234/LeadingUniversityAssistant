@@ -154,9 +154,6 @@ public class Demo extends JFrame {
 	lab.setFont(new Font("Calibri",Font.BOLD,20));
     id15.add(lab);
         
-     public static ComboBoxUI createUI(JComponent c) {
-        return new ColorArrowUI();
-    }
 
     @Override protected JButton createArrowButton() {
         return new BasicArrowButton(
