@@ -161,7 +161,7 @@ public class ForgetPass extends JFrame {
 		inputPanel.add(registerButton);
 		
 		JButton loginButton = new JButton("Return to Login Page");
-		loginButton.setBounds(450, 540, 300, 25);
+		loginButton.setBounds(500, 540, 300, 25);
 		loginButton.setBackground(new Color(93,130,250));
 		loginButton.setFont(labelFont);
 		loginButton.setForeground(new Color(255,255,255));
