@@ -35,7 +35,6 @@ public class Demo extends JFrame {
         inputpanel1.setBounds(0, 150, 1000, 30);
 		inputpanel1.setLayout(null);
         
-        
         JButton Homebtn=new JButton("Home");
 	    Homebtn.setBounds(0,0,100,30);
 	    Homebtn.setBackground(new Color(69,90,100));
@@ -44,7 +43,6 @@ public class Demo extends JFrame {
 	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Homebtn.setFocusable(false);
         inputpanel1.add(Homebtn);
-        
         
         JButton Resultbtn=new JButton("Result");
 	    Resultbtn.setBounds(720,0,70,30);
@@ -64,19 +62,14 @@ public class Demo extends JFrame {
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
         
-
-
         setSize(1000, 800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
-
         img = new JLabel(new ImageIcon("fp.png"));
-
         jp = new JScrollPane(img);
         jp.setBounds(00, 200, 983, 580);
-
-       jp.setForeground(Color.WHITE);
+        jp.setForeground(Color.WHITE);
         jp.setViewportView(img);
         add(jp);
         setVisible(true);
