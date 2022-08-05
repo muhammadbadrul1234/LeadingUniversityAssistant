@@ -17,7 +17,7 @@ public class Homepage extends JFrame {
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000,800);
+        setSize(1250,800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
@@ -25,7 +25,7 @@ public class Homepage extends JFrame {
         Font labelFont=((new Font("sans-serif",Font.CENTER_BASELINE,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1000, 150);
+		headerpanel.setBounds(0, 0, 1250, 150);
 
 
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
