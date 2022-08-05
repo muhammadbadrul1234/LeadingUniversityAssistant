@@ -90,7 +90,7 @@ public class Register extends JFrame{
 		inputPanel.add(nameLabel);
 
 		JTextField nameText = new JTextField();
-		nameText.setBounds(500,165,200,25);
+		nameText.setBounds(850,165,200,25);
 		nameText.setFont(labelFont);
 		inputPanel.add(nameText);
 		
