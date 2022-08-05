@@ -70,7 +70,7 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Homebtn);
 		
 		String Man[] = {"Manage","Admission","Add Teacher","Add Employee","Bsc","Msc","MBA","MCA","BA","BCom"};
-        Manage = new JComboBox(course);
+        Manage = new JComboBox(Man);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
