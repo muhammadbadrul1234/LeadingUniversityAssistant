@@ -37,7 +37,7 @@ function Start-GitAutoCommitAndPush {
     [string] $status = (& git status)
     if (!$status.Contains("working tree clean")) {
         git add .
-        git commit -m "Commit By Badrul"
+        git commit -m "Commit By Muhammad Badrul"
     }
     if ($PushToServer) {
         git push $Server $Branch
