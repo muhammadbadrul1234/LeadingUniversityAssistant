@@ -72,6 +72,8 @@ public class Demo extends JFrame {
         jp.setForeground(Color.WHITE);
         jp.setViewportView(img);
         add(jp);
+        
+        add(inputpanel1);
         setVisible(true);
 
     }
