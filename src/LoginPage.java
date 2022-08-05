@@ -117,14 +117,14 @@ public class LoginPage extends JFrame {
 
 
     
-        JButton Resultbtn=new JButton("Return");
-	    Resultbtn.setBounds(950,0,70,30);
-	    Resultbtn.setBackground(new Color(69,90,100));
-	    Resultbtn.setFont(labelFont);
-	    Resultbtn.setForeground(Color.lightGray);
-	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Resultbtn.setFocusable(false);
-        inputpanel2.add(Resultbtn);
+        // JButton Resultbtn=new JButton("Return");
+	    // Resultbtn.setBounds(950,0,70,30);
+	    // Resultbtn.setBackground(new Color(69,90,100));
+	    // Resultbtn.setFont(labelFont);
+	    // Resultbtn.setForeground(Color.lightGray);
+	    // Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    // Resultbtn.setFocusable(false);
+        // inputpanel2.add(Resultbtn);
         
         JButton Regbtn=new JButton("Return");
 	    Regbtn.setBounds(1020,0,195,30);
@@ -172,18 +172,18 @@ public class LoginPage extends JFrame {
 				new ForgetPass();
 			}
 		});
-		Resultbtn.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new FrontPage();
-			}
-		});
+		// Resultbtn.addActionListener(new ActionListener() {
+		// 	@Override
+		// 	public void actionPerformed(ActionEvent e) {
+		// 		dispose();
+		// 		new FrontPage();
+		// 	}
+		// });
 		Regbtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new Register();
+				new ();
 			}
 		});
 		setVisible(true);
