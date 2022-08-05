@@ -40,7 +40,7 @@ public class Register extends JFrame{
 		add(inputpanel3);
 
 		JButton Homebtn=new JButton("Home");
-	    Homebtn.setBounds(880,0,195,30);
+	    Homebtn.setBounds(630,0,195,30);
 	    Homebtn.setBackground(new Color(69,90,100));
 	    Homebtn.setFont(labelFont);
 	    Homebtn.setForeground(Color.lightGray);
@@ -49,7 +49,7 @@ public class Register extends JFrame{
         inputpanel3.add(Homebtn);
 
 		JButton Resultbtn=new JButton("Return");
-	    Resultbtn.setBounds(9825,0,195,30);
+	    Resultbtn.setBounds(825,0,195,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
 	    Resultbtn.setForeground(Color.lightGray);
