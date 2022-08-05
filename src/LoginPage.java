@@ -15,67 +15,66 @@ public class LoginPage extends JFrame {
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000,800);
+        setSize(1250,800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
         
-        Font labelFont=((new Font("sans-serif",Font.CENTER_BASELINE,16)));
+        Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
 	    JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
-		headerpanel.setBounds(0, 0, 1000, 150);
+        headerpanel.setBounds(0, 0, 1250, 150);
+        headerpanel.setBackground(new Color(69,90,100));
 		
-
 	    
 	    JLabel headerTxt=new JLabel("Welcome to Leading University Portal");
-		headerTxt.setFont((new Font("Segoe UI", Font.BOLD, 30)));
+		headerTxt.setFont((new Font("Segoe UI", Font.PLAIN, 30)));
 		headerTxt.setForeground(Color.WHITE);
 		JLabel imgLabel = new JLabel(new ImageIcon(this.getClass().getResource("/image/header.png")));
 		
 		headerpanel.add(imgLabel);
-		add(headerpanel);
-		
+        add(headerpanel);
 	
         JPanel inputpanel1=new JPanel();
 		
 
-        inputpanel1.setBounds(0, 90, 350, 700);
+        inputpanel1.setBounds(0, 180, 710, 700);
 
-		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/lu.png")));
+		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/1lu.png")));
 		inputpanel1.add(imgLabel2);
 		add(inputpanel1);
 
 	    JPanel inputpanel=new JPanel();
 		inputpanel.setBackground(new Color(93, 130, 250));
-	    inputpanel.setBounds(350,60,640,750);
+	    inputpanel.setBounds(710,180,640,750);
 	    inputpanel.setLayout(null);
 		add(inputpanel);
 
         JLabel namelabel=new JLabel("University ID");
-	    namelabel.setBounds(80,250,100,25);
+	    namelabel.setBounds(80,200,100,25);
 		namelabel.setFont(labelFont);
 		namelabel.setForeground(Color.WHITE);
 		inputpanel.add(namelabel);
 
 	    
 	    JTextField nameTxt=new JTextField();
-	    nameTxt.setBounds(200,250,200,25);
+	    nameTxt.setBounds(200,200,200,25);
 	    nameTxt.setFont(labelFont);
 		inputpanel.add(nameTxt);
 	    
 	    JLabel passlabel=new JLabel("Password ");
-	    passlabel.setBounds(80,290,100,25);
+	    passlabel.setBounds(80,240,100,25);
 		passlabel.setFont(labelFont);
 		passlabel.setForeground(Color.WHITE);
 		inputpanel.add(passlabel);
 	    
 	    JTextField passTxt=new JTextField();
-	    passTxt.setBounds(200,290,200,25);
+	    passTxt.setBounds(200,240,200,25);
 	    passTxt.setFont(labelFont);
 		inputpanel.add(passTxt);
 	    
 	    JButton loginBtn=new JButton("Login");
-	    loginBtn.setBounds(300,320,100,30);
+	    loginBtn.setBounds(300,290,100,30);
 	    loginBtn.setBackground(new Color(93,161,217));
 	    loginBtn.setFont(labelFont);
 	    loginBtn.setForeground(Color.WHITE);
@@ -84,7 +83,7 @@ public class LoginPage extends JFrame {
 		inputpanel.add(loginBtn);
 
 		JButton registerLink = new JButton("Don't have an account?");
-		registerLink.setBounds(210, 380, 250, 30);
+		registerLink.setBounds(140, 380, 250, 30);
         registerLink.setForeground(Color.WHITE);
 	    registerLink.setBackground(new Color(93,130,250));
 	   	registerLink.setFont(labelFont);
@@ -94,7 +93,7 @@ public class LoginPage extends JFrame {
 		inputpanel.add(registerLink);
 
 		JLabel uniIDpp = new JLabel("or");
-		uniIDpp.setBounds(330, 365, 100, 100);
+		uniIDpp.setBounds(260, 365, 100, 100);
 		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
@@ -102,7 +101,7 @@ public class LoginPage extends JFrame {
 
 
 		JButton forgotPassLink = new JButton("Forgot Password?");
-		forgotPassLink.setBounds(210, 425, 250, 30);
+		forgotPassLink.setBounds(140, 425, 250, 30);
 		forgotPassLink.setForeground(Color.WHITE);
 	    forgotPassLink.setBackground(new Color(93,130,250));
 	   	forgotPassLink.setFont(labelFont);
@@ -116,7 +115,7 @@ public class LoginPage extends JFrame {
         inputpanel2.setBounds(0, 150, 1250, 30);
 		inputpanel2.setLayout(null);
     
-        JButton Resultbtn=new JButton("Login");
+        JButton Resultbtn=new JButton("Return");
 	    Resultbtn.setBounds(950,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
@@ -132,7 +131,8 @@ public class LoginPage extends JFrame {
 	    Regbtn.setForeground(Color.lightGray);
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
-        inputpanel2.add(Regbtn);
+		inputpanel2.add(Regbtn);
+		add(inputpanel2);
 		loginBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
