@@ -11,6 +11,14 @@ import java.awt.event.MouseListener;
 import javax.swing.*;
 import java.awt.*;
 
+import java.lang.Object;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicComboBoxUI;
+import javax.swing.plaf.basic.BasicComboPopup;
+import javax.swing.plaf.basic.ComboPopup;
+import javax.swing.plaf.ComboBoxUI;
+
+
 public class Homepage extends JFrame {
     public Homepage() {
        super("Leading University");
@@ -81,7 +89,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
         });
-        id15.add(c1);
+        inputpanel1.add(c1);
 
         JButton Admissionbtn=new JButton("Admission");
 	    //Admissionbtn.setBounds(150,0,150,30);
