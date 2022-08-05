@@ -50,7 +50,7 @@ public class FrontPage extends JFrame {
 	    Regbtn.setBounds(1020,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
-	    Regbtn.setForeground(Color.WHITE);
+	    Regbtn.setForeground(Color.lightGray);
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
