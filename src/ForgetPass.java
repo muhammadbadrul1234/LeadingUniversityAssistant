@@ -83,7 +83,7 @@ public class ForgetPass extends JFrame {
 	
 		JPanel inputPanel = new JPanel();
 		inputPanel.setBackground(new Color(93,130,250));
-		inputPanel.setBounds(0,60,1000,740);
+		inputPanel.setBounds(0,60,1250,740);
 		inputPanel.setLayout(null);
 		add(inputPanel);
 		
