@@ -29,7 +29,7 @@ public class Demo extends JFrame {
         img = new JLabel(new ImageIcon("fp.png"));
 
         jp = new JScrollPane(img);
-        jp.setBounds(00, 200, 983, 600);
+        jp.setBounds(00, 200, 983, 580);
 
        jp.setForeground(Color.WHITE);
         jp.setViewportView(img);
