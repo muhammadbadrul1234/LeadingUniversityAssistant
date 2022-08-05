@@ -41,7 +41,7 @@ public class FrontPage extends JFrame {
 	    Resultbtn.setBounds(950,0,70,30);
 	    Resultbtn.setBackground(new Color(69,90,100));
 	    Resultbtn.setFont(labelFont);
-	    Resultbtn.setForeground(Color.WHIE);
+	    Resultbtn.setForeground(Color.GRAY);
 	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Resultbtn.setFocusable(false);
         inputpanel1.add(Resultbtn);
