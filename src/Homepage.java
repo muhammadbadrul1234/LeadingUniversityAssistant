@@ -229,7 +229,7 @@ public class Homepage extends JFrame {
             }
 		});
 		JButton Aboutbtn=new JButton("About");
-	    Aboutbtn.setBounds(935,0,150,30);
+	    Aboutbtn.setBounds(830,0,150,30);
 	    Aboutbtn.setBackground(new Color(69,90,100));
 	    Aboutbtn.setFont(labelFont);
 	    Aboutbtn.setForeground(Color.WHITE);
@@ -238,14 +238,14 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Aboutbtn);
 		
 		JButton Logoutbtn=new JButton("Logout");
-	    Logoutbtn.setBounds(1085,0,150,30);
+	    Logoutbtn.setBounds(980,0,150,30);
 	    Logoutbtn.setBackground(new Color(69,90,100));
 	    Logoutbtn.setFont(labelFont);
 	    Logoutbtn.setForeground(Color.WHITE);
 	    Logoutbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Logoutbtn.setFocusable(false);
 		inputpanel1.add(Logoutbtn);
-		
+
 		inputpanel1.add(Utility);
 		inputpanel1.add(Exam);
 		
