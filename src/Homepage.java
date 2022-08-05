@@ -65,37 +65,6 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
 		//inputpanel1.add(Admissionbtn);
 
-		JMenu utility = new JMenu("Utility");
-		JMenuItem ut1 = new JMenuItem("Notepad");
-        JMenuItem ut2 = new JMenuItem("Calculator");
-		JMenuItem ut3 = new JMenuItem("Web Browser");
-		
-		ut1.setFont(new Font("monospaced",Font.BOLD,16));
-        ut1.setMnemonic('I');
-        ut1.setBackground(Color.WHITE);
-        
-
-        ut2.setFont(new Font("monospaced",Font.BOLD,16));
-        ut2.setMnemonic('J');
-        ut2.setBackground(Color.WHITE);
-        
-
-        ut3.setFont(new Font("monospaced",Font.BOLD,16));
-        ut3.setMnemonic('K');
-        
-		ut3.setBackground(Color.WHITE);
-        
-		
-		utility.setFont(labelFont);
-		utility.setForeground(Color.WHITE);
-		utility.setBackground(new Color(69, 90, 100));
-		utility.setBounds(150,0,150,30);
-	    utility.setBackground(new Color(69,90,100));
-	    utility.setFont(labelFont);
-	    utility.setForeground(Color.WHITE);
-		utility.setBorder(new LineBorder(new Color(69, 90, 100)));
-		inputpanel1.add(utility);
-
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
 	    contacButton.setBackground(new Color(69,90,100));
