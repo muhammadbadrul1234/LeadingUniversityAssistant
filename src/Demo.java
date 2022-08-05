@@ -174,14 +174,14 @@ public class Demo extends JFrame {
         c1.setBackground(new Color(69,90,100));
         c1.setBounds(700, 500, 150, 30);
         c1.setUI(new BasicComboBoxUI() {
-    @Override
-    protected ComboPopup createPopup() {
-        BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
-                basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
-        basicComboPopup.setBackground(new Color(69,90,100));
-        return basicComboPopup;
-    }
-});
+            @Override
+            protected ComboPopup createPopup() {
+                BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
+                        basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+                basicComboPopup.setBackground(new Color(69,90,100));
+                return basicComboPopup;
+            }
+        });
         id15.add(c1);
         
         lab2=new JLabel("Branch");
