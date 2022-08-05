@@ -91,7 +91,7 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
         });
-		inputpanel1.add(Manage);
+		inputpanel1.add(Update);
 		
 		String Updt[] = {"Update","Student"," Teacher"," Employee"};
         Update = new JComboBox(Man);
