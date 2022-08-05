@@ -31,7 +31,7 @@ public class Demo extends JFrame {
 		headerpanel.add(imgLabel);
         add(headerpanel);
         JPanel inputpanel1=new JPanel();
-	    inputpanel1.setBackground(new Color(112,128,144));
+	    inputpanel1.setBackground(new Color(69,90,100));
         inputpanel1.setBounds(0, 150, 1000, 30);
 		inputpanel1.setLayout(null);
         
