@@ -6,7 +6,7 @@ public class App {
      // new Homepage();
       // new Admission();
       // new AddEmployee();
-      new AboutUs();
+     // new AboutUs();
       //new Demo();
       //new ForgetPass();
         
