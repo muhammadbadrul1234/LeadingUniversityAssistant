@@ -117,7 +117,7 @@ public class Homepage extends JFrame {
 		});
 		
 		String dtbs[] = {"Update","Student","Teacher"," Employee"};
-        Database = new JComboBox(Updt);
+        Database = new JComboBox(dtbs);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
@@ -128,7 +128,7 @@ public class Homepage extends JFrame {
 	    Database.setBorder(new LineBorder(new Color(69,90,100)));
 	    Database.setFocusable(false);
         Database.setBackground(new Color(69,90,100));
-        Database.setBounds(260, 0, 130, 30);
+        Database.setBounds(330, 0, 130, 30);
         Database.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
