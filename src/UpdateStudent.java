@@ -150,53 +150,53 @@ public class UpdateStudent extends JFrame {
 
         t10 = new JTextField();
         t10.setBounds(600, 370, 150, 30);
-        f.add(t10);
+        add(t10);
 
         id12 = new JLabel("Roll No");
         id12.setBounds(50, 420, 150, 30);
         id12.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(id12);
+        add(id12);
 
         t11 = new JTextField();
         t11.setBounds(200, 420, 150, 30);
-        f.add(t11);
+        add(t11);
 
         lab = new JLabel("Course");
         lab.setBounds(400, 420, 150, 30);
         lab.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(lab);
+        add(lab);
 
         t13 = new JTextField();
         t13.setBounds(600, 420, 150, 30);
-        f.add(t13);
+        add(t13);
 
         lab2 = new JLabel("Branch");
         lab2.setBounds(50, 470, 150, 30);
         lab2.setFont(new Font("serif", Font.BOLD, 20));
-        f.add(lab2);
+        add(lab2);
 
         t14 = new JTextField();
         t14.setBounds(200, 470, 150, 30);
-        f.add(t14);
+        add(t14);
 
         b = new JButton("Submit");
         b.setBackground(Color.BLACK);
         b.setForeground(Color.WHITE);
         b.setBounds(250, 520, 150, 40);
 
-        f.add(b);
+        add(b);
 
         b1 = new JButton("Cancel");
         b1.setBackground(Color.BLACK);
         b1.setForeground(Color.WHITE);
         b1.setBounds(450, 520, 150, 40);
 
-        f.add(b1);
+        add(b1);
 
         // b.addActionListener(this);
         // b1.addActionListener(this);
 
-        f.setVisible(true);
+        setVisible(true);
 
         // public void actionPerformed(ActionEvent ae){
         //     if(ae.getSource()==b){
