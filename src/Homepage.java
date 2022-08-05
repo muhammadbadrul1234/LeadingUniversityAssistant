@@ -183,7 +183,7 @@ public class Homepage extends JFrame {
             }
 		});
 
-		String exm[] = {"Fee","Fee Structure","Payslip"};
+		String exm[] = {"Exam","Fee Structure","Payslip"};
         Exam= new JComboBox(exm);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
@@ -206,7 +206,7 @@ public class Homepage extends JFrame {
             }
 		});
 
-		String utlt[] = {"Fee","Fee Structure","Payslip"};
+		String utlt[] = {"Utility","Fee Structure","Payslip"};
         Utility= new JComboBox(utlt);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
