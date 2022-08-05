@@ -110,6 +110,29 @@ public class LoginPage extends JFrame {
 	    forgotPassLink.setBorder(new LineBorder(new Color(93,130,250)));
 		forgotPassLink.setFocusable(false);
 		inputpanel.add(forgotPassLink);
+
+		JPanel inputpanel1=new JPanel();
+	    inputpanel1.setBackground(new Color(69,90,100));
+        inputpanel1.setBounds(0, 150, 1250, 30);
+		inputpanel1.setLayout(null);
+    
+        JButton Resultbtn=new JButton("Login");
+	    Resultbtn.setBounds(950,0,70,30);
+	    Resultbtn.setBackground(new Color(69,90,100));
+	    Resultbtn.setFont(labelFont);
+	    Resultbtn.setForeground(Color.lightGray);
+	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Resultbtn.setFocusable(false);
+        inputpanel1.add(Resultbtn);
+        
+        JButton Regbtn=new JButton("Register");
+	    Regbtn.setBounds(1020,0,195,30);
+	    Regbtn.setBackground(new Color(69,90,100));
+	    Regbtn.setFont(labelFont);
+	    Regbtn.setForeground(Color.lightGray);
+	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
+	    Regbtn.setFocusable(false);
+        inputpanel1.add(Regbtn);
 		loginBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
