@@ -244,6 +244,20 @@ public class Register extends JFrame{
 			}
 			
 		});
+		Resultbtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new FrontPage();
+			}
+		});
+		Regbtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+				new Register();
+			}
+		});
 		
 		
 		
