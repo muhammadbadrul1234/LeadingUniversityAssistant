@@ -152,7 +152,7 @@ public class Demo extends JFrame {
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
         c1.setBackground(new Color(69,90,100));
-	    c1.setFont(labelFont);
+	   //c1.setFont(labelFont);
 	    c1.setForeground(Color.WHITE);
 	    c1.setBorder(new LineBorder(new Color(69,90,100)));
 	    c1.setFocusable(false);
