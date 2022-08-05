@@ -228,58 +228,6 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-		inputpanel1.add(Utility);
-		inputpanel1.add(Exam);
-		
-		inputpanel1.add(Fee);
-		inputpanel1.add(Attendence);
-		inputpanel1.add(Database);
-		inputpanel1.add(Update);
-
-		inputpanel1.add(Manage);
-		
-		
-		
-		//add(inputpanel1
-
-       
-
-        JButton Deptsbtn=new JButton("Departments");
-	    Deptsbtn.setBounds(500,0,120,30);
-	    Deptsbtn.setBackground(new Color(69,90,100));
-	    Deptsbtn.setFont(labelFont);
-	    Deptsbtn.setForeground(Color.WHITE);
-	    Deptsbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Deptsbtn.setFocusable(false);
-        inputpanel1.add(Deptsbtn);
-
-        JButton Librarybtn=new JButton("Library");
-	    Librarybtn.setBounds(620,0,100,30);
-	    Librarybtn.setBackground(new Color(69,90,100));
-	    Librarybtn.setFont(labelFont);
-	    Librarybtn.setForeground(Color.WHITE);
-	    Librarybtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Librarybtn.setFocusable(false);
-        inputpanel1.add(Librarybtn);
-
-        JButton Resultbtn=new JButton("Result");
-	    Resultbtn.setBounds(720,0,70,30);
-	    Resultbtn.setBackground(new Color(69,90,100));
-	    Resultbtn.setFont(labelFont);
-	    Resultbtn.setForeground(Color.WHITE);
-	    Resultbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Resultbtn.setFocusable(false);
-        inputpanel1.add(Resultbtn);
-
-        JButton Regbtn=new JButton("Semester Registration");
-	    Regbtn.setBounds(790,0,195,30);
-	    Regbtn.setBackground(new Color(69,90,100));
-	    Regbtn.setFont(labelFont);
-	    Regbtn.setForeground(Color.WHITE);
-	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
-	    Regbtn.setFocusable(false);
-		inputpanel1.add(Regbtn);
-
 		JButton Aboutbtn=new JButton("About");
 	    Aboutbtn.setBounds(935,0,150,30);
 	    Aboutbtn.setBackground(new Color(69,90,100));
@@ -297,6 +245,25 @@ public class Homepage extends JFrame {
 	    Logoutbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Logoutbtn.setFocusable(false);
 		inputpanel1.add(Logoutbtn);
+		
+		inputpanel1.add(Utility);
+		inputpanel1.add(Exam);
+		
+		inputpanel1.add(Fee);
+		inputpanel1.add(Attendence);
+		inputpanel1.add(Database);
+		inputpanel1.add(Update);
+
+		inputpanel1.add(Manage);
+		
+		
+		
+		//add(inputpanel1
+
+       
+
+       
+		
 
 		Homebtn.addActionListener(new ActionListener() {
 
