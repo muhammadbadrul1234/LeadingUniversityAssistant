@@ -1,4 +1,3 @@
-import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.basic.BasicPanelUI;
 import org.w3c.dom.events.MouseEvent;
@@ -65,7 +64,8 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
 		//inputpanel1.add(Admissionbtn);
 
-		JLabel lab, c1;
+		JLabel lab;
+		JComboBox c1;
 		lab=new JLabel("Course");
         lab.setBounds(500,500,150,30);
 		lab.setFont(new Font("Calibri",Font.BOLD,20));
