@@ -20,7 +20,7 @@ import javax.swing.plaf.ComboBoxUI;
 public class ZFPSyndicate extends JFrame {
     JScrollPane jp;
     JLabel img;
-   ZFPSyndicate(){
+   public ZFPSyndicate(){
     super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
