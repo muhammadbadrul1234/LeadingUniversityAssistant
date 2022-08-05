@@ -141,14 +141,14 @@ public class AboutUs extends JFrame {
 
             JLabel l3 = new JLabel("Leading University Assistant");
             l3.setForeground(new Color(0, 250, 154));
-            l3.setFont(new Font("Courier new", Font.BOLD, 30));
+            l3.setFont(new Font("Courier new", Font.BOLD, 40));
             l3.setBounds(140, 200, 200, 55);
             contentPane.add(l3);
 
            
 
 
-            JLabel l6 = new JLabel("Developed By : IT SOURCE CODE");
+            JLabel l6 = new JLabel("Developed By : Muhammad Badrul");
             l6.setFont(new Font("Trebuchet MS", Font.BOLD, 30));
             l6.setBounds(70, 198, 600, 35);
             contentPane.add(l6);
