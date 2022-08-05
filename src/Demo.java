@@ -52,7 +52,9 @@ public class Demo extends JFrame {
                 master.add(m1);
                 master.add(m2);
         
-                        mb.add(master);
+                mb.add(master);
+                setJMenuBar(mb);
+                         
 
 
 
