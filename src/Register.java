@@ -40,7 +40,7 @@ public class Register extends JFrame{
 		add(inputpanel3);
 
 		JButton Homebtn=new JButton("Home");
-	    Homebtn.setBounds(950,0,70,30);
+	    Homebtn.setBounds(880,0,70,30);
 	    Homebtn.setBackground(new Color(69,90,100));
 	    Homebtn.setFont(labelFont);
 	    Homebtn.setForeground(Color.lightGray);
