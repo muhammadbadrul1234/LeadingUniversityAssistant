@@ -33,7 +33,7 @@ public class Register extends JFrame{
 		headerpanel.add(imgLabel);
 		add(headerpanel);
 		
-		JPanel inputpanel2=new JPanel();
+		JPanel inputpanel3=new JPanel();
 	    inputpanel2.setBackground(new Color(69,90,100));
         inputpanel2.setBounds(0, 150, 1250, 30);
 		inputpanel2.setLayout(null);
