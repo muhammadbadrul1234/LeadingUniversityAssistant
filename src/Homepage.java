@@ -137,7 +137,7 @@ public class Homepage extends JFrame {
             }
 		});
 		
-		String Attndnc[] = {"Update","Student","Teacher"," Employee"};
+		String Attndnc[] = {"Attendance","Student","Teacher"," Employee"};
         Attendence = new JComboBox(Attndnc);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
