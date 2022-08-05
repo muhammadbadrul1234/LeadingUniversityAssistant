@@ -137,7 +137,8 @@ public class Homepage extends JFrame {
                 basicComboPopup.setBackground(new Color(69,90,100));
                 return basicComboPopup;
             }
-        });
+		});
+		inputpanel1.add(Database);
 		inputpanel1.add(Update);
 		inputpanel1.add(Manage);
 
