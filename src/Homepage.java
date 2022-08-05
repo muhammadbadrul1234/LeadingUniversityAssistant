@@ -54,7 +54,7 @@ public class Homepage extends JFrame {
         inputpanel1.add(Homebtn);
 
         JButton Admissionbtn=new JButton("Admission");
-	    Admissionbtn.setBounds(150,0,150,30);
+	    //Admissionbtn.setBounds(150,0,150,30);
 	    Admissionbtn.setBackground(new Color(69,90,100));
 	    Admissionbtn.setFont(labelFont);
 	    Admissionbtn.setForeground(Color.WHITE);
@@ -66,11 +66,12 @@ public class Homepage extends JFrame {
 		utility.setFont(labelFont);
 		utility.setForeground(Color.WHITE);
 		utility.setBackground(new Color(69, 90, 100));
-		utility.setBounds(935,0,150,30);
+		utility.setBounds(150,0,150,30);
 	    utility.setBackground(new Color(69,90,100));
 	    utility.setFont(labelFont);
 	    utility.setForeground(Color.WHITE);
-	    utility.setBorder(new LineBorder(new Color(69,90,100)));
+		utility.setBorder(new LineBorder(new Color(69, 90, 100)));
+		inputpanel1.add(Admissionbtn);
 
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
