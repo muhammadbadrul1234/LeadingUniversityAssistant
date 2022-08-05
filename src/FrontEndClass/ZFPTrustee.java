@@ -20,7 +20,7 @@ import javax.swing.plaf.ComboBoxUI;
 public class ZFPTrustee extends JFrame {
     JScrollPane jp;
     JLabel img;
-    ZFPTrustee(){
+    public ZFPTrustee(){
     super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
