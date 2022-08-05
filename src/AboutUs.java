@@ -41,7 +41,8 @@ public class AboutUs extends JFrame {
 	//inputpanel1.setBackground(new Color(112,128,144));
         inputpanel1.setBounds(0, 150, 1250, 30);
 		inputpanel1.setLayout(null);
-		inputpanel1.setBackground(new Color(69,90,100));
+		inputpanel1.setBackground(new Color(69, 90, 100));
+		
 
 
         JButton Homebtn=new JButton("Home");
@@ -177,7 +178,7 @@ public class AboutUs extends JFrame {
 
         
 
-        add(inputpanel1);
+        
         setVisible(true);
     }
 }
