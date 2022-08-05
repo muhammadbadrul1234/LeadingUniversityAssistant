@@ -84,7 +84,7 @@ public class Register extends JFrame{
 		add(inputPanel);
 		
 		JLabel nameLabel = new JLabel("Name");
-		nameLabel.setBounds(400,165,100,25);
+		nameLabel.setBounds(450,165,100,25);
         nameLabel.setFont(labelFont);
         nameLabel.setForeground(Color.WHITE);
 		inputPanel.add(nameLabel);
