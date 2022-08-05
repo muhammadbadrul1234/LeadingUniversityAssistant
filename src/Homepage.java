@@ -228,8 +228,9 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
 		});
-		inputpanel1.add(Exam);
 		inputpanel1.add(Utility);
+		inputpanel1.add(Exam);
+		
 inputpanel1.add(Fee);
 		inputpanel1.add(Attendence);
 		inputpanel1.add(Database);
