@@ -184,19 +184,19 @@ public class Homepage extends JFrame {
 		});
 
 		String exm[] = {"Fee","Fee Structure","Payslip"};
-        Exam= new JComboBox(utlt);
+        Exam= new JComboBox(exm);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
-        Utility.setName("Badrul");
-        Utility.setBackground(new Color(69,90,100));
-	   	Utility.setFont(labelFont);
-	    Utility.setForeground(Color.WHITE);
-	    Utility.setBorder(new LineBorder(new Color(69,90,100)));
-	    Utility.setFocusable(false);
-        Utility.setBackground(new Color(69,90,100));
-        Utility.setBounds(730, 0, 130, 30);
-        Utility.setUI(new BasicComboBoxUI() {
+        Exam.setName("Badrul");
+        Exam.setBackground(new Color(69,90,100));
+	   	Exam.setFont(labelFont);
+	    Exam.setForeground(Color.WHITE);
+	    Exam.setBorder(new LineBorder(new Color(69,90,100)));
+	    Exam.setFocusable(false);
+        Exam.setBackground(new Color(69,90,100));
+        Exam.setBounds(730, 0, 130, 30);
+        Exam.setUI(new BasicComboBoxUI() {
             @Override
             protected ComboPopup createPopup() {
                 BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
