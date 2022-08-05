@@ -9,6 +9,7 @@ import java.awt.*;
 
 import java.lang.Object;
 import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicComboBoxUI;
 import javax.swing.plaf.ComboBoxUI;
 
 public class Demo extends JFrame {
@@ -159,7 +160,16 @@ public class Demo extends JFrame {
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
-       // c1.setUI(ColorArrowUI.createUI(c1));
+        // c1.setUI(ColorArrowUI.createUI(c1));
+       
+        jComboBox.setUI(new BasicComboBoxUI() {
+    @Override
+    protected ComboPopup createPopup() {
+        BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
+        basicComboPopup.setBorder(new LineBorder(Color.RED));
+        return basicComboPopup;
+    }
+});
         c1.setName("Badrul");
         c1.setBackground(new Color(69,90,100));
 	   //c1.setFont(labelFont);
