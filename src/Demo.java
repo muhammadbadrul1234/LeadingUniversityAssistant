@@ -147,7 +147,18 @@ public class Demo extends JFrame {
         lab=new JLabel("Course");
         lab.setBounds(500,500,150,30);
 	lab.setFont(new Font("Calibri",Font.BOLD,20));
-        id15.add(lab);
+    id15.add(lab);
+        
+     public static ComboBoxUI createUI(JComponent c) {
+        return new ColorArrowUI();
+    }
+
+    @Override protected JButton createArrowButton() {
+        return new BasicArrowButton(
+            BasicArrowButton.SOUTH,
+            Color.cyan, Color.magenta,
+            Color.yellow, Color.blue);
+    }
             
         String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
         c1 = new JComboBox(course);
