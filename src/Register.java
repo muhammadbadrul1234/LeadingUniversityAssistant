@@ -48,7 +48,7 @@ public class Register extends JFrame{
 	    Resultbtn.setFocusable(false);
         inputpanel3.add(Resultbtn);
         
-        JButton Regbtn=new JButton("Login");
+        JButton Regbtn=new JButton("Forget ");
 	    Regbtn.setBounds(1020,0,195,30);
 	    Regbtn.setBackground(new Color(69,90,100));
 	    Regbtn.setFont(labelFont);
