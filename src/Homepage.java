@@ -151,13 +151,22 @@ public class Homepage extends JFrame {
 				new Admission();
 			}
 		});
-				contacButton.addActionListener(new ActionListener() {
-				
-				@Override
-				public void actionPerformed(ActionEvent e) {
-					dispose();
-					new AddEmployee();
-				}
+		contacButton.addActionListener(new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			dispose();
+			new AddEmployee();
+		}
+		});
+
+		contacButton.addActionListener(new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			dispose();
+			new AddEmployee();
+		}
 		});
 
 		
