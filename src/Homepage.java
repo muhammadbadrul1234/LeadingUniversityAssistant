@@ -82,9 +82,6 @@ public class Homepage extends JFrame {
         
 
         ut3.setFont(new Font("monospaced",Font.BOLD,16));
-        ImageIcon icon10 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/icon11.png"));
-        Image image10 = icon10.getImage().getScaledInstance(25, 25,Image.SCALE_DEFAULT);
-        ut3.setIcon(new ImageIcon(image10));
         ut3.setMnemonic('K');
         ut3.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, ActionEvent.CTRL_MASK));
 		ut3.setBackground(Color.WHITE);
