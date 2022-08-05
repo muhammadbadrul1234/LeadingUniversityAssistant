@@ -223,8 +223,7 @@ JFrame f;
                 String str = "update student set name='"+t1.getText()+"',fathers_name='"+t2.getText()+"',age='"+t3.getText()+"', dob='"+t4.getText()+"',address='"+t5.getText()+"',phone='"+t6.getText()+"',email='"+t7.getText()+"',class_x='"+t8.getText()+"',class_xii='"+t9.getText()+"',aadhar='"+t10.getText()+"',course='"+t13.getText()+"',branch='"+t14.getText()+"' where rollno='"+t12.getText()+"'";
                 con.s.executeUpdate(str);
                 JOptionPane.showMessageDialog(null,"successfully updated");
-                f.setVisible(false);
-                new StudentDetails();
+               
             }catch(Exception e){
                 System.out.println("The error is:"+e);
             }
