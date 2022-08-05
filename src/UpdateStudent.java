@@ -198,7 +198,7 @@ public class UpdateStudent extends JFrame {
         c2.setBounds(400,550,150,30);
         id15.add(c2);
         
-        b = new JButton("Submit");
+        b = new JButton("Update");
         b.setBounds(670,610,100,30);
 		b.setBackground(new Color(69,90,100));
 		b.setFont(labelFont);
