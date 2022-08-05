@@ -11,13 +11,13 @@ import java.awt.*;
 public class AboutUs extends JFrame {
 	private JPanel contentPane;
     public AboutUs() {
-        super("About Us- Leading University");
+        super("About Developer- Leading University");
 
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
         this.setIconImage(icon.getImage());
 
-        setSize(1000, 800);
+        setSize(1250, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(3);
         setLayout(null);
