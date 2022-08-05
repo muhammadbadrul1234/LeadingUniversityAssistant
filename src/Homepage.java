@@ -76,7 +76,7 @@ public class Homepage extends JFrame {
         
         c1.setName("Badrul");
         c1.setBackground(new Color(69,90,100));
-	   //c1.setFont(labelFont);
+	   	c1.setFont(labelFont);
 	    c1.setForeground(Color.WHITE);
 	    c1.setBorder(new LineBorder(new Color(69,90,100)));
 	    c1.setFocusable(false);
