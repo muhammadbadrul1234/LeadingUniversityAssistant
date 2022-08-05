@@ -49,6 +49,8 @@ public class Demo extends JFrame {
         m1.addActionListener(this);
         m2.addActionListener(this);
 
+        
+
 
        // add(inputpanel1);
         setVisible(true);
