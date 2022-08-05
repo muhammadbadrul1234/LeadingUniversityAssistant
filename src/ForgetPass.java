@@ -211,7 +211,7 @@ public class ForgetPass extends JFrame {
 
 				}
 				else{
-					JOptionPane.showMessageDialog(null, "Invalid Credentials");
+					JOptionPane.showMessageDialog(null, "Data No Found!");
 				}
             }
         });
