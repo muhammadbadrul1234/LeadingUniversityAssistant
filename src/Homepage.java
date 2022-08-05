@@ -93,14 +93,10 @@ public class Homepage extends JFrame {
 		});
 		String Man2 = (String) Manage.getSelectedItem();
 		switch (Man2) {//check for a match
-                    case "Day":
-                        emailvalue = 1.1;
-                        System.out.println("Day selected, emailvalue:" + emailvalue);
-                        break;
+                    case "Admission":
+                        
                     case "Week":
-                        emailvalue = 2.2;
-                        System.out.println("Week selected, emailvalue:" + emailvalue);
-                        break;
+                        
                     case "Month":
                        
                     default:
