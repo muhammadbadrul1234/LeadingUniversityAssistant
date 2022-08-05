@@ -153,16 +153,16 @@ public class AboutUs extends JFrame {
 
             JLabel l8 = new JLabel("Contact : muhammadbadrul@ieee.org");
             l8.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
-            l8.setBounds(140, 290, 600, 34);
+            l8.setBounds(140, 315, 600, 34);
             contentPane.add(l8);
 
             JLabel l9 = new JLabel("Education - B.Sc in Computer Science & Engineering (Student)))");
             l9.setFont(new Font("Trebuchet MS", Font.BOLD , 20));
-            l9.setBounds(70, 320, 600, 34);
+            l9.setBounds(70, 340, 600, 34);
             contentPane.add(l9);
 
 
-            JLabel l10 = new JLabel("Phone - +639272777334");
+            JLabel l10 = new JLabel("Phone - +8801727819354");
             l10.setForeground(new Color(47, 79, 79));
             l10.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 18));
             l10.setBounds(70, 400, 600, 34);
