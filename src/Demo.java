@@ -24,6 +24,7 @@ public class Demo extends JFrame {
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
         setLayout(null);
+        setBackground(bgColor);
 
         JLabel id15=new JLabel();
         id15.setBounds(10,10,900,700);
