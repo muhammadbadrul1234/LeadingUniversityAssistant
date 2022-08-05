@@ -177,7 +177,8 @@ public class Demo extends JFrame {
     @Override
     protected ComboPopup createPopup() {
         BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
-        basicComboPopup.setBorder(new LineBorder(new Color(69,90,100)));
+                basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+        setBackground(new Color(69,90,100));
         return basicComboPopup;
     }
 });
