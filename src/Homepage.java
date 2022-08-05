@@ -53,7 +53,31 @@ public class Homepage extends JFrame {
 	    Homebtn.setForeground(Color.WHITE);
 	    Homebtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Homebtn.setFocusable(false);
-        inputpanel1.add(Homebtn);
+		inputpanel1.add(Homebtn);
+		
+		String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
+        c1 = new JComboBox(course);
+        // c1.setUI(ColorArrowUI.createUI(c1));
+       
+        
+        c1.setName("Badrul");
+        c1.setBackground(new Color(69,90,100));
+	   //c1.setFont(labelFont);
+	    c1.setForeground(Color.WHITE);
+	    c1.setBorder(new LineBorder(new Color(69,90,100)));
+	    c1.setFocusable(false);
+        c1.setBackground(new Color(69,90,100));
+        c1.setBounds(700, 500, 150, 30);
+        c1.setUI(new BasicComboBoxUI() {
+            @Override
+            protected ComboPopup createPopup() {
+                BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
+                        basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+                basicComboPopup.setBackground(new Color(69,90,100));
+                return basicComboPopup;
+            }
+        });
+        id15.add(c1);
 
         JButton Admissionbtn=new JButton("Admission");
 	    //Admissionbtn.setBounds(150,0,150,30);
