@@ -93,8 +93,8 @@ public class Homepage extends JFrame {
         });
 		inputpanel1.add(Manage);
 		
-		String Man[] = {"Admission","Add Teacher","Add Employee"};
-        Manage = new JComboBox(Man);
+		String Updt[] = {"Admission","Add Teacher","Add Employee"};
+        Update = new JComboBox(Man);
         // c1.setUI(ColorArrowUI.createUI(c1));
        
         
