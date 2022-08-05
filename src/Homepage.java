@@ -255,15 +255,6 @@ public class Homepage extends JFrame {
 		inputpanel1.add(Update);
 
 		inputpanel1.add(Manage);
-		
-		
-		
-		//add(inputpanel1
-
-       
-
-       
-		
 
 		Homebtn.addActionListener(new ActionListener() {
 
@@ -273,8 +264,6 @@ public class Homepage extends JFrame {
 				//new Homepage();
 			}
 		});
-
-
 		Aboutbtn.addActionListener(new ActionListener() {
 		
 		@Override
