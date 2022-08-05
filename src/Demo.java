@@ -26,7 +26,8 @@ public class Demo extends JFrame {
 		setDefaultCloseOperation(3);
         setLayout(null);
 
-        JMenuBar mb  = new JMenuBar();
+        JMenuBar mb = new JMenuBar();
+        mb.set
         JMenu master = new JMenu("Master");
         JMenuItem m1 = new JMenuItem("New Faculty");
         JMenuItem m2 = new JMenuItem("New Student Admission");
