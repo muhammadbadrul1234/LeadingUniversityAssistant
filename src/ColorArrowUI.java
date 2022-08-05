@@ -16,7 +16,7 @@ class ColorArrowUI extends BasicComboBoxUI {
         return new BasicArrowButton(
                 BasicArrowButton.SOUTH,
             Color.getColor(69,90,100),
-            Color.RGBtoHSB(69, 90, 100, 199)
+            Color.RGBtoHSB(69, 90, 100, )
             , Color.magenta,
             Color.yellow, Color.blue);
     }
