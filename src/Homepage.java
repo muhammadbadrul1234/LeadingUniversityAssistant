@@ -65,6 +65,18 @@ public class Homepage extends JFrame {
 	    Admissionbtn.setFocusable(false);
 		//inputpanel1.add(Admissionbtn);
 
+		JLabel
+		lab=new JLabel("Course");
+        lab.setBounds(500,500,150,30);
+	lab.setFont(new Font("Calibri",Font.BOLD,20));
+        id15.add(lab);
+            
+        String course[] = {"B.Tech","BBA","BCA","Bsc","Msc","MBA","MCA","BA","BCom"};
+        c1 = new JComboBox(course);
+        c1.setBackground(Color.WHITE);
+        c1.setBounds(700,500,150,30);
+        id15.add(c1);
+
         JButton contacButton=new JButton("Add Teacher");
 	    contacButton.setBounds(200,0,150,30);
 	    contacButton.setBackground(new Color(69,90,100));
