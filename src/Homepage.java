@@ -91,6 +91,30 @@ public class Homepage extends JFrame {
                 return basicComboPopup;
             }
         });
+		inputpanel1.add(Manage);
+		
+		String Man[] = {"Admission","Add Teacher","Add Employee"};
+        Manage = new JComboBox(Man);
+        // c1.setUI(ColorArrowUI.createUI(c1));
+       
+        
+        Manage.setName("Badrul");
+        Manage.setBackground(new Color(69,90,100));
+	   	Manage.setFont(labelFont);
+	    Manage.setForeground(Color.WHITE);
+	    Manage.setBorder(new LineBorder(new Color(69,90,100)));
+	    Manage.setFocusable(false);
+        Manage.setBackground(new Color(69,90,100));
+        Manage.setBounds(130, 0, 130, 30);
+        Manage.setUI(new BasicComboBoxUI() {
+            @Override
+            protected ComboPopup createPopup() {
+                BasicComboPopup basicComboPopup = new BasicComboPopup(comboBox);
+                        basicComboPopup.setBorder(new LineBorder(new Color(69, 90, 100)));
+                basicComboPopup.setBackground(new Color(69,90,100));
+                return basicComboPopup;
+            }
+        });
         inputpanel1.add(Manage);
 
         JButton Admissionbtn=new JButton("Admission");
