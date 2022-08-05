@@ -73,6 +73,14 @@ public class ForgetPass extends JFrame {
 		JLabel imgLabel2 = new JLabel(new ImageIcon(this.getClass().getResource("/image/Forgot.png")));
 		inputpanel1.add(imgLabel2);
 		add(inputpanel1);
+
+		JPanel inputpanel2=new JPanel();
+		
+		inputpanel2.setBackground(new Color(255,255,255));
+        inputpanel2.setBounds(0, 180, 1250, 50);
+		//inputpanel1.setLayout(null);
+		add(inputpanel2);
+	
 	
 
 
