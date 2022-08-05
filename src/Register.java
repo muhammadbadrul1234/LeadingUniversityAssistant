@@ -163,7 +163,7 @@ public class Register extends JFrame{
 		inputPanel.add(uniIDText);
 
 		JLabel dob = new JLabel("Date of Birth");
-		dob.setBounds(400,440,100,25);
+		dob.setBounds(450,440,100,25);
 		dob.setFont(labelFont);
 		dob.setForeground(Color.WHITE);
 		inputPanel.add(dob);
@@ -174,14 +174,14 @@ public class Register extends JFrame{
 		inputPanel.add(dobText);
 
 		JLabel uniIDpp = new JLabel("*Contact Admission Office if you");
-		uniIDpp.setBounds(860, 380, 500, 50);
+		uniIDpp.setBounds(830, 380, 500, 50);
 		Font labelFont2=((new Font("Segoe UI",Font.CENTER_BASELINE,14)));
 		uniIDpp.setFont(labelFont2);
 		uniIDpp.setForeground(Color.WHITE);
 		inputPanel.add(uniIDpp);
 
 		JLabel uniIDpp2 = new JLabel(" don't have University ID");
-		uniIDpp2.setBounds(860, 395, 500, 50);
+		uniIDpp2.setBounds(830, 395, 500, 50);
 		uniIDpp2.setFont(labelFont2);
 		uniIDpp2.setForeground(Color.WHITE);
 		inputPanel.add(uniIDpp2);
