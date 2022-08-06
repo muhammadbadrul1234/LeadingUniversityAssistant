@@ -174,7 +174,7 @@ public class Homepage extends JFrame {
                         public void actionPerformed(ActionEvent e) {
                             String uniID = t1.getText();
                                 Database db1 = new Database();
-                            string pass
+                                String pass =" 100";
                             
                             String queryLogin = "SELECT * FROM `registered` WHERE `name` = '" + userName + "' AND `password` = '" + pass + "'";
                             
