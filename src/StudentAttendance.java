@@ -15,7 +15,7 @@ public class StudentAttendance extends JFrame implements ActionListener{
         setLayout(new GridLayout(4,2,50,50));
         c2 = new Choice();
         try{
-            Database db = new Database();
+            Database  = new Database();
             ResultSet rs = c.s.executeQuery("select * from student");
             while(rs.next()){
                 c2.add(rs.getString("rollno"));    
@@ -76,7 +76,7 @@ public class StudentAttendance extends JFrame implements ActionListener{
         String qry = "insert into attendance_student values("+ id +",'"+dt+"','"+f+"','"+s+"')";
        
         try{
-            conn c1 = new conn();
+            Database c1=new Database();
             c1.s.executeUpdate(qry);
             JOptionPane.showMessageDialog(null,"Attendance confirmed");
             this.setVisible(false);
