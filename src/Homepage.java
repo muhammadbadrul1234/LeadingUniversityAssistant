@@ -173,9 +173,9 @@ public class Homepage extends JFrame {
 
 
 
-				dispose();
-				new Admission();
-                break;
+				// dispose();
+				// new Admission();
+                // break;
             case "New Faculty":
                 dispose();
                 new AddTeacher();
