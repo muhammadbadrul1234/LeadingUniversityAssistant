@@ -142,7 +142,12 @@ public class Homepage extends JFrame {
 		switch (updt2) {//check for a match
                     case "Student":
                         JFrame frame = new JFrame("Update Student");
-                        
+                        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                        frame.setSize(500, 500);
+                        frame.setLocationRelativeTo(null);
+                        frame.setVisible(true);
+                        frame.setLayout(null);
+                         
 				dispose();
 				new Admission();
                 break;
