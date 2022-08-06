@@ -145,12 +145,15 @@ public class Homepage extends JFrame {
                         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                         frame.setSize(500, 500);
                         frame.setLocationRelativeTo(null);
-                        frame.setVisible(true);
                         frame.setLayout(null);
                         
                         JPanel panel = new JPanel();
                         panel.setBounds(0, 0, 500, 500);
                         frame.add(panel);
+                        
+
+                        frame.setVisible(true);
+
 
 
 				dispose();
