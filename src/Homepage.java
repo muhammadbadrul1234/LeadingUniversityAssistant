@@ -158,13 +158,13 @@ public class Homepage extends JFrame {
 
                         l1 = new JLabel("Student ID");
                         l1.setBounds(40,20,100,30);
-                        add(l1);
+                        panel.add(l1);
                         
                        
                 
                         t1=new JTextField();
                         t1.setBounds(150,20,150,30);
-                        add(t1);
+                        panel.add(t1);
 
                        
 
