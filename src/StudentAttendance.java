@@ -15,7 +15,7 @@ public class StudentAttendance extends JFrame implements ActionListener{
         setLayout(new GridLayout(4,2,50,50));
         c2 = new Choice();
         try{
-            conn c = new conn();
+            Database db = new Database();
             ResultSet rs = c.s.executeQuery("select * from student");
             while(rs.next()){
                 c2.add(rs.getString("rollno"));    
