@@ -133,7 +133,31 @@ public class Homepage extends JFrame {
                 basicComboPopup.setBackground(new Color(69,90,100));
                 return basicComboPopup;
             }
-		});
+        });
+        Update.addActionListener(new ActionListener() {
+			
+			@Override
+            public void actionPerformed(ActionEvent e) {
+		String Man2 = (String) Manage.getSelectedItem();
+		switch (Man2) {//check for a match
+			case "Admission":
+				dispose();
+				new Admission();
+                break;
+            case "New Faculty":
+                dispose();
+                new AddTeacher();
+                break;
+            case "Add Employee":
+                dispose();
+				new AddEmployee();
+                break;
+            default:
+                        
+                }
+            }
+        });
+		
 
 		String dtbs[] = {"Data Sheet","Student Details","Teacher Details"," Employee Details","Student Attendance","Teacher Attendence"," Employee Attendance"};
         Database = new JComboBox(dtbs);
