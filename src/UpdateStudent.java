@@ -298,43 +298,11 @@ public class UpdateStudent extends JFrame {
 			}
         });
         
-        b.addActionListener(new ActionListener() {
-			
-			@Override
-            public void actionPerformed(ActionEvent e) {
-                
-        //         try{
-        //         Database db = new Database();
-        //         String str = "select * from student where rollno = '"+t12.getText()+"'";
-        //        // ResultSet rs = con.s.executeQuery(str);
-
-        //         if(rs.next()){
-        //             f.setVisible(true);
-             
-
-        //             t1.setText(rs.getString(1));
-        //             t2.setText(rs.getString(2));
-        //             t3.setText(rs.getString(3));
-        //             t4.setText(rs.getString(4));
-        //             t5.setText(rs.getString(5));
-        //             t6.setText(rs.getString(6));
-        //             t7.setText(rs.getString(7));
-        //             t8.setText(rs.getString(8));
-        //             t9.setText(rs.getString(9));
-        //             t10.setText(rs.getString(10));
-        //             t11.setText(rs.getString(11));
-        //             t13.setText(rs.getString(12));
-        //             t14.setText(rs.getString(13));
-        //         }
-
-                
-        //     }catch(Exception ex){}
-        //     }
-                
+       
 			
 		 
      add(id15);
         setVisible(true);
     }}
-}
+
 
