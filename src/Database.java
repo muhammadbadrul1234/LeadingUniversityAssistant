@@ -87,7 +87,7 @@ public class Database {
 			while (rs.next()) {
 				String tableUserName = rs.getString(7);
 				String tablePass = rs.getString(3);
-				if (userName.equals(tableUserName) && pass.equals(tablePass)) {
+				if (uniID.equals(tableUserName)) {
 					return true;
 				}
 			}
