@@ -303,32 +303,35 @@ public class UpdateStudent extends JFrame {
 			@Override
             public void actionPerformed(ActionEvent e) {
                 
-                String a = t1.getText();
-                String bb = t2.getText();
-                String c = t3.getText();
-                String d = t4.getText();
-                String ee = t5.getText();
-                String ff = t6.getText();
-                String g = t7.getText();
-                String h = t8.getText();
-                String i = t9.getText();
-                String j = t10.getText();
-                String k = t11.getText();
-                String l = (String)c1.getSelectedItem();
-                String m = (String) c2.getSelectedItem();
-                if (a.trim().isEmpty() || bb.trim().isEmpty() || c.trim().isEmpty() || d.trim().isEmpty() || ee.trim().isEmpty() || ff.trim().isEmpty() || g.trim().isEmpty() || h.trim().isEmpty() || i.trim().isEmpty() || j.trim().isEmpty() || k.trim().isEmpty() || l.trim().isEmpty() || m.trim().isEmpty()) {
-                    JOptionPane.showMessageDialog(null, "Some Required Fields are Empty");
-                }
-                else {
-                    String insertQuery = "INSERT INTO `teacher`"
-                            + "(`Name`, `Father's Name`, `Age`, `DOB (dd/mm/yyyy)`, `Address`, `Phone`,`Email Id`, `SSC GPA`, `HSC GPA`, `NID No`, `Student Id`, `Course`,`Branch`) "
-                            + " VALUES ('" + a + "','" + bb + "','" + c + "','" + d + "','" + ee + "','" + ff + "','"
-                            + g + "','" + h + "','" + i + "','" + j + "','" + k + "','" + l + "','" + m + "')";
+                try{
+                conn con = new conn();
+                String str = "select * from student where rollno = '"+t12.getText()+"'";
+                ResultSet rs = con.s.executeQuery(str);
 
-                    Database db = new Database();
-                    db.admissionRegister(insertQuery);
+                if(rs.next()){
+                    f.setVisible(true);
+             
+
+                    t1.setText(rs.getString(1));
+                    t2.setText(rs.getString(2));
+                    t3.setText(rs.getString(3));
+                    t4.setText(rs.getString(4));
+                    t5.setText(rs.getString(5));
+                    t6.setText(rs.getString(6));
+                    t7.setText(rs.getString(7));
+                    t8.setText(rs.getString(8));
+                    t9.setText(rs.getString(9));
+                    t10.setText(rs.getString(10));
+                    t11.setText(rs.getString(11));
+                    t13.setText(rs.getString(12));
+                    t14.setText(rs.getString(13));
                 }
-			}
+
+                
+            }catch(Exception ex){}
+            }
+                
+			
 		});
 
         add(id15);
