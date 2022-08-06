@@ -18,7 +18,7 @@ public class StudentAttendance extends JFrame implements ActionListener{
             Database c = new Database();
             ResultSet rs = c.s.executeQuery("select * from registered");
             while(rs.next()){
-                c2.add(rs.getString("rollno"));    
+                c2.add(rs.getString("uniID"));    
             }
       
       
