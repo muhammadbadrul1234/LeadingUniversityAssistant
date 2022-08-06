@@ -179,7 +179,7 @@ public class Homepage extends JFrame {
                             String queryLogin = "SELECT * FROM `registered` WHERE `uniID` = '" + uniID + "' AND `password` = '" + pass + "'";
                 
                             //db1.Logi(queryLogin,uniID,pass);
-                            if (db1.ForgetChk(queryLogin, uniID, pass)) {
+                            if (db1.STChk(queryLogin, uniID, pass)) {
                                 //swingAppLogic(pax);
                                 //JOptionPane.showMessageDialog(null, sumAsString, "Title", JOptionPane.INFORMATION_MESSAGE);
         
