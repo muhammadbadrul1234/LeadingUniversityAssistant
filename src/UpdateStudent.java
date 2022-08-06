@@ -306,7 +306,7 @@ public class UpdateStudent extends JFrame {
                 try{
                 Database db = new Database();
                 String str = "select * from student where rollno = '"+t12.getText()+"'";
-                ResultSet rs = con.s.executeQuery(str);
+               // ResultSet rs = con.s.executeQuery(str);
 
                 if(rs.next()){
                     f.setVisible(true);
