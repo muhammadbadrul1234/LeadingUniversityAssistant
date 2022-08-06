@@ -41,7 +41,19 @@ public class Database {
 		}
 	}
 
-	
+	Connection c;
+    Statement s;
+    public void conn(){  
+        try{  
+            Class.forName("com.mysql.jdbc.Driver");  
+            c =DriverManager.getConnection("jdbc:mysql:///ums","root","");    
+            s =c.createStatement();  
+            
+           
+        }catch(Exception e){ 
+            System.out.println(e);
+        }  
+    }  
 
 	public void Logi(String queryLogin, String userName, String pass) {
 		try {
