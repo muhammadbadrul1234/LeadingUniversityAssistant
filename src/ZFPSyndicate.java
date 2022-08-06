@@ -1,7 +1,12 @@
+
+import javax.swing.JFrame;
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.basic.BasicPanelUI;
 import org.w3c.dom.events.MouseEvent;
+
+import FrontEndClass.FrontPage;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -15,14 +20,11 @@ import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
 import javax.swing.plaf.ComboBoxUI;
 
-import FrontEndClass.*;
-
-
-public class FrontPage extends JFrame {
+public class ZFPSyndicate extends JFrame {
     JScrollPane jp;
     JLabel img;
-    FrontPage() {
-        super("Leading University");
+   public ZFPSyndicate(){
+    super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
 		this.setIconImage(icon.getImage());
@@ -115,12 +117,11 @@ public class FrontPage extends JFrame {
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
-        
-        setSize(1250, 800);
+         setSize(1250, 800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
-        img = new JLabel(new ImageIcon("fp.png"));
+        img = new JLabel(new ImageIcon(this.getClass().getResource("/Front Image/2.png")));
         jp = new JScrollPane(img);
         jp.setBounds(00, 180, 1234, 580);
         jp.setForeground(Color.WHITE);
@@ -129,23 +130,16 @@ public class FrontPage extends JFrame {
 
         add(inputpanel1);
         setVisible(true);
-        // Resultbtn.addActionListener(new ActionListener() {
+        // Resultbtn.addActionListener
 
-		// 	@Override
-		// 	public void actionPerformed(ActionEvent e) {
-		// 		dispose();
-		// 		new LoginPage();
-		// 	}
-		// });
-
-		Regbtn.addActionListener(new ActionListener() {
-
+       
+        Homebtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new LoginPage();
+				new FrontPage();
 			}
 		});
+}
 
-    }
 }

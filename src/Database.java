@@ -1,7 +1,7 @@
 import java.sql.*;
 import javax.swing.*;
 import java.awt.*;
-import BackendClass.*;
+
 
 public class Database {
     private Connection con;

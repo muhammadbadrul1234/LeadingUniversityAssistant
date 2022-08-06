@@ -2,7 +2,7 @@ import BackendClass.*;
 
 public class App {
   public static void main(String[] args) throws Exception {
-      //new FrontPage(); 
+      new FrontPage(); 
        //new LoginPage();
       // new Register();
    // new Homepage();
@@ -12,7 +12,7 @@ public class App {
      //new Demo();
      //new ForgetPass();
      //new UpdateStudent();
-     new StudentAttendance();
+    // new StudentAttendance();
         
     }
 }

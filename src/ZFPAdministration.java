@@ -1,3 +1,5 @@
+
+import javax.swing.JFrame;
 import javax.swing.JFrame;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.basic.BasicPanelUI;
@@ -15,21 +17,20 @@ import javax.swing.plaf.basic.BasicComboPopup;
 import javax.swing.plaf.basic.ComboPopup;
 import javax.swing.plaf.ComboBoxUI;
 
-import FrontEndClass.*;
 
 
-public class FrontPage extends JFrame {
+public class ZFPAdministration extends JFrame {
     JScrollPane jp;
     JLabel img;
-    FrontPage() {
-        super("Leading University");
+    public ZFPAdministration(){
+    super("Leading University");
         ImageIcon icon;
         icon = new ImageIcon(this.getClass().getResource("/image/logo.png"));
 		this.setIconImage(icon.getImage());
 		JComboBox Manage,Update,Database,Attendence,Fee,Utility,Exam;
 
         Font labelFont=((new Font("sans-serif",Font.TYPE1_FONT,16)));
-	    JPanel headerpanel=new JPanel();
+	   JPanel headerpanel=new JPanel();
 	    //headerpanel.setBackground(new Color(93,130,250));
         headerpanel.setBounds(0, 0, 1250, 150);
         headerpanel.setBackground(new Color(69,90,100));
@@ -115,12 +116,12 @@ public class FrontPage extends JFrame {
 	    Regbtn.setBorder(new LineBorder(new Color(69,90,100)));
 	    Regbtn.setFocusable(false);
         inputpanel1.add(Regbtn);
-        
-        setSize(1250, 800);
+    
+         setSize(1250, 800);
         setLocationRelativeTo(null);
 		setDefaultCloseOperation(3);
 		setLayout(null);
-        img = new JLabel(new ImageIcon("fp.png"));
+        img = new JLabel(new ImageIcon(this.getClass().getResource("/Front Image/1.png")));
         jp = new JScrollPane(img);
         jp.setBounds(00, 180, 1234, 580);
         jp.setForeground(Color.WHITE);
@@ -129,23 +130,14 @@ public class FrontPage extends JFrame {
 
         add(inputpanel1);
         setVisible(true);
-        // Resultbtn.addActionListener(new ActionListener() {
-
-		// 	@Override
-		// 	public void actionPerformed(ActionEvent e) {
-		// 		dispose();
-		// 		new LoginPage();
-		// 	}
-		// });
-
-		Regbtn.addActionListener(new ActionListener() {
-
+        // Resultbtn.addActionListener
+        Homebtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new LoginPage();
+				new FrontPage();
 			}
 		});
+}
 
-    }
 }

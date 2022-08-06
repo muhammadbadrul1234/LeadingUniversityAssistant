@@ -280,23 +280,23 @@ public class UpdateStudent extends JFrame {
         // add(inputpanel1);
 
 
-         b1.addActionListener(new ActionListener() {
+        //  b1.addActionListener(new ActionListener() {
 			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new Homepage();
-			}
-        });
+		// 	@Override
+		// 	public void actionPerformed(ActionEvent e) {
+		// 		dispose();
+		// 		new Homepage();
+		// 	}
+        // });
 
-        b2.addActionListener(new ActionListener() {
+        // b2.addActionListener(new ActionListener() {
 			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				dispose();
-				new Admission();
-			}
-        });
+		// 	@Override
+		// 	public void actionPerformed(ActionEvent e) {
+		// 		dispose();
+		// 		new Admission();
+		// 	}
+        // });
         
        
 			

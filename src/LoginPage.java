@@ -7,6 +7,8 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import java.awt.*;
 
+import FrontEndClass.*;
+
 public class LoginPage extends JFrame {
     public LoginPage() {
 		super("Leading University");
