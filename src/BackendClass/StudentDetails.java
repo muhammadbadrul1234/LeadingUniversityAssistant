@@ -8,7 +8,7 @@ import javax.swing.*;
 import java.sql.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import database.Database;
+//import database.Database;
 
 public class StudentDetails extends JFrame implements ActionListener{
  
