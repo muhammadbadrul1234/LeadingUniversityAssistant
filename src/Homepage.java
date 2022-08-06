@@ -173,9 +173,10 @@ public class Homepage extends JFrame {
                         @Override
                         public void actionPerformed(ActionEvent e) {
                             String uniID = t1.getText();
-                            Database db1 = new Database();
+                                Database db1 = new Database();
+                            string pass
                             
-                            String queryLogin = "SELECT * FROM `registered` WHERE `name` = '" + userName ;
+                            String queryLogin = "SELECT * FROM `registered` WHERE `name` = '" + userName + "' AND `password` = '" + pass + "'";
                             
                             db1.Logi(queryLogin,userName,pass);
                             if (db1.ForgetChk(queryLogin, userName, pass)) {
