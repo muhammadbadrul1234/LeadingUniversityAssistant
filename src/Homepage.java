@@ -147,7 +147,9 @@ public class Homepage extends JFrame {
                         frame.setLocationRelativeTo(null);
                         frame.setVisible(true);
                         frame.setLayout(null);
-                         
+                        
+                        JPanel panel = new JPanel();
+                        panel
 				dispose();
 				new Admission();
                 break;
