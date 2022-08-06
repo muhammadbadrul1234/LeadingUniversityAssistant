@@ -172,12 +172,6 @@ public class Homepage extends JFrame {
                          registerButton.addActionListener(new ActionListener() {
                         @Override
                         public void actionPerformed(ActionEvent e) {
-                            String userName = nameText.getText();
-                            String pass = mobileText.getText();
-                            String pass2 = "123456789";
-                            String email= emailTextField.getText();
-                            String mobile = mobileText.getText();
-                            String adress = nameText.getText();
                             String uniID = uniIDText.getText();
                             Database db1 = new Database();
                             int pax = 50000000;
