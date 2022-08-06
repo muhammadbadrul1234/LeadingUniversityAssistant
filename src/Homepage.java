@@ -139,7 +139,7 @@ public class Homepage extends JFrame {
 			@Override
             public void actionPerformed(ActionEvent e) {
 		String updt2 = (String) Update.getSelectedItem();
-		switch (Man2) {//check for a match
+		switch (updt2) {//check for a match
 			case "Admission":
 				dispose();
 				new Admission();
