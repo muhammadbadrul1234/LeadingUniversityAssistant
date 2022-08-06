@@ -143,7 +143,7 @@ public class Homepage extends JFrame {
                     case "Student":
                         JFrame frame = new JFrame("Update Student");
                         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                        frame.setSize(500, 500);
+                        frame.setSize(250, 500);
                         frame.setLocationRelativeTo(null);
                         frame.setLayout(null);
                         
