@@ -65,7 +65,8 @@ public class StudentDetails extends JFrame implements ActionListener{
         
         
         try{
-            Database c1  = new conn();
+            Database c1 = new Database();
+
             String s1 = "select * from student";
             ResultSet rs  = c1.s.executeQuery(s1);
             while(rs.next()){
