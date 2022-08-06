@@ -149,7 +149,9 @@ public class Homepage extends JFrame {
                         frame.setLayout(null);
                         
                         JPanel panel = new JPanel();
-                        panel.setBnounds(0, 0, 500, 500);
+                        panel.setBounds(0, 0, 500, 500);
+                        frame.add(panel);
+
 
 				dispose();
 				new Admission();
