@@ -138,7 +138,7 @@ public class Homepage extends JFrame {
 			
 			@Override
             public void actionPerformed(ActionEvent e) {
-		String Man2 = (String) Manage.getSelectedItem();
+		String updt2 = (String) Update.getSelectedItem();
 		switch (Man2) {//check for a match
 			case "Admission":
 				dispose();
