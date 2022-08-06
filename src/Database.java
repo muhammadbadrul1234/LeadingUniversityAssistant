@@ -41,6 +41,8 @@ public class Database {
 		}
 	}
 
+	
+
 	public void Logi(String queryLogin, String userName, String pass) {
 		try {
 			rs = st.executeQuery(queryLogin);
