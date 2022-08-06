@@ -81,6 +81,23 @@ public class Database {
 		}
 	}
 
+	boolean LoginChk(String queryLogin, String userName, String pass) {
+		try {
+			rs = st.executeQuery(queryLogin);
+			while (rs.next()) {
+				String tableUserName = rs.getString(7);
+				String tablePass = rs.getString(3);
+				if (userName.equals(tableUserName) && pass.equals(tablePass)) {
+					return true;
+				}
+			}
+			return false;
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, e);
+			return false;
+		}
+	}
+
 	boolean ForgetChk(String queryLogin, String userName, String pass) {
 		try {
 			rs = st.executeQuery(queryLogin);
