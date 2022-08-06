@@ -304,7 +304,7 @@ public class UpdateStudent extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 
                 try{
-                conn con = new conn();
+                Database db = new Database();
                 String str = "select * from student where rollno = '"+t12.getText()+"'";
                 ResultSet rs = con.s.executeQuery(str);
 
