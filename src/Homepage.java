@@ -184,11 +184,12 @@ public class Homepage extends JFrame {
                                 //JOptionPane.showMessageDialog(null, sumAsString, "Title", JOptionPane.INFORMATION_MESSAGE);
         
                                 dispose();
-                                new Ud;
+                                new UpdateStudent();
 
                             }
                             else{
-                                JOptionPane.showMessageDialog(null, "Data No Found or Invalid Data");
+                                    JOptionPane.showMessageDialog(null, "Data No Found or Invalid Data");
+                                    
                             }
                         }
                     });
