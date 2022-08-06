@@ -64,10 +64,11 @@ public class StudentDetails extends JFrame implements ActionListener{
         b1.addActionListener(this);
         b2.addActionListener(this);
         b3.addActionListener(this);
+        Database c1 = new Database();
         
         
         try{
-            Database c1 = new Database();
+           // Database c1 = new Database();
 
             String s1 = "select * from student";
             ResultSet rs  = c1.s.executeQuery(s1);
