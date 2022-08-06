@@ -140,7 +140,8 @@ public class Homepage extends JFrame {
             public void actionPerformed(ActionEvent e) {
 		String updt2 = (String) Update.getSelectedItem();
 		switch (updt2) {//check for a match
-			case "Admission":
+                    case "Student":
+            
 				dispose();
 				new Admission();
                 break;
