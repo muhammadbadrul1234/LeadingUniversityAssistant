@@ -160,7 +160,16 @@ public class Homepage extends JFrame {
                         l1 = new JLabel("Student ID");
                         l1.setBounds(40,20,100,30);
                         panel.add(l1);
-                        
+
+                        JButton registerButton = new JButton("Register");
+                        registerButton.setBounds(600,490,100,30);
+                        registerButton.setBackground(new Color(219,143,160));
+                        registerButton.setFont(labelFont);
+                        registerButton.setForeground(Color.white);
+                        registerButton.setBorder(new LineBorder(new Color(93,130,250)));
+                        registerButton.setFocusable(false);
+                        inputPanel.add(registerButton);
+                                        
                        
                 
                         t1=new JTextField();
