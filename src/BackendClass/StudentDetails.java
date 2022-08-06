@@ -111,7 +111,7 @@ public class StudentDetails extends JFrame implements ActionListener{
             try{
                 String a = t2.getText();
                 String q = "delete from student where rollno = '"+a+"'";
-                c1.s.executeUpdate(q);
+                db.s.executeUpdate(q);
                 this.setVisible(false);
                 new StudentDetails().setVisible(true);
             }catch(Exception e){}
@@ -123,9 +123,6 @@ public class StudentDetails extends JFrame implements ActionListener{
             //new UpdateStudent().setVisible(true);
             this.setVisible(false);
         }
-    }
-    public static void main(String[] args){
-        new StudentDetails().setVisible(true);
     }
     
 }
