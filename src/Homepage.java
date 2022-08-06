@@ -151,7 +151,21 @@ public class Homepage extends JFrame {
                         panel.setBounds(0, 0, 500, 500);
                         frame.add(panel);
 
+                                        l1 = new JLabel("Username");
+                        l1.setBounds(40,20,100,30);
+                        add(l1);
                         
+                        l2 = new JLabel("Password");
+                        l2.setBounds(40,70,100,30);
+                        add(l2);
+                
+                        t1=new JTextField();
+                        t1.setBounds(150,20,150,30);
+                        add(t1);
+
+                        t2=new JPasswordField();
+                        t2.setBounds(150,70,150,30);
+                        add(t2);
 
 
                         frame.setVisible(true);
