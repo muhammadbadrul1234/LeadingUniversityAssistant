@@ -332,10 +332,9 @@ public class UpdateStudent extends JFrame {
         //     }
                 
 			
-		 });
-
-      //  add(id15);
+		 
+     add(id15);
         setVisible(true);
-    }
+    }}
 }
 
