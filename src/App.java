@@ -9,7 +9,7 @@ public class App {
      // new AboutUs();
      //new Demo();
      //new ForgetPass();
-     new UpdateStudent();
+     //new UpdateStudent();
         
     }
 }
