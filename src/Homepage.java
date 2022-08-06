@@ -149,6 +149,7 @@ public class Homepage extends JFrame {
                         
                         JPanel panel = new JPanel();
                         panel.setBounds(0, 0, 500, 500);
+                        panel.setLayout(null);
                         frame.add(panel);
 
                         JLabel l1,l2;
