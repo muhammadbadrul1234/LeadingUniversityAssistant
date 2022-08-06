@@ -172,9 +172,8 @@ public class Homepage extends JFrame {
                          registerButton.addActionListener(new ActionListener() {
                         @Override
                         public void actionPerformed(ActionEvent e) {
-                            String uniID = uniIDText.getText();
+                            String uniID = t1.getText();
                             Database db1 = new Database();
-                            int pax = 50000000;
                             
                             String queryLogin = "SELECT * FROM `registered` WHERE `name` = '" + userName + "' AND `password` = '" + pass + "'";
                             
