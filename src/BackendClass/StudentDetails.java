@@ -18,7 +18,7 @@ public class StudentDetails extends JFrame implements ActionListener{
     String x[] = {"Name","Father's Name","Age","Date of Birth","Address","Phone","Email","Class X(%)", "Class XII(%)", "Aadhar No","Roll No","Course","Branch"};
     String y[][] = new String[20][13];
     int i=0, j=0;
-    StudentDetails(){
+    public StudentDetails(){
         super("Student Details");
         setSize(1260,650);
         setLocation(200,200);
