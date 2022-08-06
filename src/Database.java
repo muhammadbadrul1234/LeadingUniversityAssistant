@@ -46,7 +46,7 @@ public class Database {
     public void conn(){  
         try{  
             Class.forName("com.mysql.jdbc.Driver");  
-            c =DriverManager.getConnection("jdbc:mysql:///ums","root","");    
+            c =DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","");    
             s =c.createStatement();  
             
            
