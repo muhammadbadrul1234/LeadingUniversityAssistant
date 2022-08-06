@@ -81,7 +81,7 @@ public class Database {
 		}
 	}
 
-	boolean LoginChk(String queryLogin, String userName, String pass) {
+	boolean STChk(String queryLogin, String uniID, String pass) {
 		try {
 			rs = st.executeQuery(queryLogin);
 			while (rs.next()) {
