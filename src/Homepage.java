@@ -141,7 +141,8 @@ public class Homepage extends JFrame {
 		String updt2 = (String) Update.getSelectedItem();
 		switch (updt2) {//check for a match
                     case "Student":
-            
+                        JFrame frame = new JFrame("Update Student");
+                        
 				dispose();
 				new Admission();
                 break;
