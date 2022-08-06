@@ -170,39 +170,39 @@ public class Homepage extends JFrame {
                         panel.add(t1);
 
                          registerButton.addActionListener(new ActionListener() {
-			@Override
-            public void actionPerformed(ActionEvent e) {
-                String userName = nameText.getText();
-				String pass = mobileText.getText();
-				String pass2 = "123456789";
-				String email= emailTextField.getText();
-				String mobile = mobileText.getText();
-				String adress = nameText.getText();
-				String uniID = uniIDText.getText();
-				Database db1 = new Database();
-				int pax = 50000000;
-	            
-				String queryLogin = "SELECT * FROM `registered` WHERE `name` = '" + userName + "' AND `password` = '" + pass + "'";
-				
-	            db1.Logi(queryLogin,userName,pass);
-				if (db1.ForgetChk(queryLogin, userName, pass)) {
-					//swingAppLogic(pax);
-        			//JOptionPane.showMessageDialog(null, sumAsString, "Title", JOptionPane.INFORMATION_MESSAGE);
-					JOptionPane.showMessageDialog(null, "Password Reset Successfull. Your New Password is: 123456789 ");
-					String insertQuery = "INSERT INTO `registered`"
-							+ "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
-							+ " VALUES ('" + userName + "','" + pass2 + "','" + email + "','" + mobile + "','" + adress
-							+ "','" + uniID + "','" + mobile + "') ";
-					db1.insertRegister1(insertQuery);
-					dispose();
-					new LoginPage();
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            String userName = nameText.getText();
+                            String pass = mobileText.getText();
+                            String pass2 = "123456789";
+                            String email= emailTextField.getText();
+                            String mobile = mobileText.getText();
+                            String adress = nameText.getText();
+                            String uniID = uniIDText.getText();
+                            Database db1 = new Database();
+                            int pax = 50000000;
+                            
+                            String queryLogin = "SELECT * FROM `registered` WHERE `name` = '" + userName + "' AND `password` = '" + pass + "'";
+                            
+                            db1.Logi(queryLogin,userName,pass);
+                            if (db1.ForgetChk(queryLogin, userName, pass)) {
+                                //swingAppLogic(pax);
+                                //JOptionPane.showMessageDialog(null, sumAsString, "Title", JOptionPane.INFORMATION_MESSAGE);
+                                JOptionPane.showMessageDialog(null, "Password Reset Successfull. Your New Password is: 123456789 ");
+                                String insertQuery = "INSERT INTO `registered`"
+                                        + "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
+                                        + " VALUES ('" + userName + "','" + pass2 + "','" + email + "','" + mobile + "','" + adress
+                                        + "','" + uniID + "','" + mobile + "') ";
+                                db1.insertRegister1(insertQuery);
+                                dispose();
+                                new LoginPage();
 
-				}
-				else{
-					JOptionPane.showMessageDialog(null, "Data No Found or Invalid Data");
-				}
-            }
-        });
+                            }
+                            else{
+                                JOptionPane.showMessageDialog(null, "Data No Found or Invalid Data");
+                            }
+                        }
+                    });
 
                        
 
