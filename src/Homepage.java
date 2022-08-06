@@ -189,7 +189,8 @@ public class Homepage extends JFrame {
                             }
                             else{
                                     JOptionPane.showMessageDialog(null, "Data No Found or Invalid Data");
-                                    
+                                    dispose();
+                                    new Homepage();
                             }
                         }
                     });
