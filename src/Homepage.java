@@ -184,7 +184,7 @@ public class Homepage extends JFrame {
                                 //JOptionPane.showMessageDialog(null, sumAsString, "Title", JOptionPane.INFORMATION_MESSAGE);
         
                                 dispose();
-                                new LoginPage();
+                                new Ud;
 
                             }
                             else{
