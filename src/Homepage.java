@@ -151,16 +151,13 @@ public class Homepage extends JFrame {
                         panel.setBounds(0, 0, 500, 500);
                         panel.setLayout(null);
                         frame.add(panel);
-
                         JLabel l1,l2;
                         JTextField t1;
                         JPasswordField t2;
                         JButton b1,b2;
-
                         l1 = new JLabel("Student ID");
                         l1.setBounds(40,20,100,30);
                         panel.add(l1);
-
                         JButton registerButton = new JButton("Check");
                         registerButton.setBounds(125,100,100,30);
                         registerButton.setBackground(new Color(219,143,160));
@@ -169,9 +166,6 @@ public class Homepage extends JFrame {
                         registerButton.setBorder(new LineBorder(new Color(93,130,250)));
                         registerButton.setFocusable(false);
                         panel.add(registerButton);
-                                        
-                       
-                
                         t1=new JTextField();
                         t1.setBounds(150,20,150,30);
                         panel.add(t1);
