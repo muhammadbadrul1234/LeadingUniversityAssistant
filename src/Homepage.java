@@ -182,12 +182,7 @@ public class Homepage extends JFrame {
                             if (db1.ForgetChk(queryLogin, userName, pass)) {
                                 //swingAppLogic(pax);
                                 //JOptionPane.showMessageDialog(null, sumAsString, "Title", JOptionPane.INFORMATION_MESSAGE);
-                                JOptionPane.showMessageDialog(null, "Password Reset Successfull. Your New Password is: 123456789 ");
-                                String insertQuery = "INSERT INTO `registered`"
-                                        + "(`name`, `password`, `email`, `number`, `address`, `uniID`,`dob`) "
-                                        + " VALUES ('" + userName + "','" + pass2 + "','" + email + "','" + mobile + "','" + adress
-                                        + "','" + uniID + "','" + mobile + "') ";
-                                db1.insertRegister1(insertQuery);
+        
                                 dispose();
                                 new LoginPage();
 
