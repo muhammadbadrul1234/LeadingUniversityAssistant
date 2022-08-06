@@ -162,7 +162,7 @@ public class Homepage extends JFrame {
                         panel.add(l1);
 
                         JButton registerButton = new JButton("Check");
-                        registerButton.setBounds(250,200,100,30);
+                        registerButton.setBounds(175,200,100,30);
                         registerButton.setBackground(new Color(219,143,160));
                         registerButton.setFont(labelFont);
                         registerButton.setForeground(Color.white);
