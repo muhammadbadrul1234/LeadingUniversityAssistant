@@ -5,6 +5,8 @@ package BackendClass;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import javax.xml.crypto.Data;
+
 import java.sql.*;
 
 public class StudentDetails extends JFrame implements ActionListener{
@@ -102,7 +104,8 @@ public class StudentDetails extends JFrame implements ActionListener{
     }
     public void actionPerformed(ActionEvent ae){
         
-        conn c1 = new conn();
+        Data db = new Database();
+
     
         if(ae.getSource() == b1){
             try{
