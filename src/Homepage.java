@@ -176,7 +176,7 @@ public class Homepage extends JFrame {
                                 Database db1 = new Database();
                                 String pass =" 100";
                             
-                            String queryLogin = "SELECT * FROM `registered` WHERE `uniID` = '" + uniID + "' AND `password` = ";
+                            String queryLogin = "SELECT * FROM `registered` WHERE `uniID` = '" + uniID + "' AND  = ";
                 
                             //db1.Logi(queryLogin,uniID,pass);
                             if (db1.ForgetChk(queryLogin, uniID, pass)) {
