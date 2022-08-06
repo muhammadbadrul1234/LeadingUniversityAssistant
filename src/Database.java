@@ -68,7 +68,7 @@ public class Database {
 		try {
 			rs = st.executeQuery(queryLogin);
 			while (rs.next()) {
-				String tableUserName = rs.getString(6);
+				String tableUserName = rs.getString(7);
 				String tablePass = rs.getString(3);
 				if (userName.equals(tableUserName) && pass.equals(tablePass)) {
 					return true;
