@@ -16,8 +16,7 @@ Maybe you can mention me or this repo in the acknowledgements too
     A fully functional Java project, The Leading University Assistant Project which is my 3rd year Java Project, contains details about colleges, universities, and schools in general. It was developed so that the university and the institutions that are affiliated with it could manage, track, and conduct intricate operations like centralized admission, centralized testing, and much more. It's helpful to practice Java Desktop Development and learn new skills with this Leading University Assistant In Java With Source Code. The project's concept and logic are easy to understand, and it is quite useful. It is free and open source to use the source code. Click the download link by simply scrolling down.
   </p>
   
-  
-  11
+
   
 <!-- Badges -->
 <p>
